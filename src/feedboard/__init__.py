@@ -1,4 +1,5 @@
 from feedboard.feed import get_all_feeds
+from feedboard.html import generate_html
 
 
 FEED_URLS = {
@@ -13,7 +14,7 @@ FEED_URLS = {
 
 
 def main() -> None:
-    for cat, entries in get_all_feeds(FEED_URLS).items():
-        print(cat)
-        for e in entries:
-            print('\t', e.feed.title, e.published, e.title, e.link)
+    entries = get_all_feeds(FEED_URLS)
+    output = generate_html(entries, 'template.html')
+    if output:
+        print(output)
