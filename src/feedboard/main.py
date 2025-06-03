@@ -1,5 +1,6 @@
 import os
 import logging
+import argparse
 import importlib
 
 from feedboard.feed import get_all_feeds
@@ -26,9 +27,16 @@ def get_config(config_path):
     return mod
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-s', '--settings')
+    return parser.parse_args()
+
+
 def main():
     """ Main entry point. """
-    if not (config := get_config(DEFAULT_CONFIG_PATH)):
+    args = parse_args()
+    if not (config := get_config(args.settings or DEFAULT_CONFIG_PATH)):
         return
 
     entries = get_all_feeds(config.FEED_URLS)
