@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-feedboard = "feedboard:main"
+feedboard = "feedboard.main:main"
 
 [build-system]
 requires = ["hatchling"]
