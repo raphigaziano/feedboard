@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Armin Ronacher's Thoughts and Writings</title>
+  <id>http://lucumr.pocoo.org/feed.atom</id>
+  <updated>2025-03-31T00:00:00Z</updated>
+  <link href="http://lucumr.pocoo.org/" />
+  <link href="http://lucumr.pocoo.org/feed.atom" rel="self" />
+  <subtitle type="text">Armin Ronacher's personal blog about programming, games and random thoughts that come to his mind.</subtitle>
+  <generator>Werkzeug</generator>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">I'm Leaving Sentry</title>
+    <id>http://lucumr.pocoo.org/2025/3/31/leaving</id>
+    <updated>2025-03-31T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/3/31/leaving" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;Every ending marks a new beginning, and today, is the beginning of a new
+chapter for me.  Ten years ago I took a leap into the unknown, today I
+take another.  After a decade of working on &lt;a class=&quot;reference external&quot; href=&quot;https://sentry.io/&quot;&gt;Sentry&lt;/a&gt; I move on to start something new.&lt;/p&gt;
+&lt;p&gt;Sentry has been more than just a job, it has been a defining part of my
+life.  A place where I've poured my energy, my ideas, my heart.  It has
+shaped me, just as I've shaped it.  And now, as I step away, I do so with
+immense gratitude, a deep sense of pride, and a heart full of memories.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;from-a-chance-encounter&quot;&gt;
+&lt;h2&gt;From A Chance Encounter&lt;/h2&gt;
+&lt;p&gt;I've known David, Sentry's co-founder (alongside Chris), long before I was
+ever officially part of the team as our paths first crossed on IRC in the
+Django community.  Even &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/getsentry/sentry/commit/7b82413ce9a011ffca14aa8e98721211aabad77e&quot;&gt;my first commit&lt;/a&gt;
+to Sentry predates me officially working there by a few years.  Back in
+2013, over conversations in the middle of Russia — at a conference that,
+incidentally, also led to me meeting my wife — we toyed with the idea of
+starting a company together.  That exact plan didn't materialize, but the
+seeds of collaboration had been planted.&lt;/p&gt;
+&lt;p&gt;Conversations continued, and by late 2014, the opportunity to help
+transform Sentry (which already showed product market fit) into a much
+bigger company was simply too good to pass up.  I never could have
+imagined just how much that decision would shape the next decade of my
+life.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;to-a-decade-of-experiences&quot;&gt;
+&lt;h2&gt;To A Decade of Experiences&lt;/h2&gt;
+&lt;p&gt;For me, Sentry's growth has been nothing short of extraordinary.  At
+first, I thought reaching 30 employees would be our ceiling.  Then we
+surpassed that, and the milestones just kept coming — reaching a unicorn
+valuation was something I once thought was impossible.  While we may have
+stumbled at times, we've also learned immensely throughout this time.&lt;/p&gt;
+&lt;p&gt;I'm grateful for all the things I got to experience and there never was a
+dull moment.  From representing Sentry at conferences, opening an
+engineering office in Vienna, growing teams, helping employees, assisting
+our licensing efforts and leading our internal platform teams.  Every step
+and achievement drove me.&lt;/p&gt;
+&lt;p&gt;Yet for me, the excitement and satisfaction of being so close to the
+founding of a company, yet not quite a founder, has only intensified my
+desire to see the rest of it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-hard-goodbye&quot;&gt;
+&lt;h2&gt;A Hard Goodbye&lt;/h2&gt;
+&lt;p&gt;Walking away from something you love is never easy and leaving Sentry is
+hard.  Really hard.  Sentry has been woven into the very fabric of my
+adult life.  Working on it hasn't just spanned any random decade; it
+perfectly overlapped with marrying my wonderful wife, and growing our
+family from zero to three kids.&lt;/p&gt;
+&lt;p&gt;And will it go away entirely?  The office is right around the corner
+afterall.  From now on, every morning, when I will grab my coffee, I will
+walk past it.  The idea of no longer being part of the daily decisions,
+the debates, the momentum — it feels surreal.  That sense of belonging to
+a passionate team, wrestling with tough decisions, chasing big wins,
+fighting fires together, sometimes venting about our missteps and
+discussing absurd and ridiculous trivia became part of my identity.&lt;/p&gt;
+&lt;p&gt;There are so many bright individuals at Sentry, and I'm incredibly proud
+of what we have built together.  Not just from an engineering point of
+view, but also product, marketing and upholding our core values.  We
+developed SDKs that support a wide array of platforms from &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/getsentry/sentry-python&quot;&gt;Python&lt;/a&gt; to &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/getsentry/sentry-javascript&quot;&gt;JavaScript&lt;/a&gt; to &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/getsentry/sentry-cocoa&quot;&gt;Swift&lt;/a&gt; to &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/getsentry/sentry-native&quot;&gt;C++&lt;/a&gt;, lately expanding to game
+consoles.  We stayed true to our Open Source principles, even when other
+options were available.  For example, when we needed an Open Source PDB
+implementation for analyzing Windows crashes but couldn't find a suitable
+solution, we contributed to a promising Rust crate instead of relying on
+Windows VMs and Microsoft's dbghelp.  When we started, our ingestion
+system handled a few thousand requests per second —&amp;nbsp;now it handles well
+over a million.&lt;/p&gt;
+&lt;p&gt;While building an SDK may seem straightforward, maintaining and updating
+them to remain best-in-class over the years requires immense dedication.
+It takes determination to build something that works out of the box with
+little configuration.  A lot of clever engineering and a lot of deliberate
+tradeoffs went into the product to arrive where it is.  And ten years
+later, is a multi-product company.  What started with just crashes, now
+you can send traces, profiles, sessions, replays and more.&lt;/p&gt;
+&lt;p&gt;We also stuck to our values.  I'm pleased that we ran &lt;a class=&quot;reference external&quot; href=&quot;/2023/11/19/cathedral-and-bazaaar-licensing/&quot;&gt;experiments with
+licensing&lt;/a&gt; despite all
+the push back we got over the years.  We might not have found the right
+solution yet, but we pushed the conversation.  The same goes for our
+commitment to &lt;a class=&quot;reference external&quot; href=&quot;https://fair.io/&quot;&gt;funding of dependencies&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;and-heartfelt-thank-you&quot;&gt;
+&lt;h2&gt;And Heartfelt Thank You&lt;/h2&gt;
+&lt;p&gt;I feel an enormous amount of gratitude for those last ten years.  There
+are so many people I owe thanks to.  I owe eternal thanks to &lt;a class=&quot;reference external&quot; href=&quot;https://cra.mr/&quot;&gt;David Cramer&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://chriskjennings.com/&quot;&gt;Chris Jennings&lt;/a&gt;
+for the opportunity and trust they placed in me. To &lt;a class=&quot;reference external&quot; href=&quot;https://benv.ca/&quot;&gt;Ben Vinegar&lt;/a&gt; for his unwavering guidance and support.  To &lt;a class=&quot;reference external&quot; href=&quot;https://www.accel.com/people/daniel-levine&quot;&gt;Dan
+Levine&lt;/a&gt;, for investing in
+us and believing in our vision.  To &lt;a class=&quot;reference external&quot; href=&quot;https://www.linkedin.com/in/daniel-griesser-a8407b3b/&quot;&gt;Daniel Griesser&lt;/a&gt;, for being an
+exceptional first hire in Vienna, and shepherding our office there and
+growing it to 50 people.  To &lt;a class=&quot;reference external&quot; href=&quot;https://www.linkedin.com/in/vlad-cretu-139a0244/&quot;&gt;Vlad Cretu&lt;/a&gt;, for bringing
+structure to our chaos over the years.  To &lt;a class=&quot;reference external&quot; href=&quot;https://x.com/virtualmilin&quot;&gt;Milin Desai&lt;/a&gt; for taking the helm and growing us.&lt;/p&gt;
+&lt;p&gt;And most of all, to my wonderful wife, Maria — who has stood beside me
+through every challenge, who has supported me when the road was uncertain,
+and who has always encouraged me to forge my own path.&lt;/p&gt;
+&lt;p&gt;To everyone at Sentry, past and present — thank you.  For the trust, the
+lessons, the late nights, the victories.  For making Sentry what it is
+today.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;quo-eo&quot;&gt;
+&lt;h2&gt;Quo eo?&lt;/h2&gt;
+&lt;p&gt;I'm fully aware it's a gamble to believe my next venture will find the
+same success as Sentry.  The reality is that startups that achieve the
+kind of scale and impact Sentry has are incredibly rare.  There's a
+measure of hubris in assuming lightning strikes twice, and as humbling as
+that realization is, it also makes me that much more determined.  The
+creative spark that fueled me at Sentry isn't dimming.  Not at all in
+fact: it burns brighter fueld by the feeling that I can explore new
+things, beckoning me.  There's more for me to explore, and I'm ready to
+channel all that energy into a new venture.&lt;/p&gt;
+&lt;p&gt;Today, I stand in an open field, my backpack filled with experiences and a
+renewed sense of purpose.  That's because the world has changed a lot in
+the past decade, and so have I.  What drives me now is different from what
+drove me before, and I want my work to reflect that evolution.&lt;/p&gt;
+&lt;p&gt;At my core, I'm still inspired by the same passion — seeing others find
+value in what I create, but my perspective has expanded.  While I still
+take great joy in building things that help developers, I want to broaden
+my reach.  I may not stray far from familiar territory, but I want to
+build something that speaks to more people, something that, hopefully,
+even my children will find meaningful.&lt;/p&gt;
+&lt;p&gt;Watch this space, as they say.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Rust Any Part 3: Finally we have Upcasts</title>
+    <id>http://lucumr.pocoo.org/2025/3/27/any-upcast</id>
+    <updated>2025-03-27T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/3/27/any-upcast" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;Three years ago I shared the &lt;a class=&quot;reference external&quot; href=&quot;/2022/1/7/as-any-hack/&quot;&gt;As-Any Hack&lt;/a&gt; on
+this blog.  That hack is a way to get upcasting to supertraits working on
+stable Rust.  To refresh your memory, the goal was to make something like
+this work:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;#[derive(Debug)]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AnyBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;trait&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The problem? Even though &lt;cite&gt;DebugAny&lt;/cite&gt; inherits from &lt;cite&gt;Any&lt;/cite&gt;, Rust wouldn't let you
+use methods from &lt;cite&gt;Any&lt;/cite&gt; on a &lt;cite&gt;dyn DebugAny&lt;/cite&gt;.  So while you could call
+&lt;cite&gt;DebugAny&lt;/cite&gt; methods just fine, trying to use &lt;cite&gt;downcast_ref&lt;/cite&gt; from &lt;cite&gt;Any&lt;/cite&gt; (the
+reason to use Any in the first place) would fail:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any_box&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AnyBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;i32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;fm&quot;&gt;dbg!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any_box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downcast_ref&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;i32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// Compile error&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The same would happen if we tried to cast it into an &lt;cite&gt;&amp;amp;dyn Any&lt;/cite&gt;?  A
+compile error again:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any_box&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AnyBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;i32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any_box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;fm&quot;&gt;dbg!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downcast_ref&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;i32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But there is good news!  As of Rust 1.86, this is finally fixed. The cast
+now works:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+[src/main.rs:14:5] any.downcast_ref::&amp;lt;i32&amp;gt;() = Some(
+    42,
+)
+&lt;/pre&gt;
+&lt;p&gt;At the time of writing, this fix is in the beta channel, but stable
+release is just around the corner.  That means a lot of old hacks can
+finally be retired.  At least once your MSRV moves up.&lt;/p&gt;
+&lt;p&gt;Thank you so much to everyone who &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rust-lang/rust/issues/65991&quot;&gt;worked on this&lt;/a&gt; to make it work!&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;For completeness' sake here is the extension map from the original
+block post cleaned up so that it does not need the as-any hack:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;any&lt;/span&gt;::&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;cell&lt;/span&gt;::&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RefCell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RefMut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;trait&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#[derive(Default, Debug)]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Extensions&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;RefCell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DebugAny&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Extensions&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;borrow_mut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nc&quot;&gt;Ref&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ensure&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ref&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;borrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;and_then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downcast_ref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unwrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_mut&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nc&quot;&gt;RefMut&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ensure&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RefMut&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;borrow_mut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_mut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;and_then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;mut&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;mut&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downcast_mut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unwrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ensure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;borrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Bridging the Efficiency Gap Between FromStr and String</title>
+    <id>http://lucumr.pocoo.org/2025/3/23/from-string</id>
+    <updated>2025-03-23T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/3/23/from-string" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;Sometimes in Rust, you need to convert a string into a value of a specific
+type (for example, converting a string to an integer).&lt;/p&gt;
+&lt;p&gt;For this, the standard library provides the rather useful &lt;a class=&quot;reference external&quot; href=&quot;https://doc.rust-lang.org/std/str/trait.FromStr.html&quot;&gt;FromStr&lt;/a&gt; trait.  In
+short, &lt;cite&gt;FromStr&lt;/cite&gt; can convert from a &lt;cite&gt;&amp;amp;str&lt;/cite&gt; into a value of any compatible
+type.  If the conversion fails, an error value is returned.  It's
+unfortunately not guaranteed that this value is an actual &lt;a class=&quot;reference external&quot; href=&quot;https://doc.rust-lang.org/std/error/trait.Error.html&quot;&gt;Error&lt;/a&gt; type, but
+overall, the trait is pretty useful.&lt;/p&gt;
+&lt;p&gt;It has however a drawback: it takes a &lt;cite&gt;&amp;amp;str&lt;/cite&gt; and not a
+&lt;cite&gt;String&lt;/cite&gt; which makes it wasteful in situations where your input is a
+&lt;cite&gt;String&lt;/cite&gt;.  This means that you will end up with a useless clone if do not
+actually need the conversion.  Why would you do that?  Well consider this
+type of API:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;: &lt;span class=&quot;kt&quot;&gt;i64&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next_value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg2&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next_value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In such cases, having a conversion that works directly with &lt;cite&gt;String&lt;/cite&gt; values
+would be helpful.  To solve this, we can introduce a new trait: &lt;cite&gt;FromString&lt;/cite&gt;,
+which does the following:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Converts from &lt;cite&gt;String&lt;/cite&gt; to the target type.&lt;/li&gt;
+&lt;li&gt;If converting from &lt;cite&gt;String&lt;/cite&gt; to &lt;cite&gt;String&lt;/cite&gt;, bypass the regular logic and make it a no-op.&lt;/li&gt;
+&lt;li&gt;Implement this trait for all uses of &lt;cite&gt;FromStr&lt;/cite&gt; that return a error that
+can be converted into &lt;cite&gt;Box&amp;lt;dyn Error&amp;gt;&lt;/cite&gt; upon failure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We start by defining a type alias for our error:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Send&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Sync&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can be more creative here if you want.  The benefit of using this
+directly is that a lot of types can be converted into that error, even if
+they are not errors themselves.  For instance a &lt;cite&gt;FromStr&lt;/cite&gt; that returns a
+bare &lt;cite&gt;String&lt;/cite&gt; as error can leverage the standard library's blanket
+conversion implementation to &lt;cite&gt;Error&lt;/cite&gt;.&lt;/p&gt;
+&lt;p&gt;Then we define the &lt;cite&gt;FromString&lt;/cite&gt; trait:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;trait&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FromString&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Sized&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nb&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;Self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To implement it, we provide a blanket implementation for all types that
+implement &lt;cite&gt;FromStr&lt;/cite&gt;, where the error can be converted into our boxed
+error.  As mentioned before, this even works for &lt;cite&gt;FromStr&lt;/cite&gt; where &lt;cite&gt;Err:
+String&lt;/cite&gt;.  We also add a special case for when the input and output types
+are both &lt;cite&gt;String&lt;/cite&gt;, using &lt;cite&gt;transmute_copy&lt;/cite&gt; to avoid a clone:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;any&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;mem&lt;/span&gt;::&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ManuallyDrop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transmute_copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;kt&quot;&gt;str&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;FromStr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FromString&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;FromStr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Err&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Into&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nb&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;Self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TypeId&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;::&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;unsafe&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transmute_copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ManuallyDrop&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;from_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map_err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Into&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;into&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Why &lt;a class=&quot;reference external&quot; href=&quot;https://doc.rust-lang.org/std/mem/fn.transmute_copy.html&quot;&gt;transmute_copy&lt;/a&gt;?  We use it
+instead of the regular &lt;a class=&quot;reference external&quot; href=&quot;https://doc.rust-lang.org/std/mem/fn.transmute.html&quot;&gt;transmute&lt;/a&gt;?  because Rust
+requires both types to have a known size at compile time for transmute to
+work.  Due to limitations a generic &lt;cite&gt;T&lt;/cite&gt; has an unknown size which would
+cause a hypothetical &lt;cite&gt;transmute&lt;/cite&gt; call to fail with a compile time error.
+There is nightly-only &lt;a class=&quot;reference external&quot; href=&quot;https://doc.rust-lang.org/std/intrinsics/fn.transmute_unchecked.html&quot;&gt;transmute_unchecked&lt;/a&gt;
+which does not have that issue, but sadly we cannot use it.  Another, even
+nicer solution, would be to have specialization, but sadly that is not
+stable either.  It would avoid the use of &lt;cite&gt;unsafe&lt;/cite&gt; though.&lt;/p&gt;
+&lt;p&gt;We can also add a helper function to make calling this trait easier:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nb&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;: &lt;span class=&quot;nc&quot;&gt;FromString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;Into&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FromString&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;into&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;cite&gt;Into&lt;/cite&gt; might be a bit ridiculous here (isn't the whole point not to
+clone?), but it makes it easy to test this with static string literals.&lt;/p&gt;
+&lt;p&gt;Finally here is an example of how to use this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;: &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unwrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;: &lt;span class=&quot;kt&quot;&gt;i64&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;42&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unwrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Hopefully, this utility is useful in your own codebase when wanting to
+abstract over string conversions.&lt;/p&gt;
+&lt;p&gt;If you need it exactly as implemented, I also published it as a &lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/from-string&quot;&gt;simple
+crate&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Postscriptum:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A big thank-you goes to David Tolnay and a few others who &lt;a class=&quot;reference external&quot; href=&quot;https://x.com/davidtolnay/status/1903888625802322195&quot;&gt;pointed out&lt;/a&gt; that this can be
+done with &lt;cite&gt;transmute_copy&lt;/cite&gt;.&lt;/p&gt;
+&lt;p&gt;Another note: &lt;cite&gt;TypeId::of&lt;/cite&gt; call requires &lt;cite&gt;V&lt;/cite&gt; to be &lt;cite&gt;'static&lt;/cite&gt;.  This is
+okay for this use, but there are some hypothetical cases where this is not
+helpful.  In that case there is the excellent &lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/typeid&quot;&gt;typeid&lt;/a&gt; crate which provides a &lt;cite&gt;ConstTypeId&lt;/cite&gt;,
+which is like &lt;cite&gt;TypeId&lt;/cite&gt; but is constructible in const in stable Rust.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Ugly Code and Dumb Things</title>
+    <id>http://lucumr.pocoo.org/2025/2/20/ugly-code</id>
+    <updated>2025-02-20T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/2/20/ugly-code" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;This week I had a conversation with one of our engineers about “shitty
+code” which lead me to sharing with him one of my more unusual
+inspirations: &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/exflickr/flamework/&quot;&gt;Flamework&lt;/a&gt;, a
+pseudo framework created at Flickr.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;two-passions-two-approaches&quot;&gt;
+&lt;h2&gt;Two Passions, Two Approaches&lt;/h2&gt;
+&lt;p&gt;There are two driving passions in my work.  One is the love of creating
+beautiful, elegant code — making Open Source libraries and APIs that focus
+on clear design and reusability.  The other passion is building quick,
+pragmatic solutions for real users (who may not even be developers).  The
+latter usually in a setting of building a product, where the product is
+not the code.  Here, speed and iteration matter more than beautiful code
+or reusability, because success hinges on shipping something people want.&lt;/p&gt;
+&lt;p&gt;Flamework is in service of the latter, and in crass violation of the
+former.&lt;/p&gt;
+&lt;p&gt;Early on, I realized that creating reusable code and directly solving
+problems for users are often at odds.  My first clue came when I helped
+run the German
+&lt;a class=&quot;reference external&quot; href=&quot;https://www.ubuntuusers.de/&quot;&gt;ubuntuusers&lt;/a&gt; website.  It was powered by
+a heavily modified version of phpBB, which despite how messy it was,
+scaled to a large user base when patched properly.  It was messy, but easy
+to adjust.  The abstractions were one layer deep.&lt;/p&gt;
+&lt;p&gt;Back then, me and a friend tried to replace it by writing my own bulletin
+board software, &lt;a class=&quot;reference external&quot; href=&quot;https://web.archive.org/web/20070502223619/http://flying.circus.pocoo.org/&quot;&gt;Pocoo&lt;/a&gt;.
+Working in isolation, without users, led me down a path of
+over-engineering.  While we learned a lot and ended up creating popular
+Open Source libraries (like Jinja, Werkzeug and Pygments), Pocoo never
+became a solid product.  Later, my collaborators and I &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/inyokaproject/inyoka/&quot;&gt;rebuilt
+ubuntuusers&lt;/a&gt;, without the
+goal of making it into a reusable product.  That rewrite shipped
+successfully and it lives to this very day.&lt;/p&gt;
+&lt;p&gt;But it took me years to fully realize what was happening here: reusability
+is not that important when you’re building an application, but it’s
+crucial when you’re building a library or framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-flickr-philosophy&quot;&gt;
+&lt;h2&gt;The Flickr Philosophy&lt;/h2&gt;
+&lt;p&gt;If you are unfamiliar with Flamework you should watch a talk that Cal
+Henderson gave in 2008 at DjangoCon (&lt;a class=&quot;reference external&quot; href=&quot;https://www.youtube.com/watch?v=i6Fr65PFqfk&quot;&gt;Why I hate Django&lt;/a&gt;).  He talked about scale
+and how Django didn't solve for it.  He enumerated all the things
+important to him: sharding, using custom sequences for primary keys,
+forgoing joins and foreign keys, supporting database replication setups,
+denormalizing data to the extreme.  This is also were I first learned
+about the possibility of putting all session data into cookies via
+signing.  It was a memorable talk for me because it showed me that there
+are shortcomings.  Django (which I used for ubuntuusers) had beautiful
+APIs but at the time solved for little of that Cal needed.  The talk
+really stuck with me.&lt;/p&gt;
+&lt;p&gt;At the time of the talk, Flamework did not really exist.  It was more of
+an idea and principles of engineering at Flickr.&lt;/p&gt;
+&lt;p&gt;A few years later, Flamework appeared on GitHub, not as an open-sourced
+piece of Flickr code but as a reimplementation of those same ideas.  You
+can explore its repository and see code like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;_db_update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tbl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$cluster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;$bits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;$bits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;`&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$k&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`=&amp;#39;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$hash[$k]&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_db_write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;UPDATE &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$tbl&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; SET &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;implode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;, &amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$bits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; WHERE &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$where&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$cluster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Instinctively it makes me cringe.  Is that a SQL injection?  Well you were
+supposed to use the PHP &lt;a class=&quot;reference external&quot; href=&quot;https://www.php.net/manual/en/function.addslashes.php&quot;&gt;addslashes&lt;/a&gt; function
+beforehand.  But notice how it caters to sharding and clustering directly
+in the query function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;messy-but-effective&quot;&gt;
+&lt;h2&gt;Messy but Effective&lt;/h2&gt;
+&lt;p&gt;Code like this often triggers a visceral reaction, especially in engineers
+who prize clean design.&lt;/p&gt;
+&lt;p&gt;How does something like that get created?  Cal Henderson described
+Flickr's principle as “doing the dumbest possible thing that will work.”
+Maybe “dumb” is too strong — “simple” might be more apt.  Yet simplicity
+can look messy to someone expecting a meticulously engineered codebase.
+This is not at all uncommon and I have seen it over and over.  The first
+large commercial project that got traction that I ever worked on (&lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Plurk&quot;&gt;Plurk&lt;/a&gt;) was also pretty pragmatic and
+messy inside.  My former colleague Ben Vinegar also &lt;a class=&quot;reference external&quot; href=&quot;https://benv.ca/blog/posts/the-hardest-problem&quot;&gt;recently shared&lt;/a&gt; a story of early,
+messy FreshBooks code and how he came to terms with it.  Same story at
+&lt;a class=&quot;reference external&quot; href=&quot;https://sentry.io/welcome&quot;&gt;Sentry&lt;/a&gt;.  We moved fast, we made a mess.&lt;/p&gt;
+&lt;p&gt;None of this is surprising in retrospective.  Perfect code doesn't
+guarantee success if you haven't solved a real problem for real people.
+Pursuing elegance in a vacuum leads to abandoned side projects or
+frameworks nobody uses.  By contrast, clunky but functional code often
+comes with just the right compromises for quick iteration.  And that in
+turn means a lot of messy code powers products that people love —
+something that's a far bigger challenge.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-rorschach-test&quot;&gt;
+&lt;h2&gt;A Rorschach Test&lt;/h2&gt;
+&lt;p&gt;I have shown Flamework's code to multiple engineers over the years and it
+usually creates such a visceral response.  It blind sights one by
+seemingly disregarding all rules of good software engineering.&lt;/p&gt;
+&lt;p&gt;That makes Flamework serve as a fascinating Rorschach test for engineers.
+Are you &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/exflickr/flamework&quot;&gt;looking at it&lt;/a&gt; with
+admiration for the focus on some critical issues like scale, the built-in
+observability and debugging tools.  Or are you judging it, and its
+creators, for manually constructing SQL queries, using global variables,
+not using classes and looking like messy PHP4 code?  Is it a pragmatic
+tool, intentionally designed to iterate quickly at scale, or is it a naive
+mess made by unskilled developers?&lt;/p&gt;
+&lt;p&gt;Would I use Flamework?  Hello no.  But I appreciate the priorities behind
+it.  If these ugly choices help you move faster, attract users and
+validate the product, then a rewrite, or large refactorings later are a
+small price to pay.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-question-of-balance&quot;&gt;
+&lt;h2&gt;A Question of Balance&lt;/h2&gt;
+&lt;p&gt;At the end of the day, where you stand on “shitty code” depends on your
+primary goal:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Are you shipping a product and racing to meet user needs?&lt;/li&gt;
+&lt;li&gt;Or are you building a reusable library or framework meant to stand the
+test of time?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both mindsets are valid, but they rarely coexist harmoniously in a single
+codebase.  Flamework is a reminder that messy, simple solutions can be
+powerful if they solve real problems.  Eventually, when the time is right,
+you can clean it up or rebuild from the ground up.&lt;/p&gt;
+&lt;p&gt;The real challenge is deciding which route to take — and when.  Even with
+experience, it is can be hard to know when to move from quick fixes to
+more robust foundations.  The principles behind Flamework are also
+reflected in &lt;a class=&quot;reference external&quot; href=&quot;https://develop.sentry.dev/getting-started/philosophy/&quot;&gt;Sentry's development philosophy&lt;/a&gt;.  One more
+poignant one being “Embrace the Duct Tape”.  Yet as Sentry matured, much
+of our duct tape didn't stand the test of time, and was re-applied at
+moments when the real solution would have been a solid foundation poured
+with concrete.&lt;/p&gt;
+&lt;p&gt;That's because successful projects eventually grow up.  What let you
+iterate fast in the beginning might eventually turn into an unmaintainable
+mess and will be rebuilt from the inside out.&lt;/p&gt;
+&lt;p&gt;I personally would never have built Flamework, it repulses me a bit.  At the
+same time, I have a enormous respect for the people who build it.  Their
+work and thinking has shaped how I solve problems and think of product
+engineering.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Seeking Purity</title>
+    <id>http://lucumr.pocoo.org/2025/2/8/seeking-purity</id>
+    <updated>2025-02-08T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/2/8/seeking-purity" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;The concept of purity — historically a guiding principle in social and
+moral contexts — is also found in passionate, technical discussions.  By
+that I mean that purity in technology translates into adherence to a set
+of strict principles, whether it be functional programming, test-driven
+development, serverless architectures, or, in the case of Rust, memory
+safety.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;memory-safety&quot;&gt;
+&lt;h2&gt;Memory Safety&lt;/h2&gt;
+&lt;p&gt;Rust positions itself as a champion of memory safety, treating it as a
+non-negotiable foundation of good software engineering.  I love Rust: it's
+probably my favorite language.  It probably won't surprise you that I have
+no problem with it upholding memory safety as a defining feature.&lt;/p&gt;
+&lt;p&gt;Rust aims to achieve the goal of memory safety via safe abstractions, a
+compile time borrow checker and a type system that is in service of those
+safe abstractions.  It comes as no surprise that the Rust community is
+also pretty active in codifying a new way to &lt;a class=&quot;reference external&quot; href=&quot;https://www.ralfj.de/blog/2020/12/14/provenance.html&quot;&gt;reason about pointers&lt;/a&gt;.  In many ways,
+Rust pioneered completely new technical approaches and it it widely
+heralded as an amazing innovation.&lt;/p&gt;
+&lt;p&gt;However, as with many movements rooted in purity, what starts as a
+technical pursuit can evolve into something more ideological.  Similar to
+how moral purity in political and cultural discourse can become charged,
+so does the discourse around Rust, which has been dominated by the pursuit
+of memory safety.  Particularly within the core Rust community itself,
+discussion has moved beyond technical merits into something akin to
+ideological warfare.  The fundamental question of “Is this code memory
+safe?”, has shifted to “Was it made memory safe in the &lt;em&gt;correct&lt;/em&gt; way?”.
+This distinction matters because it introduces a purity test that values
+methodology over outcomes.  Safe C code, for example, is often dismissed
+as impossible, not necessarily because it &lt;em&gt;is&lt;/em&gt; impossible, but because it
+lacks the strict guarantees that Rust's borrow checker enforces.
+Similarly, using Rust’s &lt;tt class=&quot;docutils literal&quot;&gt;unsafe&lt;/tt&gt; blocks is increasingly frowned upon,
+despite their intended purpose of enabling low-level optimizations when
+necessary.&lt;/p&gt;
+&lt;p&gt;This ideological rigidity creates significant friction when Rust
+interfaces with other ecosystems (or gets introduced there), particularly
+those that do not share its uncompromising stance.  For instance, the role
+of Rust in the Linux kernel has been a hot topic.  The Linux kernel
+operates under an entirely different set of priorities.  While memory
+safety is important there is insufficient support for adopting Rust in
+general.  The kernel is an old project and it aims to remain maintainable
+for a long time into the future.  For it to even consider a rather young
+programming language should be seen as tremendous success for Rust and
+also for how open Linus is to the idea.&lt;/p&gt;
+&lt;p&gt;Yet that introduction is balanced against performance, maintainability,
+and decades of accumulated engineering expertise.  Many of the kernel
+developers, who have found their own strategies to write safe C for
+decades, are not accepting the strongly implied premise that their work is
+inherently flawed simply because it does not adhere to Rust's strict
+purity rules.&lt;/p&gt;
+&lt;p&gt;Tensions rose when a kernel developer advocating for Rust's inclusion took
+to social media to push for changes in the Linux kernel development
+process.  The public shaming tactic failed, &lt;a class=&quot;reference external&quot; href=&quot;https://lkml.org/lkml/2025/2/6/1292&quot;&gt;leading the developer to
+conclude&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+“If shaming on social media does not work, then tell me what does,
+because I'm out of ideas.”&lt;/blockquote&gt;
+&lt;p&gt;It's not just the kernel where Rust's memory safety runs up against the
+complexities of the real world.  Very similar feelings creep up in the
+gaming industry where people love to do wild stuff with pointers.  You do
+not need large disagreements to see the purist approach create some
+friction.  A &lt;a class=&quot;reference external&quot; href=&quot;/2025/2/4/fat-rand/&quot;&gt;recent post of mine&lt;/a&gt; for instance
+triggered some discussions about the trade-offs between more dependencies,
+and moving unsafe to centralized crates.&lt;/p&gt;
+&lt;p&gt;I really appreciate that Rust code does not crash as much.  That part of
+Rust, among many others, makes it very enjoyable to work with.  Yet I am
+entirely unconvinced that memory safety should trump everything, at least
+at this point in time.&lt;/p&gt;
+&lt;p&gt;What people want in the Rust in Linux situation is for the project leader
+to come in to declare support for Rust's call for memory safety above all.
+To make the detractors go away.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;python-s-migration-lesson&quot;&gt;
+&lt;h2&gt;Python's Migration Lesson&lt;/h2&gt;
+&lt;p&gt;Hearing this call and discussion brings back memories.  I have lived
+through a purity driven shift in a community before.  The move from Python
+2 to Python 3 started out very much the same way.  There was an almost
+religious movement in the community to move to Python 3 in a ratcheting
+motion.  The idea that you &lt;a class=&quot;reference external&quot; href=&quot;/2013/5/21/porting-to-python-3-redux/&quot;&gt;could maintain code bases that support both 2
+and 3&lt;/a&gt; were initially very
+loudly rejected.  I took a lot of flak at the time (and for years after)
+for advocating for a more pragmatic migration which burned me out a lot.
+That feedback came both in person and online and it largely pushed me away
+from Python for a while.  Not getting behind the Python 3 train was seen
+as sabotaging the entire project.  However, a decade later, I feel
+somewhat vindicated that it was worth being pragmatic about that
+migration.&lt;/p&gt;
+&lt;p&gt;At the root of that discourse was a idealistic view of how Unicode could
+work in the language and that you can move an entire ecosystem at once.
+Both those things greatly clashed with the lived realities in many
+projects and companies.&lt;/p&gt;
+&lt;p&gt;I am a happy user of Python 3 today.  This migration has also taught me
+the important lesson not be too stuck on a particular idea.  It would have
+been very easy to pick one of the two sides of that debate.  Be stuck on
+Python 2 (at the risk of forking), or go all in on Python 3 no questions
+asked.  It was the path in between that was quite painful to advocate for,
+but it was ultimately the right path.  I wrote about &lt;a class=&quot;reference external&quot; href=&quot;/2016/11/5/be-careful-about-what-you-dislike/&quot;&gt;my lessons of that
+migration a in 2016&lt;/a&gt; and
+I think most of this still rings true.  That was motivated by even years
+later people still reaching out to me who did not move to Python 3, hoping
+for me to embrace their path.  Yet Python 3 has changed!  Python 3 is a
+much better language than it was when it first released.  It is a great
+language because it's used by people solving real, messy problems and
+because it over time found answers for what to do, if you need to have
+both Python 2 and 3 code in the wild.  While the world of Python 2 is
+largely gone, we are still in a world where Unicode and bytes mix in
+certain contexts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-messy-process&quot;&gt;
+&lt;h2&gt;The Messy Process&lt;/h2&gt;
+&lt;p&gt;Fully committing to a single worldview can be easier because you stop
+questioning everything — you can just go with the flow.  Yet truths often
+reside on both sides.  Allowing yourself to walk the careful middle path
+enables you to learn from multiple perspectives.  You will face doubts and
+open yourself up to vulnerability and uncertainty.  The payoff, however,
+is the ability to question deeply held beliefs and push into the unknown
+territory where new things can be found.  You can arrive at a solution
+that isn't a complete rejection of any side.  There is genuine value in
+what Rust offers—just as there was real value in what Python 3 set out to
+accomplish.  But the Python 3 of today isn't the Python 3 of those early,
+ideological debates; it was shaped by a messy, slow, often contentious,
+yet ultimately productive transition process.&lt;/p&gt;
+&lt;p&gt;I am absolutely sure that in 30 years from now we are going to primarily
+program in memory safe languages (or the machines will do it for us) in
+environments where C and C++ prevail.  That glimpse of a future I can
+visualize clearly.  The path to there however?  That's a different story
+altogether.  It will be hard, it will be impure.  Maybe the solution will
+not even involve Rust at all — who knows.&lt;/p&gt;
+&lt;p&gt;We also have to accept that not everyone is ready for change at the same
+pace. Forcing adoption when people aren't prepared only causes the
+pendulum to swing back hard.  It's tempting to look for a single authority
+to declare “the one true way,” but that won't smooth out the inevitable
+complications.  Indeed, those messy, incremental challenges are part of how
+real progress happens.  In the long run, these hard-won refinements tend
+to produce solutions that benefit all sides—if we’re patient enough to let
+them take root.  The painful and messy transition is here to stay, and
+that's exactly why, in the end, it works.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Fat Rand: How Many Lines Do You Need To Generate A Random Number?</title>
+    <id>http://lucumr.pocoo.org/2025/2/4/fat-rand</id>
+    <updated>2025-02-04T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/2/4/fat-rand" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;I recently wrote &lt;a class=&quot;reference external&quot; href=&quot;/2025/1/24/build-it-yourself/&quot;&gt;about dependencies in Rust&lt;/a&gt;.  The feedback, both within and outside
+the Rust community, was very different.  A lot of people, particularly
+some of those I greatly admire expressed support.  The Rust community, on
+the other hand, was very dismissive on on Reddit and Lobsters.&lt;/p&gt;
+&lt;p&gt;Last time, I focused on the &lt;tt class=&quot;docutils literal&quot;&gt;terminal_size&lt;/tt&gt; crate, but I also want to
+show you a different one that I come across once more: &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt;.  It has a
+similarly out-of-whack value-to-dependency ratio, but in a slightly
+different way.  More than &lt;tt class=&quot;docutils literal&quot;&gt;terminal_size&lt;/tt&gt;, you are quite likely to use
+it.  If for instance if you want to generate a random UUID, the &lt;tt class=&quot;docutils literal&quot;&gt;uuid&lt;/tt&gt;
+crate will depend on it.  Due to its nature it also has a high security
+exposure.&lt;/p&gt;
+&lt;p&gt;I don't want to frame this as “&lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; is a bad crate”.  It's not a bad
+crate at all!  It is however a crate that does not appear very concerned
+about how many dependencies it has, and I want to put this in perspective:
+of all the dependencies and lines of codes it pulls in, how many does it
+actually use?&lt;/p&gt;
+&lt;p&gt;As the name implies, the &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; crate is capable of calculating random
+numbers.  The crate itself has seen a fair bit of churn: for instance 0.9
+broke backwards compatibility with 0.8.  So, as someone who used that
+crate, I did what a responsible developer is supposed to do, and upgraded
+the dependency.  After all, I don't want to be the reason there are two
+versions of &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; in the dependency tree.  After the upgrade, I was
+surprised how fat that dependency tree has become over the last nine
+months.&lt;/p&gt;
+&lt;p&gt;Today, this is what the dependency tree looks like for the default feature
+set on macOS and Linux:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+x v0.1.0 (/private/tmp/x)
+└── rand v0.9.0
+    ├── rand_chacha v0.9.0
+    │   ├── ppv-lite86 v0.2.20
+    │   │   └── zerocopy v0.7.35
+    │   │       ├── byteorder v1.5.0
+    │   │       └── zerocopy-derive v0.7.35 (proc-macro)
+    │   │           ├── proc-macro2 v1.0.93
+    │   │           │   └── unicode-ident v1.0.16
+    │   │           ├── quote v1.0.38
+    │   │           │   └── proc-macro2 v1.0.93 (*)
+    │   │           └── syn v2.0.98
+    │   │               ├── proc-macro2 v1.0.93 (*)
+    │   │               ├── quote v1.0.38 (*)
+    │   │               └── unicode-ident v1.0.16
+    │   └── rand_core v0.9.0
+    │       ├── getrandom v0.3.1
+    │       │   ├── cfg-if v1.0.0
+    │       │   └── libc v0.2.169
+    │       └── zerocopy v0.8.14
+    ├── rand_core v0.9.0 (*)
+    └── zerocopy v0.8.14
+&lt;/pre&gt;
+&lt;p&gt;About a year ago, it looked like this:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+x v0.1.0 (/private/tmp/x)
+└── rand v0.8.5
+    ├── libc v0.2.169
+    ├── rand_chacha v0.3.1
+    │   ├── ppv-lite86 v0.2.17
+    │   └── rand_core v0.6.4
+    │       └── getrandom v0.2.10
+    │           ├── cfg-if v1.0.0
+    │           └── libc v0.2.169
+    └── rand_core v0.6.4 (*)
+&lt;/pre&gt;
+&lt;p&gt;Not perfect, but better.&lt;/p&gt;
+&lt;p&gt;So, let's investigate what all these dependencies do. The current version
+pulls in quite a lot.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;platform-dependencies&quot;&gt;
+&lt;h2&gt;Platform Dependencies&lt;/h2&gt;
+&lt;p&gt;First there is the question of getting access to the system RNG.  On Linux
+and Mac it uses &lt;tt class=&quot;docutils literal&quot;&gt;libc&lt;/tt&gt;, for Windows it uses the pretty heavy Microsoft
+crates (&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-targets&lt;/span&gt;&lt;/tt&gt;).  The irony is that the Rust standard library
+already implements a way to get a good seed from the system, but it does
+not expose it.  Well, not really at least.  There is a crate called
+&lt;tt class=&quot;docutils literal&quot;&gt;fastrand&lt;/tt&gt; which does not have any dependencies which seeds itself by
+funneling out seeds from the stdlib via the hasher system.  That looks a
+bit like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;collections&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;hash_map&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;RandomState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;hash&lt;/span&gt;::&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BuildHasher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hasher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;random_seed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;kt&quot;&gt;u64&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RandomState&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build_hasher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;finish&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now obviously that's a hack, but it will work because the hashmap's hasher
+is randomly seeded from good sources.  There is a single-dependency crate
+too which can read from the system's entropy source and that's
+&lt;tt class=&quot;docutils literal&quot;&gt;getrandom&lt;/tt&gt;.  So there at least could be a world where &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; only
+depends on that.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;dependency-chain&quot;&gt;
+&lt;h2&gt;Dependency Chain&lt;/h2&gt;
+&lt;p&gt;If you want to audit the entire dependency chain, you end up with
+maintainers that form eight distinct groups:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;libc&lt;/tt&gt;: rust core + various externals&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;cfg-if&lt;/span&gt;&lt;/tt&gt;: rust core + Alex Crichton&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-*&lt;/span&gt;&lt;/tt&gt;: Microsoft&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;rand_*&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;getrandom&lt;/tt&gt;: rust nursery + rust-random&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ppv-lite86&lt;/span&gt;&lt;/tt&gt;: Kaz Wesley&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;zerocopy-derive&lt;/span&gt;&lt;/tt&gt;: Google (via two ICs there, Google
+does not publish)&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;byteorder&lt;/tt&gt;: Andrew Gallant&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;syn&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;quote&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;proc-macro2&lt;/span&gt;&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;unicode-ident&lt;/span&gt;&lt;/tt&gt;: David Tolnay&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If I also cared about WASM targets, I'd have to consider even more
+dependencies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;code-size&quot;&gt;
+&lt;h2&gt;Code Size&lt;/h2&gt;
+&lt;p&gt;So let's vendor it.  How much code is there?  After removing all tests, we
+end up with &lt;strong&gt;29 individual crates&lt;/strong&gt; vendored taking up &lt;strong&gt;62MB&lt;/strong&gt; disk
+space.  Tokei reports &lt;strong&gt;209,150 lines of code&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Now this is a bit misleading, because like many times most of this is
+within &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-*&lt;/span&gt;&lt;/tt&gt;.  But how much of &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-*&lt;/span&gt;&lt;/tt&gt; does &lt;tt class=&quot;docutils literal&quot;&gt;getrandom&lt;/tt&gt;
+need?  A single function:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;extern&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;system&amp;quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ProcessPrng&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pbdata&lt;/span&gt;: &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;mut&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;u8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cbdata&lt;/span&gt;: &lt;span class=&quot;kt&quot;&gt;usize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;kt&quot;&gt;i32&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For that single function (and the information which DLL it needs link
+into), we are compiling and downloading megabytes of &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-targets&lt;/span&gt;&lt;/tt&gt;.
+Longer term &lt;a class=&quot;reference external&quot; href=&quot;https://rust-lang.github.io/rfcs/2627-raw-dylib-kind.html&quot;&gt;this might not be necessary&lt;/a&gt;, but today
+it is.&lt;/p&gt;
+&lt;p&gt;On Unix, it's harder to avoid &lt;tt class=&quot;docutils literal&quot;&gt;libc&lt;/tt&gt; because it tries multiple APIs.
+These are mostly single-function APIs, but some non-portable constants
+make &lt;tt class=&quot;docutils literal&quot;&gt;libc&lt;/tt&gt; difficult to avoid.&lt;/p&gt;
+&lt;p&gt;Beyond the platform dependencies, what else is there?&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ppv-lite86&lt;/span&gt;&lt;/tt&gt; (the &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt;'s picked default randon number generator)
+alone comes to 3,587 lines of code including 168 unsafe blocks.  If
+the goal of using &lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; was to avoid &lt;tt class=&quot;docutils literal&quot;&gt;unsafe&lt;/tt&gt;, there is still
+a ton of &lt;tt class=&quot;docutils literal&quot;&gt;unsafe&lt;/tt&gt; remaining.&lt;/li&gt;
+&lt;li&gt;The combination of &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;proc-macro2&lt;/span&gt;&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;quote&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;syn&lt;/tt&gt;, and
+&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;unicode-ident&lt;/span&gt;&lt;/tt&gt; comes to 49,114 lines of code.&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;byteorder&lt;/tt&gt; clocks in at 3,000 lines of code.&lt;/li&gt;
+&lt;li&gt;The pair of &lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;zerocopy-derive&lt;/span&gt;&lt;/tt&gt; together?  14,004 lines
+of code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these are great crates, but do I need all of this just to generate a random number?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;compilation-times&quot;&gt;
+&lt;h2&gt;Compilation Times&lt;/h2&gt;
+&lt;p&gt;Then there are compile times.  How long does it take to compile? 4.3
+seconds on my high-end M1 Max.  A lot of dependencies block each other,
+particularly the part that waits for the derives to finish.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; depends on &lt;tt class=&quot;docutils literal&quot;&gt;rand_chacha&lt;/tt&gt;,&lt;/li&gt;
+&lt;li&gt;which depends on &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ppv-lite86&lt;/span&gt;&lt;/tt&gt;,&lt;/li&gt;
+&lt;li&gt;which depends on &lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; (with the derive feature),&lt;/li&gt;
+&lt;li&gt;which depends on &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;zerocopy-derive&lt;/span&gt;&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;which pulls compiler plugins crates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Only after all the code generation finished, the rest will make meaningful
+progress.  In total a release build produces 36MB of compiler artifacts.
+12 months ago, it took just under 2 seconds.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;final-thoughts&quot;&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;The Rust developer community &lt;a class=&quot;reference external&quot; href=&quot;https://www.reddit.com/r/rust/comments/1igjiip/rand_now_depends_on_zerocopy/&quot;&gt;on Reddit&lt;/a&gt;
+doesn't seem very concerned.  The main sentiment is that &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; now uses less
+&lt;tt class=&quot;docutils literal&quot;&gt;unsafe&lt;/tt&gt; so that's benefit enough.  While the total amount of unsafe
+probably did not go down, that moved unsafe is is now in a common crate
+written by people that know how to use unsafe (&lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt;).  There is
+also the sentiment that all of this doesn't matter anyways, because we
+will will all soon depend on &lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; everywhere anyways, as more and
+more dependencies are switching over to it.&lt;/p&gt;
+&lt;p&gt;Maybe this points to Rust not having a large enough standard library.
+Perhaps features like terminal size detection and random number generation
+should be included.  That at least is what people pointed out on Twitter.&lt;/p&gt;
+&lt;p&gt;We already treat crates like &lt;tt class=&quot;docutils literal&quot;&gt;regex&lt;/tt&gt;, &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt;, and &lt;tt class=&quot;docutils literal&quot;&gt;serde&lt;/tt&gt; as if they
+were part of the standard library.  The difference is that I can trust the
+standard library as a whole—it comes from a single set of authors, making
+auditing easier.  If these external, but almost standard crates were more
+cautious about dependencies and make it more of a goal to be auditable, we
+would all benefit.&lt;/p&gt;
+&lt;p&gt;Or maybe this is just how Rust works now.  That would make me quite sad.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt; it looks like there is some appetite in &lt;tt class=&quot;docutils literal&quot;&gt;rand&lt;/tt&gt; to improve on
+this.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt; might be removed in the core library: &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rust-random/rand/issues/1574&quot;&gt;issue #1574&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rust-random/rand/pull/1575&quot;&gt;PR #1575&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;a stripped down version of &lt;tt class=&quot;docutils literal&quot;&gt;chacha20&lt;/tt&gt; (which does not require &lt;tt class=&quot;docutils literal&quot;&gt;zerocopy&lt;/tt&gt;
+or most of the rust-crypto ecosystem) might replace &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ppv-lite86&lt;/span&gt;&lt;/tt&gt;:
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rust-random/rand/issues/934&quot;&gt;PR #934&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;if you use Rust 1.71 or later, &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;windows-target&lt;/span&gt;&lt;/tt&gt; becomes mostly a
+no-op if you compile with &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;--cfg=windows_raw_dylib&lt;/span&gt;&lt;/tt&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;em&gt;Edit: This post originally incorrectly said that getrandom depends on
+windows-sys.  That is incorrect, it only depends on windows-targets.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">How I Use AI: Meet My Promptly Hired Model Intern</title>
+    <id>http://lucumr.pocoo.org/2025/1/30/how-i-ai</id>
+    <updated>2025-01-30T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/1/30/how-i-ai" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;After Musk's acquisition of Twitter, many people I respect and follow
+moved to Bluesky.  I &lt;a class=&quot;reference external&quot; href=&quot;https://bsky.app/profile/mitsuhiko.at&quot;&gt;created an account there&lt;/a&gt; and made an honest attempt of
+making it my primary platform.  Sadly, I found Bluesky to be surprisingly
+hostile towards AI content.  There is an almost religious resistance to AI
+on there, at least in whatever corner of the platform I ended up in.&lt;/p&gt;
+&lt;p&gt;Despite these challenges, some individuals on both Twitter and Bluesky
+have shown genuine curiosity about my AI usage.  In this post, I want to
+share how I use Large Language Models and why I find them so helpful.&lt;/p&gt;
+&lt;p&gt;Before moving on, I want to include an an important disclaimer: I am by no
+means an expert in AI; I'm mostly an enthusiastic user.  Absolutely
+nothing here is novel!  What I do here is pretty boring which to some
+degree is the point.  I won't be covering underlying technology or my
+programmatic experience.  This is strictly about how I use AI as a “techy
+consumer”.&lt;/p&gt;
+&lt;p&gt;In addition, as you read through this article you will probably figure out
+rather quickly that the way I use AI — despite being used in part for
+content creation — does not really impact intellectual property much.
+That said, I'm curious and open to discussions about how we should be
+dealing with this problem.  Particularly on Bluesky a lot of the
+negativity towards AI is related to watering down of copyrights and human
+creation.  I don't know the answers to these things, but I think we need
+to have a productive dialog here rather than wishing for the technology to
+go away.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;why-ai&quot;&gt;
+&lt;h2&gt;Why AI?&lt;/h2&gt;
+&lt;p&gt;In short: AI makes me significantly more productive.  I recently read
+&lt;a class=&quot;reference external&quot; href=&quot;https://x.com/aarondfrancis/&quot;&gt;Aaron Francis&lt;/a&gt;'s Tweet about how he gets
+a week's worth of productivity out of a day now thanks to AI.  I'm not
+anywhere close to that, but I use AI a lot now.  It has become
+indispensable for me for both content writing as well as programming.&lt;/p&gt;
+&lt;p&gt;Moreover, a common misconception is that AI is still at the level it was
+when ChatGPT first launched.  Many people tried it early, saw its
+limitations, and never returned.  However, AI is evolving rapidly. If you
+haven't kept up, you risk drawing inaccurate conclusions based on outdated
+impressions.  In some sense I believe people who never tried to use AI
+yet, are in a better position to judge than the folks who used it two
+years ago and never returned.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;my-ai-toolkit&quot;&gt;
+&lt;h2&gt;My AI Toolkit&lt;/h2&gt;
+&lt;p&gt;I work with a variety of AI tools, mostly because of professional
+curiosity and to a smaller degree because each tool excels at something
+slightly different.  Here are the ones I use most often:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://openwebui.com/&quot;&gt;Open WebUI&lt;/a&gt;.  In short this is a Python web
+app that offers a chat interface similar to ChatGPT.
+Unlike ChatGPT, however, it lets you talk to different models.  First and
+foremost, I use this to talk to local models hosted by Ollama, but
+secondarily I also use it to interface with other remote services like
+OpenAI, Anthropic and DeepSeek.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/simonw/llm&quot;&gt;Simon's llm&lt;/a&gt;.  This is a command line
+tool with plenty of plugins that lets you prompt different models.  Think
+of it as a command-line version of Open WebUI.  It's particularly useful
+for quick scripting and basic automation.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://ollama.com/&quot;&gt;Ollama&lt;/a&gt;.  This allows me to run models locally
+on my MacBook Pro M1 Max.  With the 64GB of RAM it has, it's a pretty
+potent machine for basic inference despite it being three years old.
+I'll explain later why I use local models.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://www.cursor.com/&quot;&gt;Cursor&lt;/a&gt;.  It is a fork of Visual Studio
+Code with AI-based auto completion and code generation built-in.  It's
+my go-to for programming with AI assistance at the moment.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://chatgpt.com/&quot;&gt;ChatGPT&lt;/a&gt;.  Like probably most AI users, I use
+ChatGPT, particularly on my phone.  I pay for the Plus subscription
+because I use it enough to get a lot of value out of it.  One
+significant use of this for me is in fact the voice mode (more on that
+later).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's probably worth mentioning that you can get most of the benefits of this from just paying for a single AI
+tool.  I think as one expands their use, as especially as one gets better at writing prompts,
+the desire naturally grows to use more tooling.  As for which models
+(and services) to use day to day I don't have a particular strong strategy
+and preferences change quickly.  For instance after DeepSeek's R1 release,
+I started exploring it quite a bit for programming — and it's doing a
+phenomenal job at it —&amp;nbsp; and as of writing that's just a few days old.&lt;/p&gt;
+&lt;p&gt;If you want to run models locally, Apple Silicon machines currently offer
+some of the best “bang for your buck” in terms of performance, power
+usage, and money.  With &lt;a class=&quot;reference external&quot; href=&quot;https://tailscale.com/&quot;&gt;tailscale&lt;/a&gt;, I can even
+access my MacBook's Open WebUI interface from my phone, as long as it is
+powered on.&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary&gt;Guide for installing llm and Open WebUI&lt;/summary&gt;&lt;p&gt;This is a bit of a plug for &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astral.sh/uv/&quot;&gt;uv&lt;/a&gt; quite
+honestly.  If you have it, it's crazy quick to get Open WebUI and &lt;tt class=&quot;docutils literal&quot;&gt;llm&lt;/tt&gt;
+running locally:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+uv tool install -p python3.11 open-webui
+uv tool install --with llm-ollama --with llm-claude-3 --with llm-deepseek llm
+&lt;/pre&gt;
+&lt;p&gt;Afterwards you can launch &lt;cite&gt;open-webui&lt;/cite&gt; and use the llm tool:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+open-webui serve
+llm keys set deepseek
+llm -m deepseek-coder '# write timsort in python'
+&lt;/pre&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;By default, Open WebUI only connects to OpenAI or Ollama. If you want to
+add the hosted Anthropic or DeepSeek models, you need to create a custom
+function in the “Functions” section of Open WebUI's admin panel.&lt;/li&gt;
+&lt;li&gt;Import the functions and configure your API keys, and you’re ready to go.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Functions you can import to the WebUI:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://openwebui.com/f/justinrahb/anthropic&quot;&gt;Anthropic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://openwebui.com/f/xgawatt/DeepseekAPI&quot;&gt;DeepSeek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;ai-affordances&quot;&gt;
+&lt;h2&gt;AI Affordances&lt;/h2&gt;
+&lt;p&gt;One frequent concern I hear is “you cannot trust LLMs” as they tend to
+hallucinate.  I get this in particular when I explain that I frequently
+use this as a replacement for Google!  However, I approach the risk of
+hallucination the same way I would when seeking advice from another human:
+people can and are routinely wrong, and you learn to cross-check
+selectively.&lt;/p&gt;
+&lt;p&gt;I treat AI as I would a collaborator or a pretty good intern but I remain
+responsible for the final outcome.  In this case the intern also happens
+to get better month by month as models improve.  And a bit like a human,
+that digital intern has morals and wants to be argued with.  Except, of
+course, that some of those AI interns &lt;a class=&quot;reference external&quot; href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/187oidh/deepseek_coder_7b_33b_thinks_its_trained_by_openai/&quot;&gt;don't want to talk about China&lt;/a&gt;,
+while others get a stroke &lt;a class=&quot;reference external&quot; href=&quot;https://www.reddit.com/r/ChatGPT/comments/1h3rz4l/david_mayer_is_not_the_only_one_jonathan_zittrain/&quot;&gt;if you talk about certain people&lt;/a&gt;.
+But regardless of how good they get, in the end, it's my fault and my
+fault alone if I do the wrong thing.  I won't blame the AI and I need to
+spot check.&lt;/p&gt;
+&lt;p&gt;However, the logical conclusion of this is not that it's wrong all the time
+and you need to check everything, or that you cannot trust it at all.
+It's similar to how you engage in a technical discussion with others about
+a problem.  I have seen more than one situation where the conventional
+wisdom in the room is just wrong for a few minutes, until someone points
+out that we had it wrong.&lt;/p&gt;
+&lt;p&gt;Another major advantage is that AI tools are relatively open.  You can run
+models locally and integrate them with scripts.  Even the famous OpenAI
+which is not at all open is much more open than a Google search is.  For
+instance, you can create a simple script for grammar-checking right from
+your command line.&lt;/p&gt;
+&lt;p&gt;In other words, you &lt;em&gt;can&lt;/em&gt; integrate it locally and nobody stops you.  By
+contrast, many, many years ago I had a tool on my computer that allowed me
+to issue web searches and extract text from results.  That has stopped
+working such a long time ago that I almost forgot about it.  It has
+stopped working because there is basically no competition in search, and
+Google does not want me to use it like that.&lt;/p&gt;
+&lt;p&gt;For instance, you can create a simple script for grammar checking right
+from your command line:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ch&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;MODEL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;phi4:latest
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; ping -q -c1 google.com &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&amp;gt;/dev/null&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;MODEL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;claude-3-5-sonnet-latest
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;OLD_TEXT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+llm -m &lt;span class=&quot;nv&quot;&gt;$MODEL&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$OLD_TEXT&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt; -s &lt;span class=&quot;s2&quot;&gt;&amp;quot;fix spelling and grammar in the given text,&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;    and reply with the improved text and no extra commentary.&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;    Use double spacing.&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This script can automatically switch between a local model (&lt;tt class=&quot;docutils literal&quot;&gt;phi4&lt;/tt&gt; via
+Ollama) and a remote one (&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;claude-3-5-sonnet-latest&lt;/span&gt;&lt;/tt&gt;) based on internet
+connectivity.  With a command like &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;!llm-spell&lt;/span&gt;&lt;/tt&gt; in Vim, I can fix up
+sentences with a single step.&lt;/p&gt;
+&lt;p&gt;Or you can manipulate the contents of the clipboard like this:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+pbpaste | llm-spell | pbcopy &amp;amp;&amp;amp; say &amp;quot;AI is done&amp;quot;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;writing-with-ai&quot;&gt;
+&lt;h2&gt;Writing with AI&lt;/h2&gt;
+&lt;p&gt;I don't let AI write my articles.  As a non-native Speaker, mistakes and
+linguistic quirks are part of me.  That said, I do rely on AI tools for
+helping me write.&lt;/p&gt;
+&lt;p&gt;Often, after I have made my first pass through a page, I ask an LLM to
+read through it and give me comments.  I have a Apple Note with various
+prompts I can use or I just come up with what I need in the moment.  The
+process is not particularly scripted out.  I basically talk to the LLM to
+figure out what it thinks of the text, etc.&lt;/p&gt;
+&lt;p&gt;Here are some of the things I use AI for when writing:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Grammar checking:&lt;/strong&gt; I compare the AI’s suggested revisions side by
+side with my original text and pick the changes I prefer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restructuring:&lt;/strong&gt; AI often helps me see when my writing is too wordy.
+In the days before AI, I often ended up with super long articles that
+did not read well and that I did not publish.  Models like o1 are very
+helpful in identifying things that don't need to be said.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing Notes and finding key points:&lt;/strong&gt; Here, I ask the AI to read
+through a draft “like a Computer Science 101 student” and take notes.
+This helps me see if what it absorbed matches what I intended to
+convey.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roast my Article:&lt;/strong&gt;  I have a few prompts that asks the AI to
+“roast” or criticize my article, as if commenting on Reddit, Twitter,
+or Hacker News.  Even though these critiques seem shallow, they can
+sting, and they often highlight weaknesses in my argument or lack of
+clarity.  Even if they don't necessarily impact the writing, they
+prime me for some of the feedback I inevitably receive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifying jargon:&lt;/strong&gt; If I worry there's too much jargon, I use AI to
+resolve acronyms and point out technical terms I've used without
+explanation, helping me make the text more accessible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;programming-with-ai&quot;&gt;
+&lt;h2&gt;Programming with AI&lt;/h2&gt;
+&lt;p&gt;This is probably the bulk of what I do and it falls into three major
+categories.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Debugging and summarizing:&lt;/strong&gt; Throwing stack traces and errors at an
+AI is usually a good first step in finding out where I should look,
+what might be wrong.  Sometimes it fixes a problem entirely by itself.
+I also sometimes just throw a long bug report or issue at the thing to
+try to reason through it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fuzzy parsing:&lt;/strong&gt; Sometimes you have an output, but you don't
+have the input.  As an example I have a little side project to write a
+command line tool help generator, and AI is really good at taking the
+output, “parsing“ it and creating a structure as input.  That is a
+good first step to then generate out the code that should match again
+that output.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code generation:&lt;/strong&gt; lastly it just programs really well.  It can do
+single code snippets, it can generate complex stuff.  Particularly for
+prototyping it's amazing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now it's not great at all languages.  I find it performs exceptionally
+well at Python, somewhat okay at JavaScript and horrible at Rust.
+However, particularly if I wanna solve an algorithmic problem, I can often
+iterate in Python until I have what I want, then ask it to translate it to
+Rust.  That's from my experience at least a decent way to get going
+quickly on some harder problems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;talking-to-her&quot;&gt;
+&lt;h2&gt;Talking to Her&lt;/h2&gt;
+&lt;p&gt;Pair programming is fantastic, but not always possible if you're
+programming alone at home.  An LLM can serve as a stand-in discussion
+partner&amp;nbsp;—&amp;nbsp;a poor man's interlocutor.  Thankfully it's actually not all
+that poor, because it's really good at telling you what stuff is called.
+This is most fun if you do it with voice mode, but it also works quite
+well in text.&lt;/p&gt;
+&lt;p&gt;Here a motivating example from voice mode:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; So, do you remember if you have, like, &lt;tt class=&quot;docutils literal&quot;&gt;strcat&lt;/tt&gt;, it always copies from
+the start, but if you keep concatenating to the same buffer, it's really
+inefficient. So, remember what the Big-O of that is if you do it in a loop,
+and wasn't there, like, a humorous name for this kind of algorithm?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI:&lt;/strong&gt; You’re thinking of the “Schlemiel the Painter’s algorithm.” It’s a
+humorous way of describing the inefficiency of repeatedly appending to a
+string using operations like &lt;tt class=&quot;docutils literal&quot;&gt;strcat&lt;/tt&gt;, which copies from the start each
+time. The Big O complexity for this operation is O(n^2) if done repeatedly
+in a loop, since each &lt;tt class=&quot;docutils literal&quot;&gt;strcat&lt;/tt&gt; operation takes time proportional to the
+current length of the string.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It's also fun and educational for my kids.  They ask a lot of questions,
+and ChatGPT can tailor its explanations to their age level.  If the
+explanation is still too advanced, I can immediately ask it to simplify
+further.  If it was too dumbed down, I can make it go the other way.  Now
+again, there is always a risk that it gets it wrong, but that is okay.
+Part of all of this is to convey to the children the idea that we need to
+validate it and that being critical is important.&lt;/p&gt;
+&lt;p&gt;What makes ChatGPT so enjoyable here is that it's able to keep the
+conversation going — it has state.  Answered in large metric numbers?  Can
+always ask it to scale to elephants or soccer fields.&lt;/p&gt;
+&lt;p&gt;ChatGPT is also incredibly helpful when having to work with multiple
+languages.  For a recent example, my kids have Greek friends and we tried
+to understand the difference between some Greek words that came up.  I
+have no idea how to write it, Google translate does not understand my
+attempts of pronouncing them either.  However, ChatGPT does.  If I ask it
+in voice mode what “pa-me-spee-tee” in Greek means it knows what I tried
+to mumble and replies in a helpful manner.&lt;/p&gt;
+&lt;p&gt;Lastly the use on the go.  Sometimes I'm just not in a position where I
+can actually write it down on a keyboard, but if I basically talk to
+ChatGPT, it can transcribe it down and it will also remove some of my
+“um's” and it will just be there and I can copy-paste it later and edit
+it.  (To prove a point, I transcribed the previous sentence with the
+mobile app).  This is a very different experience than transcribing on iOS
+natively.  It understands enough context of what I'm babbling that it will
+start and stop transcribing.  Now this is not perfect, but pretty damn
+good and incredibly helpful.&lt;/p&gt;
+&lt;p&gt;The multilingual aspect is particularly helpful because our family is
+multilingual.  Being able to fluidly switch between German, Russian and
+English is such a refreshing experience.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;no-slop&quot;&gt;
+&lt;h2&gt;No Slop&lt;/h2&gt;
+&lt;p&gt;I mentioned earlier that I don't let LLMs write my texts.  I also don't
+use AI to make illustrations, though I have in the past.  The reason is
+that there is a certain style that goes along with these illustrations,
+which is just incredibly off-putting.  They are noticeably AI-generated,
+and typically quite low-quality.  People have taken to calling these
+images “AI slop” and I personally respond really badly to it.  When
+someone throws me a pull request, an email or a text message that is
+obviously AI-generated without disclosing this, I immediately have a very
+low opinion of them.&lt;/p&gt;
+&lt;p&gt;Slop like hallucinations are a problem, but they are only a problem if you
+don't use your brain.  Even the worst slop can be the foundation of
+really good content.  I'm a horrible artist, but I can use Illustrator.
+Even an AI slop image can help me trace the person in the pose I wanted.
+Likewise you can throw your notes into a document and let the AI imagine a
+story around it.  You probably can't use that story right away, but you
+can use it as potential inspiration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;final-thoughts&quot;&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;AI tools, at their best, feel less like disruptive and dark magic and more
+like a natural extension of the creative process as long as you see them
+as curious collaborators.  My approach isn't about outsourcing thinking,
+but augmenting it: using LLMs to accelerate grunt work, untangle mental
+knots, and prototype ideas faster.  Skepticism is healthy, but dismissing
+AI outright risks missing its potential as a multiplier for those willing
+to engage critically.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Build It Yourself</title>
+    <id>http://lucumr.pocoo.org/2025/1/24/build-it-yourself</id>
+    <updated>2025-01-24T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/1/24/build-it-yourself" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;Another day, another &lt;a class=&quot;reference external&quot; href=&quot;/2016/3/24/open-source-trust-scaling/&quot;&gt;rant&lt;/a&gt;
+&lt;a class=&quot;reference external&quot; href=&quot;/2022/1/10/dependency-risk-and-funding/&quot;&gt;about&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;/2024/3/26/rust-cdo/&quot;&gt;dependencies&lt;/a&gt;. from me.  This time I will ask you that we
+start and support a vibe shift when it comes to dependencies.&lt;/p&gt;
+&lt;p&gt;You're probably familiar with the concept of “dependency churn.”  It's that
+never-ending treadmill of updates, patches, audits, and transitive
+dependencies that we as developers love to casually install in the name of
+productivity.  Who doesn't enjoy waiting for yet another &lt;cite&gt;cargo upgrade&lt;/cite&gt;
+just so you can get that fix for a bug you don't even have?&lt;/p&gt;
+&lt;p&gt;It's a plague in most ecosystems with good packaging solutions.
+JavaScript and Rust are particularly badly affected by that.  A brand new
+Tokio project drags in 28 crates, a new Rocket project balloons that to
+172, and a little template engine like MiniJinja can exist with just a
+single dependency — while its CLI variant slurps up 142.&lt;/p&gt;
+&lt;p&gt;If that doesn't sound like a big deal, let's consider &lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/terminal_size&quot;&gt;terminal_size&lt;/a&gt;.  It is a crate that does
+exactly what its name suggests: it figures out your terminal dimensions.
+The underlying APIs it uses have effectively been stable since the earliest days of computing
+terminals—what, 50 years or so? And yet, for one function, terminal-size
+manages to introduce three or four additional crates, depending on your
+operating system.  That triggers a whole chain reaction, so you end up
+compiling thousands of other functions just to figure out if your terminal
+is 80x25 or 120x40.  That crate had 26 releases.  My own version of that
+that I have stuck away in a project from 10 years ago still works without
+a single update.  Because shocker: nothing about figuring out terminal
+sizes has changed.  &lt;a class=&quot;footnote-reference&quot; href=&quot;#footnote-1&quot; id=&quot;footnote-reference-1&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So why does &lt;cite&gt;terminal-size&lt;/cite&gt; have so many updates if it's so stable?
+Because it's build on top of platform abstraction libraries that
+constantly churn, so it needs to update to avoid code duplication and
+blowing up compile times even more.&lt;/p&gt;
+&lt;p&gt;But “big supply chain” will tell you that you must do it this way.  Don't
+you dare to copy paste that function into your library.  Or don't you date
+to use “unsafe” yourself.  You're not qualified enough to write unsafe
+code, let the platform abstraction architects do that.  Otherwise someone
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/geiger-rs/cargo-geiger&quot;&gt;will slap you&lt;/a&gt;.  There are
+entire companies who are making a living of supplying you with the tools
+needed to deal with your dependency mess.  In the name of security, we're
+pushed to having dependencies and keeping them up to date, despite most of
+those dependencies being the primary source of security problems.&lt;/p&gt;
+&lt;p&gt;The goal of code in many ways should be to be written in a way that it
+does not need updates.  It should eventually achieve some level of
+stability.  In the Rust ecosystem stable code is punished.  If you have a
+perfectly working dependency but you have a somewhat inactive bug tracker,
+RUSTSEC will come by and &lt;a class=&quot;reference external&quot; href=&quot;/2024/3/26/rust-cdo/&quot;&gt;give you a chunk rating&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But there &lt;em&gt;is&lt;/em&gt; a simpler path.  You write code yourself.  Sure, it's more
+work up front, but once it's written, it's done. No new crates, no waiting
+for upsteam authors to fix that edge case.  If it's broken for you, you
+fix it yourself.  Code that works doesn't necessarily need the
+maintenance treadmill.  Your code has a corner case?  Who cares.  This is
+that vibe shift we need in the Rust world: celebrating fewer dependencies
+rather than more.&lt;/p&gt;
+&lt;p&gt;We're at a point in the most ecosystems where pulling in libraries is not
+just the default action, it's seen positively: “Look how modular and
+composable my code is!”  Actually, it might just be a symptom of never
+wanting to type out more than a few lines.&lt;/p&gt;
+&lt;p&gt;Now one will make the argument that it takes so much time to write all of
+this.  It's 2025 and it's faster for me to have ChatGPT or Cursor whip up
+a dependency free implementation of these common functions, than it is for
+me to start figuring out a dependency.  And it makes sense as for many
+such small functions the maintenance overhead is tiny and much lower than
+actually dealing with constant upgrading of dependencies.  The code is just
+a few lines and you also get the benefit of no longer need to compile
+thousands of lines of other people's code for a single function.&lt;/p&gt;
+&lt;p&gt;But let's face it: corporate code review culture has also has infected
+Open Source software.  Companies are more likely to reward engineers than
+scold them for pulling in that new “shiny library” that solves the problem
+they never actually had.  That creates problems, so dependabot and friends
+were born.  Today I just dread getting dependabot pull requests but on
+projects but I have to accept it.  I'm part of an ecosystem with my stuff
+and that ecosystem is all about churn, churn, churn.  In companies you can
+also keep entire internal engineering teams busy with vendoring
+dependencies, internal audits and upgrading things throughout the company.&lt;/p&gt;
+&lt;p&gt;Fighting this fight is incredibly hard!  Every new hire has been trained
+on the idea that dependencies are great, that code reuse is great.  That
+having old code sitting around is a sign of bad engineering culture.&lt;/p&gt;
+&lt;p&gt;It's also hard to fight this in Open Source.  Years ago I wrote &lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/sha1_smol&quot;&gt;sha1-smol&lt;/a&gt; which originally was just called
+&lt;cite&gt;sha1&lt;/cite&gt;.  It became the standard crate to calculate SHA1 hashes.
+Eventually I was pressured to donate that package name to rust-crypto and
+to depend on the rest of the crypto ecosystem as it was so established.
+If you want to use the new sha1 crate, you get to enjoy 10 dependencies.
+But there was just no way around it, because that name in the registry is
+precious and people also wanted to have trait compatibility.  It feels
+tiring to be the only person in a conversation pushing to keep the churn
+down and dependencies low.&lt;/p&gt;
+&lt;p&gt;It's time to have a new perspective: we should give kudos to engineers who
+write a small function themselves instead of hooking in a transitive web
+of crates.  We should be suspicious of big crate graphs.  Celebrated are
+the minimal dependencies, the humble function that just quietly does the
+job, the code that doesn't need to be touched for years because it was
+done right once.&lt;/p&gt;
+&lt;p&gt;And sure, it's not black and white.  There are the important libraries
+that solve hard problems.  Graphics libraries that abstract over complex
+drivers, implementations of protocols like HTTP and QUIC.  I won't be able
+to get rid of tokio and I have no desire to.  But when you end up using
+one function, but you compile hundreds, some alarm bell should go off.&lt;/p&gt;
+&lt;p&gt;We need that vibe shift.  To celebrate building it yourself when it's
+appropriate to do so.  To give credit to library authors who build low to
+no-dependency Open Source libraries.&lt;/p&gt;
+&lt;p&gt;For instance minijinja celebrates it in the readme:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ cargo tree
+minimal v0.1.0 (examples/minimal)
+└── minijinja v2.6.0 (minijinja)
+    └── serde v1.0.144
+&lt;/pre&gt;
+&lt;p&gt;And it has a PR to eventually &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/mitsuhiko/minijinja/pull/539&quot;&gt;get rid of the last dependency&lt;/a&gt;.  And sometime this
+year I will make it my goal to go ahead proudly and trim down all that fat
+in my projects.&lt;/p&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;footnote-1&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#footnote-reference-1&quot;&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Disclaimer: you will need one dependency for UNIX: &lt;cite&gt;libc&lt;/cite&gt;.  That's
+because Rust does not expose the platform's libc constants to you, and
+they are not standarized.  That however is such a common and
+lightweight dependency that you won't be able to avoid it anyways.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Automatic Server Reloading in Rust on Change: What is listenfd/systemfd?</title>
+    <id>http://lucumr.pocoo.org/2025/1/19/what-is-systemfd</id>
+    <updated>2025-01-19T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2025/1/19/what-is-systemfd" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;When I developed &lt;a class=&quot;reference external&quot; href=&quot;https://werkzeug.palletsprojects.com/&quot;&gt;Werkzeug&lt;/a&gt; (and
+later &lt;a class=&quot;reference external&quot; href=&quot;https://flask.palletsprojects.com/&quot;&gt;Flask&lt;/a&gt;), the most
+important part of the developer experience for me was enabling fast, automatic
+reloading.  Werkzeug (and with it Flask), this is achieved by using two
+procsses at all times.  The parent process holds on to the file descriptor
+of the socket on which the server listens, and a subprocess picks up that
+file descriptor.  That subprocess restarts when it detects changes.  This
+ensures that no matter what happens, there is no window where the browser
+reports a connection error.  At worst, the browser will hang until the
+process finishes reloading, after which the page loads successfully.  In
+case the inner process fails to come up during restarts, you get an error
+message.&lt;/p&gt;
+&lt;p&gt;A few years ago, I wanted to accomplish the same experience for working
+with Rust code which is why I wrote &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/mitsuhiko/systemfd&quot;&gt;systemfd&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/mitsuhiko/listenfd&quot;&gt;listenfd&lt;/a&gt;.  I however realized that I
+never really wrote here about how they work and disappointingly I think
+those crates, and a good auto-reloading experience in Rust are largely
+unknown.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;watching-for-changes&quot;&gt;
+&lt;h2&gt;Watching for Changes&lt;/h2&gt;
+&lt;p&gt;Firstly one needs to monitor the file system for changes.  While in theory
+I could have done this myself, there was already a tool that could do
+that.&lt;/p&gt;
+&lt;p&gt;At the time there was &lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/cargo-watch&quot;&gt;cargo watch&lt;/a&gt;.  Today one might instead use it
+together with the more generic &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/watchexec/watchexec&quot;&gt;watchexec&lt;/a&gt;.  Either one monitor your
+workspace for changes and then executes a command.  So you can for
+instance tell it to restart your program.  One of these will work:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+watchexec -r -- cargo run
+cargo watch -x run
+&lt;/pre&gt;
+&lt;p&gt;You will need a tool like that to do the watching part.  At this point I
+recommend the more generic &lt;cite&gt;watchexec&lt;/cite&gt; which you can find on &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/watchexec/watchexec/blob/main/doc/packages.md&quot;&gt;homebrew and
+elsewhere&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;passing-sockets&quot;&gt;
+&lt;h2&gt;Passing Sockets&lt;/h2&gt;
+&lt;p&gt;But what about the socket?  The solution to this problem I picked comes
+from &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Systemd&quot;&gt;systemd&lt;/a&gt;.  Systemd has a
+“protocol” that standardizes passing file descriptors from one process to
+another through environment variables.  In systemd parlance this is called
+“socket activation,” as it allows systemd to only launch a program if
+someone started making a request to the socket.  This concept was
+originally introduced by Apple as part of launchd.&lt;/p&gt;
+&lt;p&gt;To make this work with Rust, I created two crates:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/mitsuhiko/systemfd&quot;&gt;systemfd&lt;/a&gt; is the command
+line tool that opens sockets and passes them on to other programs.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://crates.io/crates/listenfd&quot;&gt;listenfd&lt;/a&gt; is a Rust crate that
+accepts file descriptors from systemd or &lt;cite&gt;systemfd&lt;/cite&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's worth noting that systemfd is not exclusivly useful to Rust.  The
+systemd protocol can be implemented in other languages as well, meaning
+that if you have a socket server written in Go or Python, you can also use
+systemfd.&lt;/p&gt;
+&lt;p&gt;So here is how you use it.&lt;/p&gt;
+&lt;p&gt;First you need to add &lt;cite&gt;listenfd&lt;/cite&gt; to your project:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+cargo add listenfd
+&lt;/pre&gt;
+&lt;p&gt;Then, modify your server code to accept sockets via listenfd before
+falling back to listening itself on ports provided through command-line
+arguments or configuration files.  Here is an example using &lt;cite&gt;listenfd&lt;/cite&gt; in
+axum:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;axum&lt;/span&gt;::&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;routing&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Router&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tokio&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;TcpListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;kp&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello, World!&amp;quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#[tokio::main]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;-&amp;gt; &lt;span class=&quot;nb&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;dyn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Router&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;mut&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listenfd&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listenfd&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;ListenFd&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;from_env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listener&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listenfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;take_tcp_listener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TcpListener&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;from_std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TcpListener&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0.0.0.0:3000&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;await&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;axum&lt;/span&gt;::&lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;await&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The key point here is to accept socket 0 from the environment as a TCP
+listener and use it if available.  If the socket is not provided (e.g.
+when launched without systemd/&lt;cite&gt;systemfd&lt;/cite&gt;), the code falls back to opening a
+fixed port.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;putting-it-together&quot;&gt;
+&lt;h2&gt;Putting it Together&lt;/h2&gt;
+&lt;p&gt;Finally you can use &lt;cite&gt;cargo watch&lt;/cite&gt; / &lt;cite&gt;watchexec&lt;/cite&gt; together with &lt;cite&gt;systemfd&lt;/cite&gt;:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+systemfd --no-pid -s http::8888 -- watchexec -r -- cargo run
+systemfd --no-pid -s http::8888 -- cargo watch -x run
+&lt;/pre&gt;
+&lt;p&gt;This is what the parameters mean:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;systemfd&lt;/tt&gt; needs to be first it's the program that opens the sockets.&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;--no-pid&lt;/span&gt;&lt;/tt&gt; is a flag prevents the PID from being passed.  This is necessary
+for &lt;cite&gt;listenfd&lt;/cite&gt; to accept the socket.  This is a departure of the socket
+passing protocol from systemd which otherwise does not allow ports to be
+passed through another program (like &lt;cite&gt;watchexec&lt;/cite&gt;).  In short: when the
+PID information is not passed, then listenfd will accept the socket
+regardless.  Otherwise it would only accept it from the direct parent
+process.&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;http::8888&lt;/span&gt;&lt;/tt&gt; tells &lt;cite&gt;systemfd&lt;/cite&gt; to open one TCP socket on port 8888.
+Using &lt;cite&gt;http&lt;/cite&gt; instead of &lt;cite&gt;tcp&lt;/cite&gt; is a small improvement that will cause
+systemfd to print out a URL on startup.&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;--&lt;/span&gt; watchexec &lt;span class=&quot;pre&quot;&gt;-r&lt;/span&gt;&lt;/tt&gt; makes &lt;cite&gt;watchexec&lt;/cite&gt; restart the process when something
+changes in the current working directory.&lt;/li&gt;
+&lt;li&gt;&lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;--&lt;/span&gt; cargo run&lt;/tt&gt; is the program that watchexec will start and re-start onm
+changes.  In Rust this will first compile the changes and then run the
+application.  Because we put &lt;cite&gt;listenfd&lt;/cite&gt; in, it will try to first accept
+the socket from &lt;cite&gt;systemfd&lt;/cite&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The end result is that you can edit your code, and it will recompile
+automatically and restart the server without dropping any requests.  When
+you run it, and perform changes, it will look a bit like this:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+$ systemfd --no-pid -s http::5555 -- watchexec -r -- cargo run
+~&amp;gt; socket http://127.0.0.1:5555/ -&amp;gt; fd #3
+[Running: cargo run]
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/axum-test`
+[Running: cargo run]
+   Compiling axum-test v0.1.0 (/private/tmp/axum-test)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.52s
+     Running `target/debug/axum-test`
+&lt;/pre&gt;
+&lt;p&gt;For easier access, I recommend putting this into a &lt;cite&gt;Makefile&lt;/cite&gt; or similar
+so you can just run &lt;cite&gt;make devserver&lt;/cite&gt; and it runs the server in watch mode.&lt;/p&gt;
+&lt;p&gt;To install &lt;cite&gt;systemfd&lt;/cite&gt; you can use curl to bash:&lt;/p&gt;
+&lt;pre class=&quot;literal-block&quot;&gt;
+curl -sSfL https://github.com/mitsuhiko/systemfd/releases/latest/download/systemfd-installer.sh | sh
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-about-windows&quot;&gt;
+&lt;h2&gt;What About Windows?&lt;/h2&gt;
+&lt;p&gt;Now how does this work on Windows?  The answer is that &lt;cite&gt;systemfd&lt;/cite&gt; and
+&lt;cite&gt;listenfd&lt;/cite&gt; have a custom, proprietary protocol that also makes socket
+passing work on Windows.  That's a more complex system which involves a
+local RPC server.  However the system does also support Windows and the
+details about how it works are largely irrelevant for you as a user
+—&amp;nbsp;unless you want to implement that protocol for another programming
+language.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;potential-improvements&quot;&gt;
+&lt;h2&gt;Potential Improvements&lt;/h2&gt;
+&lt;p&gt;I really enjoy using this combination, but it can be quite frustrating to
+require so many commands, and the command line workflow isn't optimal.
+Ideally, this functionality would be better integrated into specific Rust
+frameworks like axum and provided through a dedicated cargo plugin.  In a
+perfect world, one could simply run &lt;cite&gt;cargo devserver&lt;/cite&gt;, and everything
+would work seamlessly.&lt;/p&gt;
+&lt;p&gt;However, maintaining such an integrated experience is a much more involved
+effort than what I have.  Hopefully, someone will be inspired to further
+enhance the developer experience and achieve deeper integration with Rust
+frameworks, making it more accessible and convenient for everyone.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lucumr.pocoo.org/feed.atom">
+    <title type="text">Reflecting on Life</title>
+    <id>http://lucumr.pocoo.org/2024/12/26/reflecting-on-life</id>
+    <updated>2024-12-26T00:00:00Z</updated>
+    <link href="http://lucumr.pocoo.org/2024/12/26/reflecting-on-life" />
+    <author>
+      <name>Armin Ronacher</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Last year I decided that I want to share my most important learnings
+about engineering, teams and quite frankly personal mental health. My hope
+is that those who want to learn from me find it useful. This is a
+continuation to this.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Over the years, I've been asked countless times: “What advice would you
+give to young programmers or engineers?”  For the longest time, I
+struggled to answer.  I wasn't sure I had anything definitive or profound
+to offer.  And truthfully, even now, I'm not convinced I have enough
+answers.  But as I've reflected on my journey to here, I've formulated
+some ideas that I believe are worth sharing —&amp;nbsp;if only to provide a bit of
+guidance to those just starting out.  For better or worse, I think those
+things are applicable regardless of profession.&lt;/p&gt;
+&lt;p&gt;My core belief is that fulfillment and happiness comes from deliberate
+commitment to meaningful work, relationships, and personal growth and
+purpose.  I don't claim that these things can be replicated, but they
+worked for me and some others, so maybe they can be of use for you.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;put-time-in&quot;&gt;
+&lt;h2&gt;Put Time In&lt;/h2&gt;
+&lt;p&gt;Putting time into work and skills — and by that truly investing oneself —
+is always worth it.&lt;/p&gt;
+&lt;p&gt;Whether it's working on a project, solving a difficult problem, or even
+refining soft skills like communication, the act of showing up and putting
+in the hours is essential.  Practice makes perfect, but more so it's all
+about progress rather than perfection.  Each hour you spend iterating,
+refining, failing and retrying brings you closer to excellence.  It
+doesn't always feel that way in the moment but when you look back at what
+you did before, you will see your progress.  And that act of looking back,
+and seeing how you improved, is immensely rewarding and in turn makes you
+enjoy your work.&lt;/p&gt;
+&lt;p&gt;I did not start out enjoying programming, not at all.  I had a friend in
+school who was just better than me at everything.  It felt demotivating.
+Programming turned out to be a necessary tool that I had to build things
+and to share with others, and through that, I eventually ended up enjoying
+it.&lt;/p&gt;
+&lt;p&gt;There is a narrative that working hard is inherently bad for your health
+or that long hours lead to burnout.  I disagree.  It's not about how many
+hours you put in, but about the enjoyment and quality of the work you're
+doing.  Still some of my most favorite memories were some all-nighters I
+did when I was younger working on something.  It wasn't even necessarily
+on projects that ended up meaningful or successful, but it was the act in
+itself.  When you find joy in what you're building in the moment, work
+does not feel like a burden.  Instead it feels exciting and exhilarating.
+These memories, that some might describe as unhealthy are some of my most
+pleasant ones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;work-and-the-man&quot;&gt;
+&lt;h2&gt;Work And The Man&lt;/h2&gt;
+&lt;p&gt;The key isn't avoiding hard work but finding meaning in it.  Practice and
+effort, when coupled with a sense of purpose, not only make you better at
+what you do but also make the journey itself fulfilling.  There is one
+catch however, and that is that your payout should not just be your
+happiness in the moment, but it should be long lasting.&lt;/p&gt;
+&lt;p&gt;The best way to completely destroy your long term satisfaction is if the
+effort you are putting into something is not reciprocated or the nature
+of the work feels meaningless.  It's an obvious privilege to recommend
+that one shall not work for exploitative employers but you owe yourself to
+get this right.  With time you build trust in yourself, and the best way
+to put this trust to use, is to break out of exploitative relationships.&lt;/p&gt;
+&lt;p&gt;If you end up doing things you do not believe in, it will get to you.  It
+will not just demotivate you and make you unhappy at work, it will
+eventually make every hour you spent miserable and eventually get to your
+health.&lt;/p&gt;
+&lt;p&gt;Other than sleeping, work is what you spent the most time with for a
+significant portion of your life.  If that is not fulfilling a core pillar
+of what can provide happiness is not supporting you.  I have seen people
+advocate for just not caring to fix the work aspect, instead to work less
+and spend more free time.  I have not found that to work for me.  Work
+needs to be fulfilling, even if work is just a few hours a day.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;dare-to-commit&quot;&gt;
+&lt;h2&gt;Dare To Commit&lt;/h2&gt;
+&lt;p&gt;Life isn't about sampling everything; it’s about making deliberate choices
+and committing to the ones that matter.  You don't need to date twenty
+people to find the right partner, nor do you need a network of hundred
+acquaintances to succeed.  Similarly, you don't need to work at ten
+different companies to build a meaningful career.  Those things can be
+hugely beneficial, don't get me wrong, but you can do more with less too.
+When you focus on taking one step at a time, choosing the best option
+available to you in that moment you can accomplish great things.  Feel
+free to look to others for inspiration, but &lt;a class=&quot;reference external&quot; href=&quot;/2023/2/9/everybody-is-complex/&quot;&gt;do not to compare&lt;/a&gt; what they have versus what you don't.
+Nothing good will come from that.  Everyone's journey is unique, shaped by
+the opportunities they encounter and the paths they decide to follow.
+Value grows not with the breadth of options explored but with the depth of
+commitment to the path you've chosen.&lt;/p&gt;
+&lt;p&gt;Just as mastering a skill pays dividends, so does committing on your
+personal or professional journey.  Even if the world around you shifts —
+like the rise of AI in software engineering — your experience and
+expertise aren't wasted.  Your gained experience makes it much easier for
+you to adjust course and it will give you the necessary trust in yourself.
+It allows to leverage what you've learned in new ways.  While it's true
+that choosing from limited options might not always lead to the “best”
+possible outcome, the time and effort you invest in your chosen path can
+often outweigh the hypothetical gains of a different choice.  In many
+cases, mastery and fulfillment come not from chasing endless possibilities
+but from fully embracing the one path you're on and making it your own.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;date-to-marry&quot;&gt;
+&lt;h2&gt;Date to Marry&lt;/h2&gt;
+&lt;p&gt;To me this happened through a lucky accident but it's something I strongly
+believe in.  I'm an agnostic, I don't hold strong religious beliefs but I
+do believe in the purpose of and benefits of a lasting marriage.  When my
+wife and I met I did not think I was in a position in my life where I had
+interest, desire or necessity in a deep relationship, let alone to marry.
+We did not live in the same country when we met and we had a long distance
+relationship for almost a year.  That kind of relationship (particularly
+when visa issues are involved) has one incredible benefit: you really have
+to commit to your relationship.  It's expensive and you spend a lot of
+time talking and sharing intimate thoughts.  It also forces you to make a
+concious decision if the two of you believe it's worth continuing.  You
+don't have the option to just “test drive” it.  It forces you to figure
+out all the hard things upfront.  Career, values, ambitions, children, the
+whole thing.  That's a very different experience to swiping right and see
+what comes from it.&lt;/p&gt;
+&lt;p&gt;That one year of intensive dating changed me.  I started to recognize the
+benefits of committing to something on a much deeper level.  It taught me
+that vulnerability and opening yourself up can be a beautiful thing.  It
+showed me that there was a whole part to myself I did not look into.  It
+showed me that really committing to something, opens up a whole new world
+of opportunity and it allowed us to really invest into our relationship.&lt;/p&gt;
+&lt;p&gt;When you commit to your partner fully you get a lot in the process.  Yes,
+there are risks and while you're dating, you need to figure these things
+out.  You need to know on a fundamental level that the person you're
+dating is going to be the one you want to be with for a lifetime.  That's
+not easy, because no human is perfect.  Yet if that is the goal, you can
+poke at the parts where dragons can be.  Only in situations of stress and
+challenge will you truly find out how the other person works and if that
+works for you.&lt;/p&gt;
+&lt;p&gt;I have heard people talk about “going to IKEA” for a date.  I think that's
+a brilliant idea.  Imagining a life together and struggling a bit through
+conflict and resolution is exactly the right way to go about it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;having-children&quot;&gt;
+&lt;h2&gt;Having Children&lt;/h2&gt;
+&lt;p&gt;Very few things have so profoundly changed me as our first child.&lt;/p&gt;
+&lt;p&gt;Seeing children grow up is such a moving experience.  I enjoy being with
+them in moments of achievements or sadness alike and I love when they
+surprise me in the morning with their newfound wisdom or after school with
+their proud achievements.  It's fun to play with them, to help them learn
+new things and you can do things together you haven't done since your own
+childhood.&lt;/p&gt;
+&lt;p&gt;I'm lucky to have kids.  I grew up in a society that has largely painted a
+pretty dark picture about having children but I do not share those views.
+We knew we wanted children and I'm glad we didn't wait.  You can't cheat
+nature on this thing and at the present state of scientific development,
+things still are much harder if you try to have children late.&lt;/p&gt;
+&lt;p&gt;Nothing will ever be perfect.  There were sleepless nights, there are the
+sicknesses that come in autumn with daycare and school.  You need to
+arrange things in different ways than you were used to.  You will hear a
+lot from parents and educators about what is is like to have children but
+the reality however is that I don't think it's possible to know how it
+is to have kids until you do.  In a way you have to jump into the cold
+water and there is no going back.&lt;/p&gt;
+&lt;p&gt;There are some important prerequisites though, but I think differently
+about them now then I did before.  I don't think that you need a lot of
+money or a stable career, but you need to have your marriage and house in
+order.  The most important thing I learned about having children is that
+you first and foremost need to take care of yourself.  Any stress you
+experience, you will pass on to your children and it will harm them in the
+process.  This is really important.  There are lots of dysfunctional
+households and bad parents and you should not have children if you can't
+take care of yourself.&lt;/p&gt;
+&lt;p&gt;Those are the important parts, but then there are superficial issues.  I
+almost entirely opted out of reading parental advise books because I could
+feel how they stress me out.  I found it easier to take on challenges as
+they arrive naturally.  If you have a loving relationship with your spouse
+you can extend that to your children and learn how to deal with challenges
+calmly (or as calmly as you can).  You need to be there for each other.
+Your children will not become more successful because you mastered breast
+feeding on day one or if you taught them sign language before they can
+talk.  They will however be significantly better off if you can jump on a
+moment's notice to take care of your spouse or child when something goes
+wrong.&lt;/p&gt;
+&lt;p&gt;Our experience is unlikely to be your experience, but there are some
+things that are shared among parents.  You grow above yourself when all
+the sudden become fully responsible for another human being and you can't
+opt out of it.  It also invites you to reflect on yourself more and how
+you came to be the person that you are.  I also don't think it makes you
+any less ambitious, but it changes how you define success for yourself.
+Your horizon opens up and it really makes you think more about the
+totality of your family rather than yourself.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;My life isn't about perfection or constantly chasing what's next; it's
+about being present and committing to the things that matter.  This is
+also what I'm passing on to my children.  Whatever your journey may look
+like, I hope you find joy, purpose, and the courage to commit fully to it
+and that you found something useful in my writings.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
+

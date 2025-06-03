@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:thr="http://purl.org/syndication/thread/1.0"
+      xml:lang="fr">
+	<title type="text">Ploum.net</title>
+	<subtitle type="text">le blog de Lionel Dricot</subtitle>
+
+	<updated>2025-05-23T10:45:17.546558Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://ploum.net/" />
+	<id>https://ploum.net/</id>
+	<link rel="self" type="application/atom+xml" href="https://ploum.net/atom.xml" />
+<entry xml:lang="en">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Reducing the digital clutter of chats</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-05-23-chats-digital-clutter.html" />
+	<id>https://ploum.net/2025-05-23-chats-digital-clutter.html</id>
+	<published>2025-05-23T00:00:00Z</published>
+	<updated>2025-05-23T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Reducing the digital clutter of chats&lt;/h1&gt;
+		&lt;p&gt;I hate modern chats. They presuppose we are always online, always available to chat. They force us to see and think about them each time we get our eyes on one of our devices. Unlike mailboxes, they are never empty. We can’t even easily search through old messages (unlike the chat providers themselves, which use the logs to learn more about us). Chats are the epitome of the business idiot: they make you always busy but prevent you from thinking and achieving anything.&lt;/p&gt;
+&lt;p&gt;It is quite astonishing to realise that modern chat systems use 100 or 1000 times more resources (in size and computing power) than 30 years ago, that they are less convenient (no custom client, no search) and that they work against us (centralisation, surveillance, ads). But, yay, custom emojis!&lt;/p&gt;
+&lt;p&gt;Do not get me wrong: chats are useful! When you need an immediate interaction or a quick on-the-go message, chats are the best.&lt;/p&gt;
+&lt;p&gt;I needed to keep being able to chat while keeping the digital clutter to a minimal and preserving my own sanity. That’s how I came up with the following rules.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;Rule 1: One chat to rule them all&lt;/h2&gt;
+&lt;p&gt;One of the biggest problems of centralised chats is that you must be on many of them. I decided to make Signal my main chat and to remove others.&lt;/p&gt;
+&lt;p&gt;Signal was, for me, a good compromise of respecting my privacy, being open source and without ads while still having enough traction that I could convince others to join it.&lt;/p&gt;
+&lt;p&gt;Yes, Signal is centralised and has drawbacks like relying on some Google layers (which I worked around by using Molly-FOSS). I simply do not see XMPP, Matrix or SimpleX becoming popular enough in the short term. Wire and Threema had no advantages over Signal. I could not morally justify using Whatsapp nor Telegram.&lt;/p&gt;
+&lt;p&gt;In 2022, as I decided to use Signal as my main chat, I deleted all accounts but Signal and Whatsapp and disabled every notification from Whatsapp, forcing myself to open it once a week to see if I had missed something important. People who really wanted to reach me quickly understood that it was better to use Signal. This worked so well that I forgot to open Whatsapp for a whole month which was enough for Whatsapp to decide that my account was not active anymore. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/le-suicide-de-mon-compte-whatsapp/index.html&quot;&gt;Le suicide de mon compte WhatsApp (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not having Whatsapp is probably the best thing which happened to me regarding chats. Suddenly, I was out of tenths or hundreds of group chats. Yes, I missed lots of stuff. But, most importantly, I stopping fearing missing them. Seriously, I never missed having Whatsapp. Not once. Thanks Meta for removing my account!&lt;/p&gt;
+&lt;p&gt;While travelling in Europe, it is now standard that taxi and hotels will chat with you using Whatsapp. Not anymore for me. Guess what? It works just fine. In fact, I suspect it works even better because people are forced to either do what we agreed during our call or to call me, which requires more energy and planning. &lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Rule 2: Mute, mute, mute!&lt;/h2&gt;
+&lt;p&gt;Now that Signal is becoming more popular, some group chats are migrating to it. But I’ve learned the lesson : I’m muting them. This allows me to only see the messages when I really want to look at them. Don’t hesitate to mute vocal group chats and people with whom you don’t need day-to-day interaction.&lt;/p&gt;
+&lt;p&gt;I’m also leaving group chats which are not essential. Whatsapp deletion told me that nearly no group chat is truly essential.&lt;/p&gt;
+&lt;p&gt;Many times, I’ve had people sending me emails about what was told on a group chat because they knew I was not there. Had I been on that group, I would probably have missed the messages but nobody would have cared. If you really want to get in touch with me, send me an email! &lt;/p&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;Rule 3: No read receipts nor typing indicators&lt;/h2&gt;
+&lt;p&gt;I was busy, walking in the street with my phone in hands for directions. A notification popped up with an important message. It was important but not urgent. I could not deal with the message at that moment. I wanted to take the time. One part of my brain told me not to open the message because, if I did, the sender would see a &amp;quot;read receipt&amp;quot;. He would see that I had read the message but would not receive any answer.&lt;/p&gt;
+&lt;p&gt;For him, that would probably translate in &amp;quot;he doesn’t care&amp;quot;. I consciously avoided to open Signal until I was back home and could deal with the message.&lt;/p&gt;
+&lt;p&gt;That’s when I realised how invasive the &amp;quot;read receipt&amp;quot; was. I disabled it and never regretted that move. I’m reading messages on my own watch and replying when I want to. Nobody needs to know if I’ve seen the message. It is wrong in every aspect.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/signal_receipts.jpg&quot;&gt;&lt;img alt=&quot;Signal preferences showing read receipts and typing indicator disabled&quot; src=&quot;https://ploum.net/files/signal_receipts.jpg&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Signal preferences showing read receipts and typing indicator disabled&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Rule 4: Temporary discussions only&lt;/h2&gt;
+&lt;p&gt;The artist Bruno Leyval, who did the awesome cover of my novel Bikepunk, is obsessed with deletion and disappearance. He set our Signal chat so that every message is deleted after a day. At first, I didn’t see the point. &lt;/p&gt;
+&lt;p&gt;Until I understood that this was not only about privacy, it also was about decluttering our mind, our memories.&lt;/p&gt;
+&lt;p&gt;Since then, I’ve set every chat in Signal to delete messages after one week.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/signal_disappearing.jpg&quot;&gt;&lt;img alt=&quot;Signal preferences showing disappearing messages set to one week&quot; src=&quot;https://ploum.net/files/signal_disappearing.jpg&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Signal preferences showing disappearing messages set to one week&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This might seem like nothing but this changes everything. Suddenly, chats are not a long history of clutter. Suddenly, you see chats as transient and save things you want to keep. Remember that you can’t search in chats? This means that chats are transient anyway. With most chats, your history is not saved and could be lost by simply dropping your phone on the floor. Something important should be kept in a chat? Save it! But it should probably have been an email.&lt;/p&gt;
+&lt;p&gt;Embracing the transient nature of chat, making it explicit greatly reduce the clutter.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I know that most of you will say that &amp;quot;That’s nice Ploum but I can’t do that because everybody is on XXX&amp;quot; where XXX is most often Whatsapp in my own circles. But this is wrong: you believe everybody is on XXX because you are yourself using XXX as your main chat. When surveying my students this year, I’ve discovered that nearly half of them was not on Whatsapp. Not for some hard reason but because they never saw the need for it. In fact, they were all spread over Messenger, Instagram, Snap, Whatsapp, Telegram, Discord. And they all believed that &amp;quot;everybody is where I am&amp;quot;. &lt;/p&gt;
+&lt;p&gt;In the end, the only real choice to make is between being able to get immediately in touch with a lot of people or having room for your mental space. I choose the latter, you might prefer the former. That’s fine!&lt;/p&gt;
+&lt;p&gt;I still don’t like chat. I’m well aware that the centralised nature of Signal makes it a short-term solution. But I’m not looking for the best sustainable chat. I just want fewer chats in my life.&lt;/p&gt;
+&lt;p&gt;If you want to get in touch, send me an email!&lt;/p&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;I’m &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt;, a writer and an engineer. I like to explore how technology impacts society. You can subscribe &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;by email&lt;/a&gt; or &lt;a href=&quot;/atom_en.xml&quot;&gt;by rss&lt;/a&gt;. I value privacy and never share your adress.&lt;/p&gt;
+&lt;p&gt;I write &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;science-fiction novels in French&lt;/a&gt;. For &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, my new post-apocalyptic-cyclist book, my publisher is looking for contacts in other countries to distribute it in languages other than French. If you can help, &lt;a href=&quot;about.html&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt; 
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Petit manifeste low-tech</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-05-16-manifeste-lowtech.html" />
+	<id>https://ploum.net/2025-05-16-manifeste-lowtech.html</id>
+	<published>2025-05-16T00:00:00Z</published>
+	<updated>2025-05-16T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Petit manifeste low-tech&lt;/h1&gt;
+		&lt;p&gt;Ce samedi 17 mai, je pédalerai vers Massy en compagnie de Tristan Nitot pour parler &amp;quot;low-tech&amp;quot; et dédicacer Bikepunk lors du festival Parlons Vélo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://parlonsvelo-massy.org/&quot;&gt;Parlons Vélo Massy 2025 (parlonsvelo-massy.org)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Attention, ce qui va suivre divulgâche une partie de ce que je dirai samedi midi à Massy. Si vous venez, arrêtez de lire ici, on se retrouve demain !&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;Qu’est-ce que la low-tech ?&lt;/h2&gt;
+&lt;p&gt;Le terme low-tech nous fait intuitivement sentir une opposition contre l’excès technologique (le &amp;quot;high tech&amp;quot;) tout en évitant l’extrémisme technophobique. Un terme qui enthousiasme, mais qu’il me semble important d’expliciter et dont je propose la définition suivante.&lt;/p&gt;
+&lt;blockquote&gt; Une technologie est dite « low-tech » si les personnes interagissant avec cette technologie savent et peuvent en comprendre son fonctionnement.&lt;br&gt;&lt;/blockquote&gt;
+&lt;p&gt;Savoir comprendre. Pouvoir comprendre. Deux éléments essentiels (et difficiles à distinguer pour le Belge que je suis).&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Savoir comprendre&lt;/h2&gt;
+&lt;p&gt;Savoir comprendre une technologie implique d’avoir la possibilité de construire un modèle intellectuel de son fonctionnement interne.&lt;/p&gt;
+&lt;p&gt;Il est bien évident que tout le monde n’a pas la capacité de comprendre toutes les technologies. Mais il est possible de procéder par niveau. La majorité des automobilistes sait qu’une voiture à essence brûle le carburant qui explose dans un moteur, explosion qui entraine des pistons qui font tourner les roues. Le nom est un indice en soi : un moteur à explosion !&lt;/p&gt;
+&lt;p&gt;Si je n’en comprends pas plus sur le fonctionnement d’un moteur, j’ai la certitude qu’il existe des personnes qui comprennent mieux, souvent dans mon entourage direct. Au plus la compréhension est fine, au plus les personnes deviennent rares, mais chacun peut tenter de s’améliorer.&lt;/p&gt;
+&lt;p&gt;La technologie est simple sans être simpliste. Cela signifie que sa complexité peut être appréhendée graduellement. Et qu’il existe des experts qui appréhendent une technologie particulière dans sa globalité.&lt;/p&gt;
+&lt;p&gt;Par opposition, il est aujourd’hui humainement impossible de comprendre un smartphone moderne. Seuls quelques expert·e·s dans le monde maitrisent chacun·e un point particulier de l’objet : du dessin de l’antenne 5G au logiciel retouchant automatiquement les photos en passant par le chargement rapide de la batterie. Et aucun d’entre eux ne maitrise la conception d’un compilateur nécessaire à faire tourner le tout. Même un génie passant sa vie à démonter des smartphones serait dans l’incapacité totale de comprendre ce qui se passe à l’intérieur d’un engin que nous avons tous en permanence soit dans une poche, soit devant notre nez !&lt;/p&gt;
+&lt;p&gt;L’immense majorité des utilisateurs de smartphones n’ont pas le moindre modèle mental de son fonctionnement. Je ne parle pas d’un modèle erroné ou simpliste : non, il n’y en a pas du tout. L’objet est « magique ». Pourquoi affiche-t-il quelque chose plutôt qu’un autre ? Parce que c’est « magique ». Et comme pour la magie, il ne faut pas chercher à comprendre.&lt;/p&gt;
+&lt;p&gt;La low-tech peut être extrêmement complexe, mais l’existence même de cette complexité doit être compréhensible et justifiée. Une complexité transparente encourage naturellement les esprits curieux à se poser des questions.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;Le temps de comprendre&lt;/h2&gt;
+&lt;p&gt;Comprendre une technologie prend du temps. Cela implique une relation longue, une expérience qui se crée tout au long d’une vie, qui se partage, qui se transmet.&lt;/p&gt;
+&lt;p&gt;Par opposition, la high-tech impose un renouvellement, une mise à jour constante, des changements d’interface et de fonctionnalité permanents qui renforcent l’aspect « magique » et entraine le découragement de celleux qui tentent de se construire un modèle mental.&lt;/p&gt;
+&lt;p&gt;La low-tech doit donc nécessairement être durable. Pérenne. Elle doit s’enseigner et permettre une construction progressive de cet enseignement.&lt;/p&gt;
+&lt;p&gt;Cela implique parfois des efforts, des difficultés. Tout ne peut pas toujours être progressif : à un moment, il faut se lancer sur son vélo pour apprendre à garder l’équilibre.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Pouvoir comprendre&lt;/h2&gt;
+&lt;p&gt;Historiquement, il semble évident que toute technologie a la possibilité d’être comprise. Les personnes interagissant avec la technologie étaient forcées de réparer, d’adapter et donc de comprendre. Une technologie était essentiellement matérielle, ce qui implique qu’elle pouvait être démontée.&lt;/p&gt;
+&lt;p&gt;Avec le logiciel apparait un nouveau concept : celui de cacher le fonctionnement. Et si, historiquement, tout logiciel est open source, l’invention du logiciel propriétaire rend difficile, voire impossible, de comprendre une technologie.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/index.html&quot;&gt;L’histoire du logiciel : entre collaboration et confiscation des libertés (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le logiciel propriétaire n’a pu être inventé que grâce à la création d’un concept récent, au demeurant absurde, appelé « propriété intellectuelle ». &lt;/p&gt;
+&lt;p&gt;Cette propriété intellectuelle ayant permis la privatisation de la connaissance dans le logiciel, elle est ensuite étendue au monde matériel. Soudainement, il devient possible d’interdire à une personne de tenter de comprendre la technologie qu’elle utilise au quotidien. Grâce à la propriété intellectuelle, des fermiers se voient soudain interdits d’ouvrir le capot de leur propre tracteur.&lt;/p&gt;
+&lt;p&gt;La low-tech doit être ouverte. Elle doit pouvoir être réparée, modifiée, améliorée et partagée.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;De l’utilisateur au consommateur&lt;/h2&gt;
+&lt;p&gt;Grâce à la complexification, aux changements incessants et à l’imposition d’un régime strict de « propriété intellectuelle », les utilisateurs ont été transformés en consommateurs. &lt;/p&gt;
+&lt;p&gt;Ce n’est pas un hasard. Ce n’est pas une évolution inéluctable de la nature. Il s’agit d’un choix conscient. Toutes les écoles de commerce enseignent aux futurs entrepreneurs à se construire un marché captif, à priver autant que possible leur client de liberté, à construire ce qu’on appelle dans le jargon une &amp;quot;moat&amp;quot; (douve qui protège un château) afin d’augmenter la « rétention des utilisateurs ».&lt;/p&gt;
+&lt;p&gt;Les termes eux-mêmes deviennent flous pour renforcer ce sentiment de magie. On ne parle par exemple plus de transférer un fichier .jpg vers un ordinateur distant, mais de « sauvegarder ses souvenirs dans le cloud ».&lt;/p&gt;
+&lt;p&gt;Les marketeux nous ont fait croire qu’en supprimant les mots compliqués, ils simplifieraient la technologie. C’est évidemment le contraire. L’apparence de simplicité est une complexité supplémentaire qui emprisonne l’utilisateur. Toute technologie nécessite un apprentissage. Cet apprentissage doit être encouragé.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-6&quot;&gt;Pour une approche et une éthique low-tech&lt;/h2&gt;
+&lt;p&gt;L’éthique low-tech consiste à se remettre au service de l’utilisateur en lui facilitant la compréhension de ses outils.&lt;/p&gt;
+&lt;p&gt;La high-tech n’est pas de la magie, c’est de la prestidigitation. Plutôt que de cacher les « trucs » sous des artifices, la low-tech cherche à montrer et à créer une utilisation en conscience de la technologie.&lt;/p&gt;
+&lt;p&gt;Cela n’implique pas nécessairement une simplification à outrance.&lt;/p&gt;
+&lt;p&gt;Prenons l’exemple d’une machine à laver le linge. Nous comprenons tous qu’une machine de base est un tambour qui tourne dans lequel est injecté de l’eau et du savon. C’est très simple et low-tech.&lt;/p&gt;
+&lt;p&gt;On pourrait arguer que l’ajout de capteurs et de contrôleurs électroniques permet de laver le linge plus efficacement et plus écologiquement en le pesant et adaptant la vitesse de rotation en fonction du type de linge.&lt;/p&gt;
+&lt;p&gt;Dans une optique low-tech, un boitier électronique est ajouté à la machine pour faire exactement cela. Si le boitier est retiré ou tombe en panne, la machine continue à fonctionner simplement. L’utilisateur peut choisir de débrancher le boitier ou de le remplacer. Il en comprend l’utilité et la justification. Il construit un modèle mental dans lequel le boitier ne fait qu’appuyer sur les boutons de réglage au bon moment. Et, surtout, il ne doit pas envoyer toute la machine à la casse parce que la puce wifi ne fonctionne plus et n’est plus mis à jour ce qui a bloqué le firmware (quoi ? Ma machine à laver dispose d’une puce wifi ?).&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-7&quot;&gt;Pour une communauté low-tech &lt;/h2&gt;
+&lt;p&gt;Une technologie low-tech encourage et donne l’occasion à l’utilisateur à la comprendre, à se l’approprier. Elle tente de rester stable dans le temps, se standardise. Elle ne cherche pas à cacher la complexité intrinsèque partant du principe que la simplicité provient de la transparence.&lt;/p&gt;
+&lt;p&gt;Cette compréhension, cette appropriation ne peut se faire que dans l’interaction. Une technologie low-tech va donc, par essence, favoriser la création de communautés et les échanges humains autour de cette même technologie.&lt;/p&gt;
+&lt;p&gt;Pour contribuer à l’humanité et aux communautés, une technologie low-tech se doit d’appartenir à tou·te·s, de faire partie des communs.&lt;/p&gt;
+&lt;p&gt;J’en arrive donc à cette définition, complémentaire et équivalente à la première :&lt;/p&gt;
+&lt;blockquote&gt; Une technologie est dite « low-tech » si elle expose sa complexité de manière simple, ouverte, transparente et durable tout en appartenant aux communs.&lt;br&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Gears_-_Thomas_Claveirole.jpg&quot;&gt;Photo par Thomas Claveirole&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Comment l’université tue le livre (et les intellectuels)</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-05-14-sauvons-la-biblio-de-lln.html" />
+	<id>https://ploum.net/2025-05-14-sauvons-la-biblio-de-lln.html</id>
+	<published>2025-05-14T00:00:00Z</published>
+	<updated>2025-05-14T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Comment l’université tue le livre (et les intellectuels)&lt;/h1&gt;
+		&lt;h2 id=&quot;soustitre-1&quot;&gt;Il faut sauver la bibliothèque de Louvain-la-Neuve&lt;/h2&gt;
+&lt;p&gt;Menacée d’expulsion par l’université, la bibliothèque publique de Louvain-la-Neuve risque de disparaître. Il est urgent de signer la pétition pour tenter de la sauver.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.petitionenligne.be/lavenir_de_la_bibliotheque_publique_de_lln_et_de_sa_ludotheque&quot;&gt;Signez la pétition pour sauver la bibliothèque de Louvain-la-Neuve !&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais ce n’est pas un événement isolé, ce n’est pas un accident. Il ne s’agit que d’une escarmouche dans la longue guerre que la ville, l’université et la société de consommation mènent contre les livres et, à travers eux, contre l’intellectualisme.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Le livre, outil indispensable de l’intellectuel&lt;/h2&gt;
+&lt;p&gt;L’une des tâches que je demande chaque année à mes étudiants avant l’examen est de lire un livre. Si possible de fiction ou un essai, mais un livre non technique.&lt;/p&gt;
+&lt;p&gt;Au choix.&lt;/p&gt;
+&lt;p&gt;Bien sûr, je donne des idées en rapport avec mon cours. Notamment « Little Brother » de Cory Doctorow qui est facile à lire, prenant, et tout à fait dans le sujet. Mais les étudiants sont libres.&lt;/p&gt;
+&lt;p&gt;Chaque année, plusieurs étudiants me glissent lors de l’examen qu’ils n’avaient plus lu un livre depuis l’école secondaire, mais que, en fait, c’était vraiment chouette et que ça fait vraiment réfléchir. Que sans moi, ils auraient fait toutes leurs études d’ingénieur sans lire un seul livre autre que des manuels.&lt;/p&gt;
+&lt;p&gt;Les livres, qui forcent une lecture sur un temps long, qui forcent une immersion, sont l’outil indispensable de l’intellectuel et de l’humaniste. Il est impossible de réfléchir sans livre. Il est impossible de prendre du recul, de faire de nouveaux liens et d’innover sans être baigné dans la diversité d’époques, de lieux et d’expériences humaines que sont les livres. On peut surnager pendant des années dans un domaine voire devenir compétent sans lire. Mais la compréhension profonde, l’expertise nécessite des livres.&lt;/p&gt;
+&lt;p&gt;Ceux qui ne lisent pas de livres sont condamnés à se satisfaire de superficialité, à se laisser manipuler, à obéir aveuglément. Et c’est peut-être ça l’objectif.&lt;/p&gt;
+&lt;p&gt;J’estime que l’université ne doit pas former de bons petits consultants obéissants et employables, mais des intellectuels humanistes. La mission première de l’université passe par la diffusion, la promotion, l’appropriation de la culture intellectuelle du livre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-01-29-bon_consultant.html&quot;&gt;Et si on arrêtait d’être de bons petits consultants obéissants ? (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;Entre l’humanisme et le profit immobilier, l’université a choisi&lt;/h2&gt;
+&lt;p&gt;Mais, à Louvain-la-Neuve, l’université semble se transformer en simple agence immobilière. La ville qui, en 50 ans, s’est créée autour de l’université est en train de se transformer pour n’offrir graduellement plus que deux choses : de la bouffe et des fringues.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/il-faut-agrandir-le-centre-commercial/index.html&quot;&gt;Il faut agrandir le centre commercial ! (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En 2021, le bouquiniste de la place des Wallons, présent depuis 40 ans grâce à un bail historique, a vu son propriétaire, l’université, lui infliger une augmentation de loyer vertigineuse. Je l’ai vu, les yeux pleins de larmes, mettant en caisse les milliers de bandes dessinées de son stock afin de laisser la place à… un vendeur de gauffres !&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/les-monopoles-du-livre-les-alternatives-et-le-futur/index.html&quot;&gt;Les monopoles du livre, les alternatives et le futur (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ce fut ensuite le tour du second bouquiniste de la ville, une minuscule échoppe aux murs noircis de livres de philosophie où nous nous retrouvions régulièrement entre habitués pour nous disputer quelques pièces rares. Le couple qui tenait la bouquinerie m’a confié que, devant le prix du loyer, également versé à l’université, il était plus rentable pour eux de devenir bouquinistes itinérants. « Ça ne va pas vous plaire ! » m’a confié la gérante lorsque j’ai demandé qui reprendrait son espace. Quelques semaines plus tard, en effet, surgissait une vitrine vendant des sacs à mains !&lt;/p&gt;
+&lt;p&gt;Quant à la librairie principale de la ville, l’historique librairie Agora, elle fut rachetée par le groupe Furet du Nord dont la section belge a fait faillite. Il faut dire que la librairie occupait un énorme espace appartenant en partie au promoteur immobilier Klépierre et à l’université. D’après mes sources, le loyer mensuel s’élevait à… 35.000€ ! &lt;/p&gt;
+&lt;p&gt;De cette faillite, j’ai récupéré plusieurs meubles bibliothèques qui étaient à donner. L’ouvrier qui était en train de nettoyer le magasin me souffla, avec un air goguenard, que les étudiants allaient être contents du changement ! Il n’avait pas le droit de me dire ce qui remplacerait la librairie, mais, promis, ils allaient être contents.&lt;/p&gt;
+&lt;p&gt;En effet, il s’agissait d’un projet de… Luna Park !  (qui, bien que terminé, n’a pas obtenu l’autorisation d’ouvrir ses portes suite aux craintes des riverains concernant le tapage qu’un tel lieu engendre) &lt;/p&gt;
+&lt;p&gt;Mais l’université ne comptait pas en rester là. Désireuse de récupérer des locaux pourtant sans aucun potentiel commercial, elle a également mis dehors le centre de livres d’occasion Cerfaux Lefort. Une pétition pour tenter de le sauver a récolté 3000 signatures. Sans succès.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rtbf.be/article/le-centre-cerfaux-lefort-a-ferme-ses-portes-a-lln-au-grand-desarroi-du-collectif-et-des-etudiants-qui-militaient-pour-son-maintien-11481887&quot;&gt;Le Centre Cerfaux-Lefort a fermé ses portes à LLN, au grand désarroi du collectif et des étudiants qui militaient pour son maintien (www.rtbf.be)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Puisque ça fonctionne, enfonçons le clou !&lt;/h2&gt;
+&lt;p&gt;Pendant quelques mois, Louvain-la-Neuve, ville universitaire et intellectuelle, s’est retrouvée sans librairie ! Consciente que ça faisait désordre, l’université a offert des conditions correctes à une équipe motivée pour créer la librairie « La Page d’Après » dans une petite surface. La libraire est petite et, par conséquent, doit faire des choix (la littérature de genre, mon domaine de prédilection, occupe moins d’une demi-table).&lt;/p&gt;
+&lt;p&gt;Je me suis évidemment enthousiasmé pour le projet de la Page d’Après, dont je suis immédiatement devenu un fidèle. Je n’avais pas imaginé l’esprit retors du promoteur immobilier qu’est devenue l’université : le soutien à la Page d’Après (qui n’est que très relatif, la surface n’est pas offerte non plus) est devenu l’excuse à la moindre critique !&lt;/p&gt;
+&lt;p&gt;Car c’est aujourd’hui la bibliothèque publique de Louvain-la-Neuve elle-même qui est menacée à très court terme. La partie ludothèque et livres jeunesse est d’ores et déjà condamnée pour laisser la place à une extension du restaurant universitaire. Le reste de la bibliothèque est sur la sellette. L’université estime en effet qu’elle pourrait tirer 100.000€ par an de loyer et qu’elle n’a aucune raison d’offrir 100.000€ à une institution qui ne pourrait évidemment pas payer une telle somme. Précisons plutôt que l’université ne voit plus d’intérêt à cette bibliothèque qu’elle a pourtant désirée ardemment et qu’elle n’a obtenue que grâce à une convention signée en 1988, à l’époque où Louvain-la-Neuve n’était encore qu’un jeune assemblage d’auditoires et de logements étudiants.&lt;/p&gt;
+&lt;p&gt;À la remarque « Pouvez-vous imaginer une ville universitaire sans bibliothèque ? » posée par de multiples citoyens, la réponse de certains décideurs est sans ambiguïté : « Nous avons la Page d’Après ». Comme si c’était pareil. Comme si c’était suffisant. Mais, comme le glissent parfois à demi-mot certains politiques qui n’ont pas peur d’étaler leur déficience intellectuelle : « Le livre, c’est mort, l’avenir c’est l’IA. Et puis, si nécessaire, il y a Amazon ».&lt;/p&gt;
+&lt;p&gt;L’université propose à la bibliothèque de garder une fraction de l’espace actuel à la condition que les travaux d’aménagement soient pris en charge… par la bibliothèque publique elle-même (le résultat restant propriété de l’université). De bibliothèque, la section de Louvain-la-Neuve se transformerait en &amp;quot;antenne&amp;quot; avec un stock très faible et où l’on pourrait se procurer les livres commandés.&lt;/p&gt;
+&lt;p&gt;Mais c’est complètement se méprendre sur le rôle d’une bibliothèque. Un lieu où l’on peut flâner et faire des découvertes littéraires improbables, découvertes d’ailleurs encouragées par les initiatives du personnel (mise en évidence de titres méconnus, tirage aléatoire d’une suggestion de lecture …). Dans la bibliothèque de Louvain-la-Neuve, j’ai croisé des bénévoles aidant des immigrés adultes à se choisir des livres pour enfant afin d’apprendre le français. J’ai vu mon fils se mettre à lire spontanément les journaux quotidiens offerts à la lecture.&lt;/p&gt;
+&lt;p&gt;Une bibliothèque n’est pas un point d’enlèvement ou un commerce, une bibliothèque est un lieu de vie !&lt;/p&gt;
+&lt;p&gt;La bibliothèque doit subsister. Il faut la sauver. (et signer la pétition si ce n’est pas encore fait)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.petitionenligne.be/lavenir_de_la_bibliotheque_publique_de_lln_et_de_sa_ludotheque&quot;&gt;Signez la pétition pour sauver la bibliothèque de Louvain-la-Neuve !&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;La disparition progressive de tout un secteur&lt;/h2&gt;
+&lt;p&gt;Loin de se faire de la concurrence, les différents acteurs du livre se renforcent, s’entraident. Les meilleurs clients de l’un sont souvent les meilleurs clients de l’autre. Un achat d’un côté entraine, par ricochet, un achat de l’autre. La bibliothèque publique de Louvain-la-Neuve est le plus gros client du fournisseur de BD Slumberland (ou le second après moi, me siffle mon portefeuille). L’université pourrait faire le choix de participer à cet écosystème.&lt;/p&gt;
+&lt;p&gt;Slumberland, lieu mythique vers lequel se tournent mes cinq prières quotidiennes, occupe un espace Klépierre. Car, à Louvain-la-Neuve, tout appartient soit à l’université, soit au groupe Klépierre, propriétaire du centre commercial. Le bail de Slumberland arrivant à expiration, ils viennent de se voir notifier une augmentation soudaine de plus de 30% !&lt;/p&gt;
+&lt;p&gt;15.000€ par mois. En étant ouvert 60h par semaine (ce qui est énorme pour un magasin), cela signifie plus d’un euro par minute d’ouverture. Rien que pour payer son loyer, Slumberland doit vendre une bande dessinée toutes les 5 minutes ! À ce tarif-là, mes (nombreux et récurrents) achats ne remboursent même pas le temps que je passe à flâner dans le magasin !&lt;/p&gt;
+&lt;p&gt;Ces loyers m’interpellent : comment un magasin de loques criardes produites par des enfants dans des caves en Asie peut-il gagner de quoi payer de telles sommes là où les meilleurs fournisseurs de livres peinent à joindre les deux bouts ? Comment se fait-il que l’épicerie de mon quartier, présente depuis 22 ans, favorisant les produits bio et locaux, remplie tous les jours à ras bord de clients, doive brusquement mettre la clé sous le paillasson ? Comme aux États-Unis, où on ne dit pas « boire un café », mais « prendre un Starbucks », il ne nous restera bientôt que les grandes chaînes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/la-terrifiante-hegemonie-des-monopoles/index.html&quot;&gt;La terrifiante hégémonie des monopoles (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Face à l’hégémonie de ces monopoles, je croyais que l’université était un soutien. Mais force est de constater que le modèle est plutôt celui de Monaco : le seul pays du monde qui ne dispose pas d’une seule librairie !&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-6&quot;&gt;Quelle société les universitaires sont-ils en train de construire ?&lt;/h2&gt;
+&lt;p&gt;Je vous rassure, Slumberland survivra encore un peu à Louvain-la-Neuve. Le magasin a trouvé une surface moins chère (car moins bien exposée) et va déménager. Son nouveau propriétaire ? L’université bien sûr ! Derniers bastions livresques de la ville qui fût, un jour, une utopie intellectuelle et humaniste, Slumberland et La Page d’Après auront le droit de subsister jusqu’au jour où les gestionnaires immobiliers qui se prétendent intellectuels décideront que ce serait plus rentable de vendre un peu plus de gaufres, un peu plus de sacs à main ou d’abrutir un peu plus les étudiants avec un Luna Park.&lt;/p&gt;
+&lt;p&gt;L’université est devenue un business. Le verdict commercial est sans appel : la production de débiles formatés à la consommation instagrammable rapporte plus que la formation d’intellectuels.&lt;/p&gt;
+&lt;p&gt;Mais ce n’est pas une fatalité.&lt;/p&gt;
+&lt;p&gt;L’avenir est ce que nous déciderons d’en faire. L’université n’est pas forcée de devenir un simple gestionnaire immobilier. Nous sommes l’université, nous pouvons la transformer. &lt;/p&gt;
+&lt;p&gt;J’invite tous les membres du personnel de l’université, les professeur·e·s, les étudiant·e·s, les lecteurices, les intellectuel·le·s et les humanistes à agir, à parler autour d’eux, à défendre les livres en les diffusant, en les prêtant, en encourageant leur lecture, en les conseillant, en diffusant leurs opinions, en ouvrant les débats sur la place des intellectuels dans la ville. &lt;/p&gt;
+&lt;p&gt;Pour préserver le savoir et la culture, pour sauvegarder l’humanisme et l’intelligence de l’absurde marchandisation à court terme, nous avons le devoir de communiquer, de partager sans restriction, de faire entendre notre voix de toutes les manières imaginables.&lt;/p&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Pour une poignée de bits…</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-05-12-pour-une-poignee-de-bits.html" />
+	<id>https://ploum.net/2025-05-12-pour-une-poignee-de-bits.html</id>
+	<published>2025-05-12T00:00:00Z</published>
+	<updated>2025-05-12T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Pour une poignée de bits…&lt;/h1&gt;
+		&lt;p&gt;Toute l’infrastructure gigantesque d’Internet, tous ces milliers de câbles sous-marins, ces milliards de serveurs clignotants ne servent aux humains qu’à échanger des séries de bits.&lt;/p&gt;
+&lt;p&gt;Nos téléphones produisent des bits qui sont envoyés, dupliqués, stockés et, parfois, arrivent sur d’autres téléphones. Souvent, ces bits ne sont utiles que pour quelques secondes à peine. Parfois, ils ne le sont pas du tout.&lt;/p&gt;
+&lt;p&gt;Nous produisons trop de bits pour être capables de les consommer ou pour tout simplement en avoir envie.&lt;/p&gt;
+&lt;p&gt;Or, toute la promesse de l’IA, c’est d’automatiser cette génération de bits en faisant deux choses : enregistrer les séquences de bits existantes pour les analyser puis reproduire des séquences de bits nouvelles, mais « ressemblantes ».&lt;/p&gt;
+&lt;p&gt;L’IA, les LLMs, ce ne sont que ça : des générateurs de bits.&lt;/p&gt;
+&lt;p&gt;Comme me le souffle très justement Stéphane &amp;quot;Alias&amp;quot; Gallay : la course à l’IA, ce n’est finalement qu’un concours de bits.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;Enregistrer les séquences de bits&lt;/h2&gt;
+&lt;p&gt;Tous les producteurs d’IA doivent donc d’abord enregistrer autant de séquences de bits existantes que possible. Pour cette raison, le Web est en train de subir une attaque massive. Ces fournisseurs de créateurs de bits pompent agressivement toutes les données qui passent à leur portée. En continu. Ce qui met à mal toute l’infrastructure du web.&lt;/p&gt;
+&lt;p&gt;Mais comment arrivent-ils à faire cela ? Et bien une partie de la solution serait que ce soit votre téléphone qui le fasse. La société Infatica, met en effet à disposition des développeurs d’app Android et iPhone des morceaux de code à intégrer dans leurs apps contre paiement.&lt;/p&gt;
+&lt;p&gt;Ce que fait ce code ? Tout simplement, à chaque fois que vous utilisez l’app, il donne l’accès à votre bande passante à des clients. Clients qui peuvent donc faire les requêtes de leur choix comme pomper autant de sites que possible. Cela, sans que l’utilisateur du téléphone en soi informé le moins du monde.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jan.wildeboer.net/2025/04/Web-is-Broken-Botnet-Part-2/&quot;&gt;Botnet Part 2: The Web is Broken (jan.wildeboer.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cela rend l’attaque impossible à bloquer efficacement, car les requêtes proviennent de n’importe où, n’importe quand.&lt;/p&gt;
+&lt;p&gt;Tout comme le spam, l’activité d’un virus informatique se fait désormais à visage découvert, avec de vraies sociétés qui vendent leurs « services ». Et les geeks sont trop naïfs : ils cherchent des logiciels malveillants qui exploitent des failles de sécurité compliquées alors que tout se fait de manière transparente, à ciel ouvert, mais avec ce qu’on appelle la &amp;quot;plausible deniability&amp;quot; grâce à des couches de services commerciaux. Il y a même des sites avec des reviews et des étoiles pour choisir son meilleur réseau de botnets pseudolégal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-03-28-geeks-naivety.html&quot;&gt;The candid naivety of geeks (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le développeur de l’app Android dira que « il ne savait pas que son app serait utilisée pour faire des choses néfastes ». Les fournisseurs de ce code et revendeurs diront « on voulait surtout aider la recherche scientifique et le développeur est censé prévenir l’utilisateur ». Le client final, qui lance ces attaques pour entrainer ses générateurs de bits dira « je n’ai fait qu’utiliser un service commercial ». &lt;/p&gt;
+&lt;p&gt;En fait, c’est même pire que cela : comme je l’ai démontré lorsque j’ai détecté la présence d’un tracker Facebook dans l’application officielle de l’institut royal de météorologie belge, il est probable que le maître d’œuvre de l’application n’en sache lui-même rien, car il aura utilisé un sous-traitant pour développer l’app. Et le sous-traitant aura lui-même créé l’app en question sur base d’un modèle existant (un template).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2023-04-03-petits-gestes.html&quot;&gt;L’article où j’explique mon interaction avec l’IRM (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grâce à ces myriades de couches, personne ne sait rien. Personne n’est responsable de rien. Et le web est en train de s’effondrer. Allégorie virtuelle du reste de la société.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Générer des séquences de bits&lt;/h2&gt;
+&lt;p&gt;Une fois qu’on a enregistré assez de séquences de bits, on va tenter d’y trouver une logique pour générer des séquences nouvelles, mais « ressemblantes ». Techniquement, ce qui est très impressionnant avec les ChatGPT et consorts, c’est l’échelle à laquelle est fait ce que les chercheurs en informatique font depuis vingt ans.&lt;/p&gt;
+&lt;p&gt;Mais si ça doit être « ressemblant », ça ne peut pas l’être trop ! En effet, cela fait des décennies que l’on nous rabâche les oreilles avec le &amp;quot;plagiat&amp;quot;, avec le &amp;quot;vol de propriété intellectuelle&amp;quot;. Houlala, &amp;quot;pirater&amp;quot;, c’est mal.&lt;/p&gt;
+&lt;p&gt;Eh bien non, allez-y ! Piratez mes livres ! D’ailleurs, ils sont faits pour, ils sont sous licence libre. Parce que j’ai envie d’être lu. C’est pour ça que j’écris. Je ne connais aucun artiste qui a augmenté la taille de son public en &amp;quot;protégeant sa propriété intellectuelle&amp;quot;. &lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/piracy.png&quot;&gt;&lt;img alt=&quot;Have you ever considered piracy?&quot; src=&quot;https://ploum.net/files/piracy.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Have you ever considered piracy?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Parait que c’est mal de pirater.&lt;/p&gt;
+&lt;p&gt;Sauf quand ce sont les IA qui le font. Ce que montre très bien Otakar G. Hubschmann dans une expérience édifiante. Il demande à ChatGPT de générer des images de « superhéros qui utilise des toiles d’araignées pour se déplacer », d’un « jeune sorcier qui va à l’école avec ses amis » ou un « plombier italien avec une casquette rouge ».&lt;/p&gt;
+&lt;p&gt;Et l’IA refuse. Parce que ce serait enfreindre un copyright. Désolé donc à tous les plombiers italiens qui voudraient mettre une casquette rouge : vous êtes la propriété intellectuelle de Nintendo.&lt;/p&gt;
+&lt;p&gt;Mais là où c’est encore plus hallucinant, c’est lorsqu’il s’éloigne des toutes grandes franchises actuelles. S’il demande « photo d’une femme combattant un alien », il obtient… une image de Sigourney Weaver. Une image d’un aventurier archéologue qui porte un chapeau et utilise un fouet ? Il obtient une photo d’Harrisson Ford.&lt;/p&gt;
+&lt;p&gt;Comme je vous disais : une simple série de bits ressemblant à une autre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theaiunderwriter.substack.com/p/an-image-of-an-archeologist-adventurer/&quot;&gt;An image of an archeologist adventurer who wears a hat and uses a bullwhip (theaiunderwriter.substack.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ce qui nous apprend à quel point les IA n’ont aucune, mais alors là aucune originalité. Mais, surtout, que le copyright est véritablement un outil de censure qui ne sert que les très très grands. Grâce aux IA, il est désormais impossible d’illustrer voire d’imaginer un enfant sorcier allant à l’école parce que c’est du plagiat d’Harry Potter (lui-même étant, selon moi, un plagiat d’un roman d’Anthony Horowitz, mais passons…).&lt;/p&gt;
+&lt;p&gt;Comme le dit Irénée Régnauld, il s’agit de pousser un usage normatif des technologies à un point très effrayant.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://maisouvaleweb.fr/faut-il-empecher-les-mesusages-des-technologies/&quot;&gt;Faut-il empêcher les &amp;quot; mésusages &amp;quot; des technologies ? (maisouvaleweb.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais pour protéger ces franchises et ce copyright, les mêmes IA n’hésitent pas à se servir dans les bases de données pirates et à foutre en l’air tous les petits services d’hébergement.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;Les humains derrière les bits&lt;/h2&gt;
+&lt;p&gt;Mais le pire c’est que c’est tellement à la mode de dire qu’on a généré ses bits automatiquement que, souvent, on le fait faire par des humains camouflés en générateurs automatiques. Comme cette app de shopping &amp;quot;AI&amp;quot; qui n’était, en réalité, que des travailleurs philippins sous-payés.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2025/04/10/fintech-founder-charged-with-fraud-after-ai-shopping-app-found-to-be-powered-by-humans-in-the-philippines/&quot;&gt;Fintech founder charged with fraud after &amp;#x27;AI&amp;#x27; shopping app found to be powered by humans in the Philippines (techcrunch.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les luddites l’avaient compris, Charlie Chaplin l’avait illustré dans « Les temps modernes », Arnold Schwarzeneger a essayé de nous avertir : nous servons les machines que nous croyons avoir conçu pour nous servir. Nous sommes esclaves de générateurs de bits.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Pour l’amour des bits !&lt;/h2&gt;
+&lt;p&gt;Dans le point presse de ma ville, j’ai découvert qu’il n’y avait qu’un magazine en présentoir consacré à Linux, mais pas moins de 5 magazines consacrés entièrement aux générateurs de bits. Avec des couvertures du genre « Mieux utiliser ChatGPT ». Comme si on pouvait l’utiliser « mieux ». Et comme si le contenu de ces magazines n’était lui-même pas généré. &lt;/p&gt;
+&lt;p&gt;C’est tellement fatigant que j’ai pris la résolution de ne plus lire les articles parlant de ces générateurs de bits, même s’ils ont l’air intéressants. Je vais essayer de lire moins sur le sujet, d’en parler moins. Après tout, je pense que j’ai dit tout ce que j’avais à dire dans ces deux billets :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2024-04-04-la-bulle-ai.html&quot;&gt;Une bulle d’intelligence artificielle et de stupidité naturelle (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-04-08-la-fin.html&quot;&gt;La fin d’un monde ? (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vous êtes déjà assez assaillis par les générateurs de bits et par les bits qui parlent des générateurs de bits. Je vais tenter de ne pas trop en rajouter et revenir à mon métier d’artisan. Chaque série de bits que je vous offre est entièrement façonnée à la main, d’un humain vers un autre. C’est plus cher, plus rare, plus long à lire, mais, je l’espère, autrement plus qualitatif.&lt;/p&gt;
+&lt;p&gt;Vous sentez l’amour de l’art et la passion derrière ces bits dont chacun à une signification profonde et une utilité réelle ? C’est pour les transmettre, les partager que je cherche à préserver notre infrastructure et nos cerveaux.&lt;/p&gt;
+&lt;p&gt;Bonnes lectures et bons échanges entre humains !&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;gemini://tilde.club/~gedankenstuecke/blog/2025-04-01-algorithmic-sabotage-ii.gmi&quot;&gt;L’image d’illustration a été conçue pour corrompre l’apprentissage des aspirateurs de données.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Dédicace à Trolls &amp; Vélo et magie cycliste</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-04-17-trolls-et-velo.html" />
+	<id>https://ploum.net/2025-04-17-trolls-et-velo.html</id>
+	<published>2025-04-17T00:00:00Z</published>
+	<updated>2025-04-17T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Dédicace à Trolls &amp; Vélo et magie cycliste&lt;/h1&gt;
+		&lt;p&gt;Je serai ce samedi 19 avril à Mons au festival Trolls &amp;amp; Légende en dédicace au stand PVH.&lt;/p&gt;
+&lt;p&gt;La star de la table sera sans conteste Sara Schneider, autrice fantasy de la saga des enfants d’Aliel et qui est toute auréolée du Prix SFFF Suisse 2024 pour son superbe roman « Place d’âmes » (dont je vous ai déjà parlé).&lt;/p&gt;
+&lt;p&gt;C’est la première fois que je dédicacerai à côté d’une autrice ayant reçu un prix majeur. Je suis pas sûr qu’elle acceptera encore que je la tutoie.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/sarasfffsuisse2024.png&quot;&gt;&lt;img alt=&quot;Sara Schneider avec son roman et son prix SFFF Suisse 2024&quot; src=&quot;https://ploum.net/files/sarasfffsuisse2024.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Sara Schneider avec son roman et son prix SFFF Suisse 2024&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Bref, si Sara vient pour faire la légende, le nom du festival implique qu’il faille compléter avec des trolls. D’où la présence également à la table PVH de Tirodem, Allius et moi-même. Ça, les trolls, on sait faire !&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;Les belles mécaniques de l’imaginaire&lt;/h2&gt;
+&lt;p&gt;S’il y a des trolls et des légendes, il y a aussi tout un côté Steampunk. Et quoi de plus Steampunk qu’un vélo ?&lt;/p&gt;
+&lt;blockquote&gt; Ce qui fait la beauté de la bicyclette, c’est sa sincérité. Elle ne cache rien, ses mouvements sont apparents, l’effort chez elle se voit et se comprend; elle proclame son but, elle dit qu’elle veut aller vite, silencieusement et légèrement. Pourquoi la voiture automobile est-elle si vilaine et nous inspire-t-elle un sentiment de malaise ? Parce qu’elle dissimule ses organes comme une honte. On ne sait pas ce qu’elle veut. Elle semble inachevée.&lt;br&gt; – Voici des ailes, Maurice Leblanc&lt;br&gt;&lt;/blockquote&gt;
+&lt;p&gt;Le vélo, c’est l’aboutissement d’un transhumanisme humaniste rêvé par la science-fiction.&lt;/p&gt;
+&lt;blockquote&gt; La bicyclette a résolu le problème, qui remédie à notre lenteur et supprime la fatigue. L’homme maintenant est pourvu de tous ses moyens. La vapeur, l’électricité n’étaient que des progrès servant à son bien-être; la bicyclette est un perfectionnement de son corps même, un achèvement pourrait-on dire. C’est une paire de jambes plus rapides qu’on lui offre. Lui et sa machine ne font qu’un, ce ne sont pas deux êtres différents comme l’homme et le cheval, deux instincts en opposition; non, c’est un seul être, un automate d’un seul morceau. Il n’y a pas un homme et une machine, il y a un homme plus vite.&lt;br&gt; – Voici des ailes, Maurice Leblanc&lt;br&gt;&lt;/blockquote&gt;
+&lt;p&gt;Un aboutissement technologique qui, paradoxalement, connecte avec la nature. Le vélo est une technologie respectueuse et utilisable par les korrigans, les fées, les elfes et toutes les peuplades qui souffrent de notre croissance technologique. Le vélo étend notre cerveau pour nous connecter à la nature, induit une transe chamanique dès que les pédales se mettent à tourner.&lt;/p&gt;
+&lt;blockquote&gt; Nos rapports avec la nature sont bouleversés ! Imaginez deux hommes sur un grand chemin : l’un marche, l’autre roule; leur situation à l’égard de la nature sera-t-elle la même ? Oh ! non. L’un recevra d’elle de menues sensations de détails, l’autre une vaste impression d’ensemble. À pied, vous respirez le parfum de cette plante, vous admirez la nuance de cette fleur, vous entendez le chant de cet oiseau; à bicyclette, vous respirez, vous admirez, vous entendez la nature elle-même. C’est que le mouvement produit tend nos nerfs jusqu’à leur maximum d’intensité et nous dote d’une sensibilité inconnue jusqu’alors.&lt;br&gt; – Voici des ailes, Maurice Leblanc&lt;br&gt;&lt;/blockquote&gt;
+&lt;p&gt;Oui, le vélo a amplement sa place à Trolls &amp;amp; Légendes, comme le démontrent ses extraits de « Voici des ailes » de Maurice Leblanc, roman écrit… en 1898, quelques années avant la création d’Arsène Lupin !&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Célébrer l’univers Bikepunk&lt;/h2&gt;
+&lt;p&gt;Moi aussi, j’aime me faire lyrique pour célébrer le vélo, comme le prouvent les extraits que sélectionnent les critiques de mon roman Bikepunk.&lt;/p&gt;
+&lt;blockquote&gt; Chierie chimique de bordel nucléaire de saloperie vomissoire de permamerde ! &lt;br&gt; — Bikepunk, Ploum&lt;br&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.grishka.fr/bikepunk/&quot;&gt;Bikepunk - L&amp;#x27;Antre d&amp;#x27;un poulpe (blog.grishka.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ouais bon, d’accord… C’est un style légèrement différent. J’essaie juste de toucher un public un poil plus moderne quoi. Et puis on avait dit « pas cet extrait-là ! ». &lt;/p&gt;
+&lt;p&gt;Allez, comme on dit chez les cyclisteurs : on enchaîne, on enchaîne…&lt;/p&gt;
+&lt;p&gt;Donc, pour célébrer le vélo et l’imaginaire cycliste, je me propose d’offrir une petite surprise à toute personne qui se présentera sur le stand PVH avec un déguisement dans le thème Bikepunk ce samedi (et si vous me prévenez à l’avance, c’est encore mieux).&lt;/p&gt;
+&lt;p&gt;Parce qu’on va leur montrer à ces elfes, ces barbares et ces mages ce que c’est la véritable magie, la véritable puissance : des pédales, deux roues et un guidon !&lt;/p&gt;
+&lt;p&gt;À samedi les cyclotrolls !&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mobilizon.fr/events/1c3644fc-3c0e-4098-b81b-938ce94ced2a&quot;&gt;L’événement Dédicace à Trolls &amp;amp; Légendes sur Mobilizon.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">À la recherche de l’attention perdue</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-04-14-recherche-attention-perdue.html" />
+	<id>https://ploum.net/2025-04-14-recherche-attention-perdue.html</id>
+	<published>2025-04-14T00:00:00Z</published>
+	<updated>2025-04-14T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;À la recherche de l’attention perdue&lt;/h1&gt;
+		&lt;h2 id=&quot;soustitre-1&quot;&gt;La messagerie instantanée et la politique&lt;/h2&gt;
+&lt;p&gt;Vous l’avez certainement vu passer : Un journaliste américain s’est fait inviter par erreur sur un chat Signal où des personnes très haut placées de l’administration américaine (y compris le vice-président) discutent de l’organisation top secrète d’une frappe militaire au Yémen le 15 mars.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://next.ink/177060/ladministration-trump-envoie-par-erreur-ses-plans-de-guerre-a-un-journaliste-via-signal/&quot;&gt;L’administration Trump envoie par erreur ses plans de guerre à un journaliste via Signal (next.ink)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La raison de cette erreur est que le porte-parole de Trump, Brian Hughes, avait, durant la campagne électorale, reçu un email du journaliste en question pour demander des précisions sur un autre sujet. Brian Hughes avait alors copié/collé la totalité de l’email, incluant la signature contenant le numéro de téléphone du journaliste, dans un message instantané Apple iMessage à destination de Mike Waltz, qui allait devenir le conseiller à la sécurité de Trump. Recevant ce numéro par message de la part de Brian Hughes, Mike Waltz aurait ensuite sauvegardé ce numéro sous le nom de Brian Hughes. En voulant inviter plus tard Brian Hughes dans le chat Signal, Mike Waltz a par erreur invité le journaliste américain.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/us-news/2025/apr/06/signal-group-chat-leak-how-it-happened&quot;&gt;Exclusive: how the Atlantic’s Jeffrey Goldberg got added to the White House Signal group chat (www.theguardian.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cette anecdote nous apprend plusieurs choses:&lt;/p&gt;
+&lt;p&gt;Premièrement, Signal est devenu une réelle infrastructure critique de sécurité, y compris dans les cercles les plus hauts placés.&lt;/p&gt;
+&lt;p&gt;Deuxièmement, les discussions de guerre ultra-stratégique ont désormais lieu… par chat. Pas difficile d’imaginer que chaque participant répond machinalement, poste un émoji entre deux réunions, lors d’une pause pipi. Et là se décident la vie et la mort du reste du monde : dans les toilettes et les réunions qui n’ont rien à voir ! &lt;/p&gt;
+&lt;p&gt;L’erreur initiale provient du fait que Mike Waltz ne lit vraisemblablement pas ses emails (sinon, on lui aurait fait suivre l’email au lieu de l’envoyer par message) et que Brian Hughues est incapable de résumer efficacement un long texte (sinon il n’aurait pas collé l’intégralité du message). &lt;/p&gt;
+&lt;p&gt;Non seulement Mike Waltz ne lit pas ses emails, mais on peut soupçonner qu’il ne lit pas les messages trop longs : il a quand même ajouté un numéro de téléphone qui se trouvait à la fin d’un message sans prendre le temps de lire et de comprendre ledit message. À sa décharge, il semblerait qu’il soit possible que ce soit &amp;quot;l’intelligence artificielle&amp;quot; de l’iPhone qui ait ajouté ce numéro automatiquement au contact. &lt;/p&gt;
+&lt;p&gt;Je ne sais pas si cette fonctionnalité existe, mais le fait d’utiliser un téléphone qui peut décider automatiquement de changer le numéro de ses contacts est quand même assez effrayant. Et bien dans le genre d’Apple dont j’interprète les slogans marketing comme « achetez avec nos produits l’intelligence qui vous fait défaut, bande de crétins ! ».&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Crise politique attentionnelle et surveillance généralisée&lt;/h2&gt;
+&lt;p&gt;La crise attentionnelle est réelle : nous sommes de moins en moins capables de nous concentrer et nous votons pour des gens qui le sont encore moins ! Un ami ayant été embauché pour participer à une campagne électorale en Belgique m’a raconté avoir été abasourdi par l’addiction des politiciens les plus en vue aux réseaux sociaux. Ils sont en permanence rivés à leurs écrans à comptabiliser les likes et les partages de leurs publications et, quand ils reçoivent un dossier de plus de dix lignes, demandent un résumé ultra-succinct à leurs conseillers.&lt;/p&gt;
+&lt;p&gt;Vos politiques ne comprennent rien à rien. Ils font semblant. Et désormais, ils demandent à ChatGPT qui a l’avantage de ne pas dormir, contrairement aux conseillers humains. Les fameuses intelligences artificielles qui, justement, sont peut-être coupables d’avoir ajouté le numéro à ce contact et d’avoir rédigé la politique fiscale de Trump.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-04-08-la-fin.html&quot;&gt;La fin d’un monde ? (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais pourquoi utiliser Signal et pas une solution officielle qui empêcherait ce genre de fuite ? Officiellement, il n’y aurait pas d’alternative aussi facile. Mais je vois une raison non officielle très simple : les personnes haut placées ont désormais peur de leur propre infrastructure, car ils savent que tout est sauvegardé et peut-être utilisé contre eux lors d’une éventuelle enquête ou d’un procès, même des années plus tard. &lt;/p&gt;
+&lt;p&gt;Trump a été élu la première fois en faisant campagne sur le fait qu’Hillary Clinton avait utilisé un serveur email personnel, ce qui lui permettait, selon Trump lui-même, d’échapper à la justice en ayant ses mails soustraits aux services de surveillance internes américains. &lt;/p&gt;
+&lt;p&gt;Même ceux qui mettent en place le système de surveillance généralisé en ont peur.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;L’éducation à la compréhension&lt;/h2&gt;
+&lt;p&gt;La dernière leçon que je tire de cette anecdote c’est, encore une fois, celle de l’éducation : vous pouvez avoir l’infrastructure cryptographique la plus sécurisée, si vous êtes incompétent au point d’inviter n’importe qui dans votre chat, on ne peut rien faire pour vous.&lt;/p&gt;
+&lt;p&gt;La plus grosse faille de sécurité est toujours entre la chaise et le clavier, la seule manière de sécuriser un système est de faire en sorte que l’utilisateur soit éduqué.&lt;/p&gt;
+&lt;p&gt;Le meilleur exemple reste celui des voitures autonomes : nous sommes en train de mettre des générations entières dans des Tesla qui se conduisent toutes seules 99% du temps. Et lorsqu’un accident arrive, dans le 1% restant, nous demandons au conducteur : « Mais pourquoi tu n’as pas réagi comme un bon conducteur ? »&lt;/p&gt;
+&lt;p&gt;Et la réponse est très simple : « Parce que je n’ai jamais conduit de ma vie, je ne sais pas ce que c’est conduire, je n’ai jamais appris à réagir quand le système ne fonctionne pas correctement ».&lt;/p&gt;
+&lt;p&gt;Vous pensez que j’exagère ? Attendez…&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Se faire engager grâce à l’IA&lt;/h2&gt;
+&lt;p&gt;Eric Lu a reçu le CV d’un candidat très prometteur pour bosser dans sa startup. CV qui semblait fort optimisé en mots clés, mais qui était particulièrement pointu dans les technologies utilisées par Eric. Il a donc proposé au candidat une interview par vidéo.&lt;/p&gt;
+&lt;p&gt;Au début, tout s’est très bien passé jusqu’à ce que le candidat commence à s’emmêler dans ses réponses. « Vous dites que le service d’envoi de SMS sur lequel vous avez bossé était saturé, mais vous décrivez le service comme étant utilisé par une classe de 30 personnes. Comment 30 SMS peuvent-ils saturer le service ? » … euh…  « Pouvez-vous me dire quelle interface utilisateur vous avez mise en place avec ce que vous dites avoir implémenté ? » … euh, je ne me souviens plus…&lt;/p&gt;
+&lt;p&gt;Eric comprend alors que le candidat baratine. Le CV a été généré par ChatGPT. Le candidat s’est préparé en simulant un entretien d’embauche avec ChatGPT et en étudiant par cœur ce qu’il devait répondre. Il panique dès qu’on sort de son script.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kapwing.com/blog/what-its-like-to-interview-a-software-engineer-preparing-with-ai/&quot;&gt;What it&amp;#x27;s like to interview a software engineer preparing with AI (www.kapwing.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ce qui est particulièrement dommage, c’est que le candidat avait un profil vraiment adapté. S’il avait été honnête et franc au regard de son manque d’expérience, il aurait pu se faire engager comme junior et acquérir l’expérience souhaitée. S’il avait consacré son temps à lire des explications techniques sur les technologies concernées plutôt que d’utiliser ChatGPT, il aurait pu convaincre l’employeur de sa motivation, de sa curiosité. « Je ne connais pas encore grand-chose, mais je suis désireux d’apprendre ».&lt;/p&gt;
+&lt;p&gt;Mais le plus triste dans tout cela, c’est qu’il a sincèrement pensé que ça pouvait fonctionner. Il a détruit sa réputation parce que ça ne lui a même pas traversé l’esprit que, quand bien même il aurait été engagé, il n’aurait pas tenu deux jours dans son boulot avant de passer pour un crétin. Il a été malhonnête parce qu’il était persuadé que c’était la bonne manière de fonctionner.&lt;/p&gt;
+&lt;p&gt;Bref, il était un vrai Julius.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2024-12-23-julius-fr.html&quot;&gt;Mon collègue Julius (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il a « appris à conduire une Tesla » en s’asseyant sur le siège et regardant celle-ci faire 100 fois le tour du quartier. Confiant, il est parti dans une autre ville et s’est pris le premier platane.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;Sauver une génération&lt;/h2&gt;
+&lt;p&gt;Les smartphones, l’IA, les monopoles publicitaires, les réseaux sociaux sont toutes les facettes d’un même problème : la volonté de rendre la technologie incompréhensible afin de nous asservir commercialement et de nous occuper l’esprit.&lt;/p&gt;
+&lt;p&gt;J’ai écrit comment je pensais que nous devions agir pour éduquer la prochaine génération d’adultes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-04-10-smartphone_ado.html&quot;&gt;De l’utilisation des smartphones et des tablettes chez les adolescents (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais c’est un point de vue de parent. C’est pour cela que je trouve très pertinente l’analyse de Thual qui, lui, est un jeune adulte à peine sorti de l’adolescence. Il peut parler de tout cela à la première personne.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://thual.eu/articles/2025-01-21-Adolescence_et_numerique_retour_dexperience.html&quot;&gt;Adolescence et numérique : retour d&amp;#x27;expérience (thual.eu)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La grande leçon que j’en tire est que la génération qui nous suit est loin d’être perdue. Comme toutes les générations, elle est désireuse d’apprendre, de se battre. Nous devons avoir l’humilité de réaliser que ma génération s’est complètement plantée. Que nous détruisons tout, que nous sommes des fascistes addicts à Facebook et Candy Crush qui roulons en SUV. &lt;/p&gt;
+&lt;p&gt;Nous n’avons pas de leçons à leur donner. Nous avons le devoir de les aider, de nous mettre à leur service en désactivant le pilote automatique et en brûlant les slides PowerPoint dont nous sommes si fiers.&lt;/p&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">De l’utilisation des smartphones et des tablettes chez les adolescents</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-04-10-smartphone_ado.html" />
+	<id>https://ploum.net/2025-04-10-smartphone_ado.html</id>
+	<published>2025-04-10T00:00:00Z</published>
+	<updated>2025-04-10T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;De l’utilisation des smartphones et des tablettes chez les adolescents&lt;/h1&gt;
+		&lt;p&gt;Chers parents, chers enseignants, chers éducateurs,&lt;/p&gt;
+&lt;p&gt;Nous le savons toutes et tous, le smartphone est devenu un objet incontournable de notre quotidien, nous connectant en permanence au réseau Internet qui, avant cela, restait cantonné aux ordinateurs sur nos bureaux. En voyant grandir nos enfants, la question se pose : quand, comment et pourquoi les faire entrer dans le monde de cette hyperconnexion permanente.&lt;/p&gt;
+&lt;p&gt;L’adolescence est une phase critique de la vie durant laquelle le cerveau est particulièrement réceptif et forme des réflexes qui resteront ancrés toute une vie. C’est également une période durant laquelle la pression du groupe et le désir de conformité sociale sont les plus importants. Ce n’est pas un hasard si les producteurs de cigarettes et d’alcool ciblent explicitement les adolescents dans le marketing de leur produit.&lt;/p&gt;
+&lt;p&gt;Le smartphone étant une invention incroyablement récente, nous manquons totalement de recul sur l’impact qu’il peut avoir durant la croissance. Est-il totalement inoffensif ou sera-t-il considéré, d’ici quelques années, comme le tabac l’est aujourd’hui ? Personne ne le sait avec certitude. Nos enfants sont les cobayes de cette technologie.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hhs.gov/sites/default/files/surgeon-general-youth-mental-health-advisory.pdf&quot;&gt;L’administrateur de la santé publique des États-Unis (US Surgeon General) tire la sonnette d’alarme à ce sujet.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il me parait important de souligner certains points importants, qui ne sont que quelques éléments parmi les nombreuses problématiques étudiées dans le domaine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://one.oecd.org/document/EDU/WKP%282019%293/En/pdf&quot;&gt;Impacts of Technology Use on Children: Exploring Literature on the Brain, Cognition and Well-Being (OECD)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;L’attention et la concentration&lt;/h2&gt;
+&lt;p&gt;Il est désormais démontré que le smartphone perturbe grandement l’attention et la concentration, y compris chez les adultes. Ce n’est pas un hasard : il est conçu pour cela. Les entreprises comme Google et Meta (Facebook, Whatsapp, Instagram) sont payées proportionnellement au temps que nous passons devant l’écran. Tout est optimisé en ce sens. Le simple fait d’avoir un téléphone près de soi, même éteint, perturbe le raisonnement et fait baisser sensiblement les résultats de tests de QI. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.journals.uchicago.edu/doi/epdf/10.1086/691462&quot;&gt;Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le cerveau acquiert le réflexe d’attendre des notifications de nouveaux messages de cet appareil, sa seule présence est donc un handicap majeur dans toutes les tâches qui requièrent de l’attention : lecture, apprentissage, réflexion, calculs. Il ne suffit pas de l’éteindre : il faut le mettre à distance, si possible dans une pièce différente !&lt;/p&gt;
+&lt;p&gt;Il est démontré que l’utilisation des réseaux sociaux comme Tik-Tok perturbe complètement la notion du temps et la formation de la mémoire. Nous en avons tous fait l’expérience : nous jurons avoir passé 10 minutes sur notre smartphone alors qu’il s’est en réalité écoulé près d’une heure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.neuroscienceof.com/human-nature-blog/time-memory-psychology-social-media-interference&quot;&gt;How Social Media Interferences With The Psychology of Time and Memory (www.neuroscienceof.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour mémoriser et apprendre, le cerveau a besoin de temps de repos, de vide, d’ennui et de réflexion. Ces nécessaires temps « morts » dans les trajets, dans les files d’attente, dans la solitude d’une chambre d’adolescent voire même durant un cours rébarbatif ont été supplantés par une hyperconnexion.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.neuroscienceof.com/human-nature-blog/psychology-tiktok-memory-interference-social-media&quot;&gt;The Psychology behind TikTok’s Memory Interference (www.neuroscienceof.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;L’angoisse sociale et la perturbation du sommeil&lt;/h2&gt;
+&lt;p&gt;Même lorsque nous ne l’utilisons pas, nous savons que les conversations continuent. Que des messages importants sont peut-être échangés en notre absence. Cette sensation bien connue appelée « FOMO » (Fear Of Missing Out, peur de manquer quelque chose) nous pousse à consulter notre téléphone jusque tard dans la nuit et dès le réveil. Une proportion inquiétante de jeunes reconnaissent se réveiller durant la nuit pour consulter leur smartphone. Or la qualité du sommeil est fondamentale dans le processus d’apprentissage et de formation du cerveau.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lemonde.fr/societe/article/2014/03/24/les-adolescents-connectes-meme-la-nuit_4388694_3224.html&quot;&gt;Les adolescents se réveillent pour se connecter (www.lemonde.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.york.ac.uk/news-and-events/news/2024/research/school-smartphone-ban-better-sleep/&quot;&gt;School smartphone ban results in better sleep and improved mo (www.york.ac.uk)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;La santé mentale&lt;/h2&gt;
+&lt;p&gt;De récentes avancées démontrent une corrélation forte entre le degré d’utilisation des réseaux sociaux et les symptômes de dépression. Le monde occidental semble atteint d’une épidémie de dépression adolescente, épidémie dont la temporalité correspond exactement avec l’apparition du smartphone. Les filles en dessous de 16 ans sont la population la plus touchée.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://childmind.org/article/is-social-media-use-causing-depression/&quot;&gt;Does Social Media Use Cause Depression? (childmind.org)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.afterbabel.com/p/international-mental-illness-part-one/&quot;&gt;The Teen Mental Illness Epidemic is International: The Anglosphere (www.afterbabel.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2024/10/07/social-media-mental-health-suicide-crisis-teens&quot;&gt;Has Social Media Fuelled a Teen-Suicide Crisis? (www.newyorker.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;Le harcèlement et la prédation&lt;/h2&gt;
+&lt;p&gt;Sur les réseaux sociaux, il est trivial de créer un compte anonyme ou usurpant l’identité d’une autre personne (contrairement à ce qu’il est parfois affirmé dans les médias, il n’est pas nécessaire d’être un génie de l’informatique pour mettre un faux nom dans un formulaire). À l’abri sous cet anonymat, il est parfois très tentant de faire des blagues de mauvais goût, de tenir des propos injurieux, de révéler aux grands jours les secrets dont les adolescents sont friands voire de calomnier pour régler des différends de cours de récré. Ces comportements ont toujours fait partie de l’adolescence et font partie d’une exploration naturelle normale des relations sociales. Cependant, le fonctionnement des réseaux sociaux aggrave fortement l’impact de ces actions tout en favorisant l’impunité du responsable. Cela peut conduire à des conséquences graves allant au-delà de ce qu’imaginent initialement les participants. &lt;/p&gt;
+&lt;p&gt;Ce pseudonymat est également une bénédiction pour les personnes mal intentionnées qui se font passer pour des enfants et, après des semaines de discussion, proposent à l’enfant de se retrouver en vrai, mais sans rien dire aux adultes.&lt;/p&gt;
+&lt;p&gt;Au lieu d’en tirer des leçons sociales éducatives, nous appelons les adolescents faisant des blagues de mauvais goût des « pirates informatiques », stigmatisant l’utilisation de la technologie plutôt que le comportement. Le thème des prédateurs sexuels est mis en exergue pour réclamer à cor et à cri des solutions de contrôle technologiques. Solutions que les géants de l’informatique se font un plaisir de nous vendre, jouant sur la peur et stigmatisant la technologie ainsi que celles et ceux qui ont le malheur d’en avoir une compréhension intuitive.&lt;/p&gt;
+&lt;p&gt;La peur et l’incompréhension deviennent les moteurs centraux pour mettre en avant une seule valeur éducative : obéir aveuglément à ce qui est incompréhensible et ce qu’il ne faut surtout pas essayer de comprendre.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;La fausse idée de l’apprentissage de l’informatique&lt;/h2&gt;
+&lt;p&gt;Car il faut à tout prix déconstruire le mythe de la « génération numérique ».&lt;/p&gt;
+&lt;p&gt;Contrairement à ce qui est parfois exprimé, l’utilisation d’un smartphone ou d’une tablette ne prépare en rien à l’apprentissage de l’informatique. Les smartphones sont, au contraire, conçus pour cacher la manière dont ils fonctionnent et sont majoritairement utilisés pour discuter et suivre des publications sponsorisées. Ils préparent à l’informatique autant que lire un magazine people à l’arrière d’un taxi prépare à devenir mécanicien. Ce n’est pas parce que vous êtes assis dans une voiture que vous apprenez son fonctionnement.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/gee_ecole2.png&quot;&gt;&lt;img alt=&quot;Une dame de 87 ans se sert d’une tablette sans avoir été formée, mais il faudrait former les enfants à l’école ?&quot; src=&quot;https://ploum.net/files/gee_ecole2.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Une dame de 87 ans se sert d’une tablette sans avoir été formée, mais il faudrait former les enfants à l’école ?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Former à utiliser Word ou PowerPoint ? Les enfants doivent apprendre à découvrir les généralités des logiciels, à tester, à « chipoter », pas à reproduire à l’aveugle un comportement propre à un logiciel propriétaire donné afin de les préparer à devenir des clients captifs. Et que dire d’un PowerPoint qui force à casser la textualité, la capacité d’écriture pour réduire des idées complexes sous forme de bullet points ? Former à PowerPoint revient à inviter ses élèves dans un fast-food sous prétexte de leur apprendre à cuisiner.&lt;/p&gt;
+&lt;p&gt;L’aspect propriétaire et fermé de ces logiciels est incroyablement pervers. Introduire Microsoft Windows, Google Android ou Apple iOS dans les classes, c’est forcer les étudiants à fumer à l’intérieur sans ouvrir les fenêtres pour en faire de bons apnéistes qui savent retenir leur souffle. C’est à la fois dangereusement stupide et contre-productif.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lunatopia.fr/blog/les-gamins-ne-savent-pas-utiliser-les-ordinateurs&quot;&gt;Les gamins ne savent pas utiliser les ordinateurs… Voici pourquoi ça devrait vous inquiéter. (lunatopia.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mac4ever.com/societe/187334-pourquoi-les-jeunes-sont-devenus-si-nuls-en-informatique&quot;&gt;Pourquoi les jeunes sont devenus si nuls en informatique (www.mac4ever.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De manière étonnante, c’est d’ailleurs dans les milieux de l’informatique professionnelle que l’on trouve le plus de personnes retournant aux « dumbphones », téléphones simples. Car, comme dit le proverbe « Quand on sait comment se prépare la saucisse, on perd l’envie d’en manger… »&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-6&quot;&gt;Que faire ?&lt;/h2&gt;
+&lt;p&gt;Le smartphone est omniprésent. Chaque génération transmet à ses enfants ses propres peurs. S’il y a tant de discussions, de craintes, de volonté « d’éducation », c’est avant tout parce que la génération des parents d’aujourd’hui est celle qui est le plus addict à son smartphone, qui est la plus espionnée par les monopoles publicitaires. Nous avons peur de l’impact du smartphone sur nos enfants parce que nous nous rendons confusément compte de ce qu’il nous inflige.&lt;/p&gt;
+&lt;p&gt;Mais les adolescents ne sont pas forcés d’être aussi naïfs que nous face à la technologie.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-7&quot;&gt;Commencer le plus tard possible&lt;/h2&gt;
+&lt;p&gt;Les pédiatres et les psychiatres recommandent de ne pas avoir une utilisation régulière du smartphone avant 15 ou 16 ans, le système nerveux et visuel étant encore trop sensible avant cela. Les adolescents eux-mêmes, lorsqu’on les interroge, considèrent qu’ils ne devraient pas avoir de téléphone avant 12 ou 13 ans.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.arteradio.com/son/61667632/gafa_tes_gosses&quot;&gt;GAFA tes gosses | ARTE Radio (www.arteradio.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9664330/&quot;&gt;Youth Perspectives on the Recommended Age of Mobile Phone Adoption: Survey Study (www.ncbi.nlm.nih.gov)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si une limite d’âge n’est pas réaliste pour tout le monde, il semble important de retarder au maximum l’utilisation quotidienne et régulière du smartphone. Lorsque votre enfant devient autonome, privilégiez un « dumbphone », un simple téléphone lui permettant de vous appeler et de vous envoyer des SMS. Votre enfant arguera, bien entendu, qu’il est le seul de sa bande à ne pas avoir de smartphone. Nous avons tous été adolescents et utilisé cet argument pour nous habiller avec le dernier jeans à la mode. &lt;/p&gt;
+&lt;p&gt;Comme le signale Jonathan Haidt dans son livre « The Anxious Generation », il y a un besoin urgent de prendre des actions collectives. Nous offrons des téléphones de plus en plus tôt à nos enfants, car ils nous disent « Tout le monde en a sauf moi ». Nous cédons, sans le savoir, nous forçons d’autres parents à céder. Des expériences pilotes d’écoles « sans téléphone » montrent des résultats immédiats en termes de bien-être et de santé mentale des enfants..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/lifeandstyle/2024/jan/17/cellphone-smartphone-bans-schools&quot;&gt;What happens when a school bans smartphones? A complete transformation (www.theguardian.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.noemamag.com/social-media-messed-up-our-kids-now-it-is-making-us-ungovernable/&quot;&gt;Jonathan Haidt Talks His New Book ‘The Anxious Generation’ (www.noemamag.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Parlez-en avec les autres parents. Développez des stratégies ensemble qui permettent de garder une utilisation raisonnable du smartphone tout en évitant l’exclusion du groupe, ce qui est la plus grande hantise de l’adolescent.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-8&quot;&gt;Discutez en amont avec votre enfant&lt;/h2&gt;
+&lt;p&gt;Expliquez à votre enfant les problématiques liées au smartphone. Plutôt que de prendre des décisions arbitraires, consultez-le et discutez avec lui de la meilleure manière pour lui d’entrer dans le monde connecté. Établissez un lien de confiance en lui expliquant de ne jamais faire confiance à ce qu’il pourra lire sur le téléphone. &lt;/p&gt;
+&lt;p&gt;Dans le doute, il doit avoir le réflexe d’en discuter avec vous.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-9&quot;&gt;Introduisez l’outil progressivement&lt;/h2&gt;
+&lt;p&gt;Ne laissez pas votre enfant se débrouiller directement avec un smartphone une fois votre limite d’âge atteinte. &lt;/p&gt;
+&lt;p&gt;Bien avant cela, montrez-lui comment vous utilisez votre propre smartphone, votre ordinateur. Montrez-lui la même page Wikipédia sur les deux outils en expliquant qu’il ne s’agit que d’une manière de visualiser un contenu qui se trouve sur un autre ordinateur. &lt;/p&gt;
+&lt;p&gt;Lorsque votre enfant reçoit son propre appareil, introduisez-le progressivement en ne lui autorisant l’utilisation que pour des cas particuliers. Vous pouvez par exemple garder le téléphone, en ne le donnant à l’enfant que lorsqu’il en fait la demande pour une durée limitée et pour un usage précis. Ne créez pas immédiatement des comptes sur toutes les plateformes à la mode. Observez avec lui les réflexes qu’il acquiert, discutez sur l’inondation permanente que sont les groupes Whatsapp.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-10&quot;&gt;Parlez de vie privée&lt;/h2&gt;
+&lt;p&gt;Rappelez à votre enfant que l’objectif des plateformes monopolistiques est de vous espionner en permanence afin de revendre votre vie privée et de vous bombarder de publicités. Que tout ce qui est dit et posté sur les réseaux sociaux, y compris les photos, doit être considéré comme public, le secret n’est qu’une illusion. Une règle d’or : on ne poste pas ce qu’on ne serait pas confortable de voir afficher en grand sur les murs de l’école.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.developpez.com/actu/361267/Google-et-Meta-ont-conclu-un-accord-pub-secret-ciblant-les-ados-pour-les-attirer-vers-Instagram-quelques-mois-apres-que-Zuckerberg-se-soit-excuse-devant-le-Congres-pour-l-exploitation-des-enfants-sur-Instagram/&quot;&gt;Google et Meta ont conclu un accord pub secret ciblant les ados pour les attirer vers Instagram, quelques mois apr�s que Zuckerberg se soit excusé devant le Congrès pour l&amp;#x27;exploitation des enfants sur Instagram (www.developpez.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Au Danemark, les écoles ne peuvent désormais plus utiliser de Chromebook pour ne pas enfreindre la vie privée des enfants. Mais ne croyez pas qu’Android, Windows ou iOS soient mieux en termes de vie privée.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://theprivacydad.com/final-decision-on-chromebook-case-in-denmark/&quot;&gt;Final Decision on Chromebook Case in Denmark (theprivacydad.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-11&quot;&gt;Pas dans la chambre&lt;/h2&gt;
+&lt;p&gt;Ne laissez jamais votre enfant dormir avec son téléphone. Le soir, le téléphone devrait être rangé dans un endroit neutre et hors de portée. De même, ne laissez pas le téléphone à portée de main lorsque l’enfant fait ses devoirs. Il en va de même pour les tablettes et autres laptops qui ont exactement les mêmes fonctions. Idéalement, les écrans sont à éviter avant d’aller à l’école pour éviter de commencer la journée en étant déjà en état de fatigue attentionnelle. N’oubliez pas que le smartphone peut être le vecteur de messages et d’images dérangeantes, voire choquantes, mais étrangement hypnotiques. L’effet de la lumière des écrans sur la qualité du sommeil est également une problématique encore mal comprise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.seuil.com/ouvrage/la-fabrique-du-cretin-digital-michel-desmurget/9782021423310&quot;&gt;« La fabrique du crétin digital », de Michel Desmurget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-12&quot;&gt;Continuez la discussion&lt;/h2&gt;
+&lt;p&gt;Il existe des logiciels dits de « Contrôle parental ». Mais aucun logiciel ne remplacera jamais la présence des parents. Pire : les enfants les plus débrouillards trouveront très vite des astuces pour contourner ces limitations voire seront tentés de contourner ces limitations uniquement parce qu’elles sont arbitraires. Plutôt que d’imposer un contrôle électronique, prenez le temps de demander à vos enfants ce qu’ils font sur leur téléphone, avec qui ils parlent, ce qui se dit, quels sont les logiciels qu’ils utilisent.&lt;/p&gt;
+&lt;p&gt;L’utilisation d’Internet peut être également très bénéfique en permettant à l’enfant d’apprendre sur des sujets hors programmes ou de découvrir des communautés partageant des centres d’intérêt différents de ceux de l’école. &lt;/p&gt;
+&lt;p&gt;De la même manière que vous laissez votre enfant fréquenter un club de sport ou de scoutisme tout en l’empêchant de trainer avec une bande de voyous dans la rue, vous devez contrôler les fréquentations de vos enfants en ligne. Loin des groupes Whatsapp scolaires, votre enfant peut trouver des communautés en ligne partageant ses centres d’intérêt, communautés dans lesquelles il pourra apprendre, découvrir et s’épanouir s’il est bien aiguillé.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-13&quot;&gt;Donnez l’exemple, soyez l’exemple !&lt;/h2&gt;
+&lt;p&gt;Nos enfants ne font pas ce qu’on leur dit de faire, ils font ce qu’ils nous voient faire. Les enfants ayant vu leurs parents fumer ont le plus grand risque de devenir fumeurs à leur tour. Il en est de même pour les smartphones. Si notre enfant nous voit en permanence sur notre téléphone, il n’a pas d’autre choix que de vouloir nous imiter. L’un des plus beaux cadeaux que vous pouvez faire est donc de ne pas utiliser compulsivement votre téléphone en présence de votre enfant.&lt;/p&gt;
+&lt;p&gt;Oui, vous devez traiter et prendre conscience de votre propre addiction ! &lt;/p&gt;
+&lt;p&gt;Prévoyez des périodes où vous le mettez-le en silencieux ou en mode avion et où il est rangé à l’écart. Lorsque vous prenez votre téléphone, expliquez à votre enfant l’usage que vous en faites. &lt;/p&gt;
+&lt;p&gt;Devant lui, mettez-vous à lire un livre papier. Et, non, la lecture sur l’iPad n’est pas « pareille ».&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/lifeandstyle/2024/jan/17/kids-reading-better-paper-vs-screen&quot;&gt;A groundbreaking study shows kids learn better on paper, not screens. Now what? (www.theguardian.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;D’ailleurs, si vous manquez d’idée, je ne peux que vous recommander mon dernier roman : une aventure palpitante écrite à la machine à écrire qui traite de vélo, d’adolescence, de fin du monde et de smartphones éteints pour toujours. Oui, la publicité s’est même glissée dans ce texte, quel scandale !&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk, les chroniques du flash&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-14&quot;&gt;Donnez le goût de l’informatique, pas celui d’être contrôlé&lt;/h2&gt;
+&lt;p&gt;Il ne faut pas tirer sur le messager : le responsable n’est pas « l’écran », mais l’utilisation que nous en faisons. Les monopoles informatiques tentent de rendre les utilisateurs addicts, prisonniers pour les bombarder de publicités, pour les faire consommer. Là sont les responsables.&lt;/p&gt;
+&lt;p&gt;Apprendre la programmation (ce qui se fait au départ très bien sans écran), jouer à des jeux vidéos profonds avec des histoires complexes ou simplement drôles pour passer un moment amusant, discuter en ligne avec des passionnés, dévorer Wikipédia…  L’informatique moderne nous ouvre de magnifiques portes dont il serait dommage de priver nos enfants.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.irem.univ-bpclermont.fr/Informatique-sans-Ordinateur%2c140.html&quot;&gt;Apprendre l’Informatique sans Ordinateur (www.irem.univ-bpclermont.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/lhistoire-dun-bit/index.html&quot;&gt;L’histoire d’un bit (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Au lieu de céder à nos propres peurs, angoisses et incompréhensions, nous devons donner à nos enfants le goût de reprendre le contrôle de l’informatique et de nos vies, contrôle que nous avons un peu trop facilement cédé aux monopoles publicitaires en échange d’un rectangle de verre affichant des icônes de couleur.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/gee_ecole3.png&quot;&gt;&lt;img alt=&quot;Une enfant s’étonne de ne plus retrouver un livre sur sa tablette, la maitresse lui explique que des entreprises ont décidé que ce livre n’était pas bon pour elle.&quot; src=&quot;https://ploum.net/files/gee_ecole3.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Une enfant s’étonne de ne plus retrouver un livre sur sa tablette, la maitresse lui explique que des entreprises ont décidé que ce livre n’était pas bon pour elle.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;soustitre-15&quot;&gt;Accepter l’imperfection&lt;/h2&gt;
+&lt;p&gt;« J’avais des principes, aujourd’hui j’ai des enfants » dit le proverbe. Impossible d’être parfait. Quoi que nous fassions, nos enfants seront confrontés à des conversations toxiques, des dessins animés débiles et c’est bien normal. En tant que parents, nous faisons ce que nous pouvons, avec nos réalités.&lt;/p&gt;
+&lt;p&gt;Personne n’est parfait. Surtout pas un parent.&lt;/p&gt;
+&lt;p&gt;L’important n’est pas d’empêcher à tout prix nos enfants d’être sur un écran, mais de prendre conscience qu’un smartphone n’est absolument pas un outil éducatif, qu’il ne prépare à rien d’autre que de faire de nous de bons consommateurs passifs. &lt;/p&gt;
+&lt;p&gt;Le seul apprentissage réellement nécessaire est celui d’un esprit critique dans l’utilisation d’un outil informatique.&lt;/p&gt;
+&lt;p&gt;Et dans cet apprentissage, les enfants ont souvent beaucoup à apprendre aux adultes !&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://grisebouille.net/des-tablettes-a-lecole/&quot;&gt;Les illustrations sont de Gee et je vous invite à lire la BD complète&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="fr">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">La fin d’un monde ?</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-04-08-la-fin.html" />
+	<id>https://ploum.net/2025-04-08-la-fin.html</id>
+	<published>2025-04-08T00:00:00Z</published>
+	<updated>2025-04-08T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;La fin d’un monde ?&lt;/h1&gt;
+		&lt;h2 id=&quot;soustitre-1&quot;&gt;La fin de nos souvenirs&lt;/h2&gt;
+&lt;p&gt;Nous sommes envahis d’IA. Bien plus que vous ne le pensez. &lt;/p&gt;
+&lt;p&gt;Chaque fois que votre téléphone prend une photo, ce n’est pas la réalité qui s’affiche, mais une reconstruction « probable » de ce que vous avez envie de voir. C’est la raison pour laquelle les photos paraissent désormais si belles, si vivantes, si précises : parce qu’elles ne sont pas le reflet de la réalité, mais le reflet de ce que nous avons envie de voir, de ce que nous sommes le plus susceptibles de trouver « beau ». C’est aussi la raison pour laquelle les systèmes dégooglisés prennent de moins belles photos: ils ne bénéficient pas des algorithmes Google pour améliorer la photo en temps réel.&lt;/p&gt;
+&lt;p&gt;Les hallucinations sont rares à nos yeux naïfs, car crédibles. Nous ne les voyons pas. Mais elles sont là. Comme cette future mariée essayant sa robe devant des miroirs et qui découvre que chaque reflet est différent.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theverge.com/2023/12/2/23985299/iphone-bridal-photo-three-poses-explanation-panorama-photoshop-generative-ai&quot;&gt;‘One in a million’ iPhone bridal photo explanation: blame panorama mode (www.theverge.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;J’ai moi-même réussi à perturber les algorithmes. À gauche, la photo telle que je l’ai prise et telle qu’elle apparait dans n’importe quel visualisateur de photos. À droite, la même photo affichée dans Google Photos. Pour une raison difficilement compréhensible, l’algorithme tente de reconstruire la photo et se plante lourdement.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/foiragegooglephoto.png&quot;&gt;&lt;img alt=&quot;Une photo de ma main à gauche et la même photo complètement déformée à droite&quot; src=&quot;https://ploum.net/files/foiragegooglephoto.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Une photo de ma main à gauche et la même photo complètement déformée à droite&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Or ces images, reconstruites par IA, sont ce que notre cerveau va retenir. Nos souvenirs sont littéralement altérés par les IA.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;La fin de la vérité&lt;/h2&gt;
+&lt;p&gt;Tout ce que vous croyez lire sur LinkedIn a probablement été généré par un robot. Pour vous dire, le 2 avril il y avait déjà des robots qui se vantaient sur ce réseau de migrer de Offpunk vers XKCDpunk. &lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/linkedinbot.png&quot;&gt;&lt;img alt=&quot;Capture d’écran de LinkedIn montrant le billet d’un certain Arthur Howell se vantant d’un blog post racontant la migration de Offpunk ver XKCDpunk.&quot; src=&quot;https://ploum.net/files/linkedinbot.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Capture d’écran de LinkedIn montrant le billet d’un certain Arthur Howell se vantant d’un blog post racontant la migration de Offpunk ver XKCDpunk.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;La transition Offpunk vers XKCDpunk était un poisson d’avril hyper spécifique et compréhensible uniquement par une poignée d’initiés. Il n’a pas fallu 24h pour que le sujet soit repris sur LinkedIn.&lt;/p&gt;
+&lt;p&gt;Non, franchement, vous pouvez éteindre LinkedIn. Même les posts de vos contacts sont probablement en grande partie générés par IA suite à un encouragement algorithmique à poster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/je-ne-suis-plus-a-vendre-sur-linkedin/index.html&quot;&gt;Je ne suis plus à vendre sur LinkedIn (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il y a 3 ans, je mettais en garde sur le fait que les chatbots généraient du contenu qui remplissait le web et servait de base d’apprentissage à la prochaine génération de chatbots.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2022-12-05-drowning-in-ai-generated-garbage.html&quot;&gt;Drowning in AI Generated Garbage : the silent war we are fighting (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Je parlais d’une guerre silencieuse. Mais qui n’est plus tellement silencieuse. La Russie utilise notamment ce principe pour inonder le web d’articles, générés automatiquement, reprenant sa propagande.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.newsguardrealitycheck.com/p/a-well-funded-moscow-based-global&quot;&gt;A well-funded Moscow-based global ‘news’ network has infected Western artificial intelligence tools worldwide with Russian propaganda (www.newsguardrealitycheck.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le principe est simple : vu que les chatbots font des statistiques, si vous publiez un million d’articles décrivant les expériences d’armes biologiques que les Américains font en Ukraine (ce qui est faux), le chatbot va considérer ce morceau de texte comme statistiquement fréquent et avoir une grande probabilité de vous le ressortir.&lt;/p&gt;
+&lt;p&gt;Et même si vous n’utilisez pas ChatGPT, vos politiciens et les journalistes, eux, les utilisent. Ils en sont même fiers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2024-12-02-conjuration-fierte-ignorante.html&quot;&gt;La conjuration de la fierté ignorante (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ils ont entendu ChatGPT braire dans un pré et en font un discours qui sera lui-même repris par ChatGPT. Ils empoisonnent la réalité et, ce faisant, la modifient. Ils savent très bien qu’ils mentent. C’est le but.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2024-10-24-ils-nous-mentent.html&quot;&gt;Ils nous mentent (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Je pensais qu’utiliser ces outils était une perte de temps un peu stupide. En fait, c’est dangereux aussi pour les autres. Vous vous demandez certainement c’est quoi le bazar autour des taxes frontalières que Trump vient d’annoncer ? Les économistes se grattent la tête. Les geeks ont compris : tout le plan politique lié aux taxes et son explication semblent avoir été littéralement générés par un chatbot devant répondre à la question « comment imposer des taxes douanières pour réduire le déficit ? ».&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://paulkrugman.substack.com/p/will-careless-stupidity-kill-the&quot;&gt;Will Malignant Stupidity Kill the World Economy? (paulkrugman.substack.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le monde n’est pas dirigé par Trump, il est dirigé par ChatGPT. Mais où est la Sara Conor qui le débranchera ?&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/etoilemysterieuse2.jpg&quot;&gt;&lt;img alt=&quot;Extrait de Tintin, l’étoile mystérieuse&quot; src=&quot;https://ploum.net/files/etoilemysterieuse2.jpg&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Extrait de Tintin, l’étoile mystérieuse&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;La fin de l’apprentissage&lt;/h2&gt;
+&lt;p&gt;Slack vole notre attention, mais vole également notre apprentissage en permettant à n’importe qui de déranger, par message privé, le développeur senior qui connait les réponses, car il a bâti le système.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://matduggan.com/slack-the-art-of-being-busy-without-getting-anything-done/&quot;&gt;Slack: The Art of Being Busy Without Getting Anything Done (matduggan.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La capacité d’apprendre, c’est bel et bien ce que les téléphones et l’IA sont en train de nous dérober. Comme le souligne Hilarius Bookbinder, professeur de philosophie dans une université américaine, la différence générationnelle majeure qu’il observe est que les étudiants d’aujourd’hui n’ont aucune honte à simplement envoyer un email au professeur pour lui demander de résumer ce qu’il faut savoir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hilariusbookbinder.substack.com/p/the-average-college-student-today&quot;&gt;The average college student today (hilariusbookbinder.substack.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans son journal de Mars, Thierry Crouzet fait une observation similaire. Alors qu’il annonce quitter Facebook, tout ce qu’il a pour réponse c’est « Mais pourquoi ? ». Alors même qu’il balance des liens sur le sujet depuis des lustres.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tcrouzet.com/2025/04/02/mars-2025/&quot;&gt;Mars 2025 - Thierry Crouzet (tcrouzet.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les chatbots ne sont, eux-mêmes, pas des systèmes qu’il est possible d’apprendre. Ils sont statistiques, sans cesse changeants. À les utiliser, la seule capacité que l’on acquiert, c’est l’impression qu’il n’est pas possible d’apprendre. Ces systèmes nous volent littéralement le réflexe de réfléchir et d’apprendre.&lt;/p&gt;
+&lt;p&gt;En conséquence, sans même vouloir chercher, une partie de la population veut désormais une réponse personnelle, immédiate, courte, résumée. Et si possible en vidéo.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;La fin de la confiance&lt;/h2&gt;
+&lt;p&gt;Apprendre nécessite d’avoir confiance en soi. Il est impossible d’apprendre si on n’a pas la certitude qu’on est capable d’apprendre. À l’opposé, si on acquiert cette certitude, à peu près tout peut s’apprendre.&lt;/p&gt;
+&lt;p&gt;Une étude menée par des chercheurs de Microsoft montre que plus on a confiance en soi, moins on fait confiance aux réponses des chatbots. Mais, au contraire, si on a le moindre doute, on a soudainement confiance envers les résultats qui nous sont envoyés.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf?utm_source=newsletter.danielmiessler.com&amp;utm_medium=newsletter&amp;utm_campaign=unsupervised-learning-no-475&quot;&gt;The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Parce que les chatbots parlent comme des CEOs, des marketeux ou des arnaqueurs : ils simulent la confiance envers leurs propres réponses. Les personnes, même les plus expertes, qui n’ont pas le réflexe d’aller au conflit, de remettre l’autorité en question finissent par transformer leur confiance en eux-mêmes en confiance envers un outil.&lt;/p&gt;
+&lt;p&gt;Un outil de génération aléatoire qui appartient à des multinationales.&lt;/p&gt;
+&lt;p&gt;Les entreprises sont en train de nous voler notre confiance en nous-mêmes. Elles sont en train de nous voler notre compétence. Elles sont en train de nous voler nos scientifiques les plus brillants.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucianonooijen.com/blog/why-i-stopped-using-ai-code-editors/&quot;&gt;Why I stopped using AI code editors (lucianonooijen.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Et c’est déjà en train de faire des dégâts dans le domaine de « l’intelligence stratégique » (à savoir les services secrets). &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dutchosintguy.com/post/the-slow-collapse-of-critical-thinking-in-osint-due-to-ai&quot;&gt;The Slow Collapse of Critical Thinking in OSINT due to AI (www.dutchosintguy.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ainsi que dans le domaine de la santé : les médecins ont tendance à faire exagérément confiance aux diagnostics posés automatiquement, notamment pour les cancers. Les médecins les plus expérimentés se défendent mieux, mais restent néanmoins sensibles : ils font des erreurs qu’ils n’auraient jamais commises normalement si cette erreur est encouragée par un assistant artificiel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pubs.rsna.org/doi/10.1148/radiol.222176&quot;&gt;Automation Bias in Mammography: The Impact of Artificial Intelligence BI-RADS Suggestions on Reader Performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;La fin de la connaissance&lt;/h2&gt;
+&lt;p&gt;Avec les chatbots, une idée vieille comme l’informatique refait surface : « Et si on pouvait dire à la machine ce qu’on veut sans avoir besoin de la programmer ? ».&lt;/p&gt;
+&lt;p&gt;C’est le rềve de toute cette catégorie de managers qui ne voient les programmeurs que comme des pousse-bouton qu’il faut bien payer, mais dont on aimerait se passer.&lt;/p&gt;
+&lt;p&gt;Rêve qui, faut-il le préciser, est complètement stupide.&lt;/p&gt;
+&lt;p&gt;Parce que l’humain ne sait pas ce qu’il veut. Parce que la parole a pour essence d’être imprécise. Parce que lorsqu’on parle, on échange des sensations, des intuitions, mais on ne peut pas être précis, rigoureux, bref, scientifique.&lt;/p&gt;
+&lt;p&gt;L’humanité est sortie du moyen-âge lorsque des Newton, Leibniz, Descartes ont commencé à inventer un langage de logique rationnelle : les mathématiques. Tout comme on avait inventé, à peine plus tôt, un langage précis pour décrire la musique.&lt;/p&gt;
+&lt;p&gt;Se satisfaire de faire tourner un programme qu’on a décrit à un chatbot, c’est retourner intellectuellement au moyen-âge.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html&quot;&gt;On the foolishness of &amp;quot;natural language programming&amp;quot;. (EWD 667) (EWD)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais bon, encore faut-il maitriser une langue. Lorsqu’on passe sa scolarité à demander à un chatbot de résumer les livres à lire, ce n’est même pas sûr que nous arriverons à décrire ce que nous voulons précisément.&lt;/p&gt;
+&lt;p&gt;En fait, ce n’est même pas sûr que nous arriverons encore à penser ce que nous voulons. Ni même à vouloir. La capacité de penser, de réfléchir est fortement corrélée avec la capacité de traduire en mot.&lt;/p&gt;
+&lt;blockquote&gt; Ce qui se conçoit bien s’énonce clairement et les mots pour le dire viennent aisément. (Boileau)&lt;br&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ce n’est plus un retour au moyen-âge, c’est un retour à l’âge de la pierre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/112-le-dernier-vaisseau/index.html&quot;&gt;Le dernier vaisseau (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ou dans le futur décrit dans mon (excellent) roman Printeurs : des injonctions publicitaires qui se sont substituées à la volonté. (si si, achetez-le ! Il est à la fois palpitant et vous fera réfléchir)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pvh-editions.com/shop/38-printeurs&quot;&gt;Printeurs, par Ploum (pvh-editions.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/etoilemysterieuse3.jpg&quot;&gt;&lt;img alt=&quot;Extrait de Tintin, l’étoile mystérieuse&quot; src=&quot;https://ploum.net/files/etoilemysterieuse3.jpg&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Extrait de Tintin, l’étoile mystérieuse&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;soustitre-6&quot;&gt;La fin des différentes voix.&lt;/h2&gt;
+&lt;p&gt;Je critique le besoin d’avoir une réponse en vidéo, car la notion de lecture est importante. Je me rends compte qu’une proportion incroyable, y compris d’universitaires, ne sait pas « lire ». Ils savent certes déchiffrer, mais pas réellement lire. Et il y a un test tout simple pour savoir si vous savez lire : si vous trouvez plus facile d’écouter une vidéo YouTube d’une personne qui parle plutôt que de lire le texte vous-même, c’est sans doute que vous déchiffrez. C’est que vous lisez à haute voix dans votre cerveau pour vous écouter parler. &lt;/p&gt;
+&lt;p&gt;Il y a bien sûr bien des contextes où la vidéo ou la voix ont des avantages, mais lorsqu’il s’agit, par exemple, d’apprendre une série de commandes et leurs paramètres, la vidéo est insupportablement inappropriée. Pourtant, je ne compte plus les étudiants qui me recommandent des vidéos sur le sujet.&lt;/p&gt;
+&lt;p&gt;Car la lecture, ce n’est pas simplement transformer les lettres en son. C’est en percevoir directement le sens, permettant des allers-retours incessants, des pauses, des passages rapides afin de comprendre le texte. Entre un écrivain et un lecteur, il existe une communication, une communion télépathique qui font paraître l’échange oral lent, inefficace, balourd, voire grossier.&lt;/p&gt;
+&lt;p&gt;Cet échange n’est pas toujours idéal. Un écrivain possède sa « voix » personnelle qui ne convient pas à tout le monde. Il m’arrive régulièrement de tomber sur des blogs dont le sujet m’intéresse, mais je n’arrive pas à m’abonner, car la « voix » du blogueur ne me convient pas du tout.  &lt;/p&gt;
+&lt;p&gt;C’est normal et même souhaitable. C’est une des raisons pour laquelle nous avons besoin de multitudes de voix. Nous avons besoin de gens qui lisent puis qui écrivent, qui mélangent les idées et les transforment pour les transmettre avec leur propre voix.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-7&quot;&gt;La fin de la relation humaine&lt;/h2&gt;
+&lt;p&gt;Dans la file d’un magasin, j’entendais la personne en face de moi se vanter de raconter sa vie amoureuse à ChatGPT et de lui demander en permanence conseil sur la manière de la gérer.&lt;/p&gt;
+&lt;p&gt;Comme si la situation nécessitait une réponse d’un ordinateur plutôt qu’une discussion avec un autre être humain qui comprend voir qui a vécu le même problème.&lt;/p&gt;
+&lt;p&gt;Après nous avoir volé le moindre instant de solitude avec les notifications incessantes de nos téléphones et les messages sur les réseaux sociaux, l’IA va désormais voler notre sociabilité.&lt;/p&gt;
+&lt;p&gt;Nous ne serons plus connectés qu’avec le fournisseur, l’Entreprise.&lt;/p&gt;
+&lt;p&gt;Sur Gopher, szczezuja parle des autres personnes postant sur Gopher comme étant ses amis.&lt;/p&gt;
+&lt;blockquote&gt; Tout le monde ne sait pas que ce sont mes amis, mais comment appeler autrement quelqu’un que vous lisez régulièrement et dont vous connaissez un peu de sa vie intime&lt;br&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;gopher://sdf.org/0/users/szczezuja/phlog/2025-03-30-I-am-alive-2.txt&quot;&gt;I am alive (2) (szczezuja)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-8&quot;&gt;La fin de la fin…&lt;/h2&gt;
+&lt;p&gt;La fin d’une ère est toujours le début d’une autre. Annoncer la fin, c’est préparer une renaissance. En apprenant de nos erreurs pour reconstruire en améliorant le tout.&lt;/p&gt;
+&lt;p&gt;C’est peut-être ce que j’apprécie tant sur Gemini : l’impression de découvrir, de suivre des « voix » uniques, humaines. J’ai l’impression d’être témoin d’une microfaction d’humanité qui se désolidarise du reste, qui reconstruit autre chose. Qui lit ce que d’autres humains ont écrit juste parce qu’un autre humain a eu besoin de l’écrire sans espérer aucune contrepartie.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2023-08-01-splitting-the-web.html&quot;&gt;Splitting the Web (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vous vous souvenez des « planet » ? Ce sont des agrégateurs de blogs regroupant les participants d’un projet en un seul flux. L’idée a été historiquement lancée par GNOME avec planet.gnome.org (qui existe toujours) avant de se généraliser.&lt;/p&gt;
+&lt;p&gt;Et bien bacardi55 lance Planet Gemini FR, un agrégateur des capsules Gemini francophone.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;gemini://news.planet-gemini.fr/2025/03/29/ouverture-du-planet-gemini-france/&quot;&gt;Annonce: Ouverture du Planet Gemini France (news.planet-gemini.fr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;C’est génial et parfait pour ceux qui ont envie de découvrir du contenu sur Gemini.&lt;/p&gt;
+&lt;p&gt;C’est génial pour ceux qui ont envie de lire d’autres humains qui n’ont rien à vous vendre. Bref, pour découvrir le fin du fin…&lt;/p&gt;
+&lt;blockquote&gt; Toutes les images sont illégalement issues du chef-d’œuvre d’Hergé : « L’étoile mystérieuse ». Y’a pas de raison que les chatbots soient les seuls à pomper.&lt;br&gt;&lt;/blockquote&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;Je suis &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt; et je viens de publier &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, une fable écolo-cycliste entièrement tapée sur une machine à écrire mécanique. Pour me soutenir, &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;achetez mes livres&lt;/a&gt; (si possible chez votre libraire) !&lt;/p&gt; 
+&lt;p&gt;Recevez directement par mail &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/fr.listes.ploum.net/&quot;&gt;mes écrits en français&lt;/a&gt; et &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;en anglais&lt;/a&gt;. Votre adresse ne sera jamais partagée. Vous pouvez également utiliser &lt;a href=&quot;/atom_fr.xml&quot;&gt;mon flux RSS francophone&lt;/a&gt; ou &lt;a href=&quot;/atom.xml&quot;&gt;le flux RSS complet&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="en">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">Goodbye Offpunk, Welcome XKCDpunk!</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-04-01-xkcdpunk.html" />
+	<id>https://ploum.net/2025-04-01-xkcdpunk.html</id>
+	<published>2025-04-01T00:00:00Z</published>
+	<updated>2025-04-01T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;Goodbye Offpunk, Welcome XKCDpunk!&lt;/h1&gt;
+		&lt;p&gt;For the last three years, I’ve been working on Offpunk, a command-line gemini and web browser. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://offpunk.net&quot;&gt;Offpunk.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While my initial goal was to browse the Geminisphere offline, the mission has slowly morphed into cleaning and unenshitiffying the modern web, offering users a minimalistic way of browsing any website with interesting content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2022-03-24-ansi_html.html&quot;&gt;Rendering the Web with Pictures in Your Terminal (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-1&quot;&gt;Focusing on essentials&lt;/h2&gt;
+&lt;p&gt;From the start, it was clear that Offpunk would focus on essentials. If a website needs JavaScript to be read, it is considered as non-essential. &lt;/p&gt;
+&lt;p&gt;It worked surprisingly well. In fact, in multiple occurrence, I’ve discovered that some websites work better in Offpunk than in Firefox. I can comfortably read their content in the former, not in the latter.&lt;/p&gt;
+&lt;p&gt;By default, Offpunk blocks domains deemed as nonessentials or too enshitified like twitter, X, facebook, linkedin, tiktok. (those are configurable, of course. Defaults are in offblocklist.py).&lt;/p&gt;
+&lt;p&gt;Cleaning websites, blocking worst offenders. That’s good. But it is only a start.&lt;/p&gt;
+&lt;p&gt;It’s time to go further, to really cut out all the crap from the web. &lt;/p&gt;
+&lt;p&gt;And, honestly, besides XKCD comics, everything is crap on the modern web.&lt;/p&gt;
+&lt;blockquote&gt; As an online technical discussion grows longer, the probability of a comparison with an existing XKCD comic approaches 1.&lt;br&gt; – XKCD’s law&lt;br&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/xkcds-law/index.html&quot;&gt;XKCD’s law (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If we know that we will end our discussion with an XKCD’s comic, why not cut all the fluff? Why don’t we go straight to the conclusion in a true minimalistic fashion?&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;Introducing XKCDpunk&lt;/h2&gt;
+&lt;p&gt;That’s why I’m proud to announce that, starting with today’s release, Offpunk 2.7 will now be known as XKCDpunk 1.0.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://xkcdpunk.net&quot;&gt;Xkcdpunk.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;XKCDpunk includes a new essential command &amp;quot;xkcd&amp;quot; which, as you guessed, takes an integer as a parameter and display the relevant XKCD comic in your terminal, while caching it to be able to browse it offline.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;https://ploum.net/files/xkcdpunk1.png&quot;&gt;&lt;img alt=&quot;Screenshot of XKCDpunk showing comic 626&quot; src=&quot;https://ploum.net/files/xkcdpunk1.png&quot; width=&quot;450&quot; class=&quot;center&quot;&gt;&lt;/a&gt;
+&lt;figcaption&gt;Screenshot of XKCDpunk showing comic 626&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Of course, this is only an early release. I need to clean a lot of code to remove everything not related to accessing xkcd.com. Every non-xkcd related domain will be added to offblocklist.py. &lt;/p&gt;
+&lt;p&gt;I also need to clean every occurrence of &amp;quot;Offpunk&amp;quot; to change the name. All offpunk.net needs to be migrated to xkcd.net. Roma was not built in one day.&lt;/p&gt;
+&lt;p&gt;Don’t hesitate to install an &amp;quot;offpunk&amp;quot; package, as it will still be called in most distributions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://repology.org/project/offpunk/versions&quot;&gt;offpunk package versions - Repology (repology.org)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And report bugs on the xkcdpunk’s mailinglist.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lists.sr.ht/~lioploum/offpunk-users&quot;&gt;xkcdpunk-users on lists.sr.ht&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Goodbye Offpunk, welcome XKCDpunk!&lt;/p&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;I’m &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt;, a writer and an engineer. I like to explore how technology impacts society. You can subscribe &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;by email&lt;/a&gt; or &lt;a href=&quot;/atom_en.xml&quot;&gt;by rss&lt;/a&gt;. I value privacy and never share your adress.&lt;/p&gt;
+&lt;p&gt;I write &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;science-fiction novels in French&lt;/a&gt;. For &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, my new post-apocalyptic-cyclist book, my publisher is looking for contacts in other countries to distribute it in languages other than French. If you can help, &lt;a href=&quot;about.html&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt; 
+
+&lt;/div&gt;
+	</content>
+</entry>
+<entry xml:lang="en">
+	<author><name>Ploum</name><uri>https://ploum.net</uri></author>
+	<title type="html">The candid naivety of geeks</title>
+	<link rel="alternate" type="text/html" href="https://ploum.net/2025-03-28-geeks-naivety.html" />
+	<id>https://ploum.net/2025-03-28-geeks-naivety.html</id>
+	<published>2025-03-28T00:00:00Z</published>
+	<updated>2025-03-28T00:00:00Z</updated>
+	<content type="html">
+		&lt;h1&gt;The candid naivety of geeks&lt;/h1&gt;
+		&lt;h2 id=&quot;soustitre-1&quot;&gt;I mean, come on!&lt;/h2&gt;
+&lt;p&gt;Amazon recently announced that, from now on, everything you say to Alexa will be sent to their server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pluralistic.net/2025/03/15/altering-the-deal/&quot;&gt;Pluralistic: Amazon annihilates Alexa privacy settings, turns on continuous, nonconsensual audio uploading (15 Mar 2025) (pluralistic.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What surprised me the most with this announcement is how it was met with surprise and harsh reactions. People felt betrayed.&lt;/p&gt;
+&lt;p&gt;I mean, come on!&lt;/p&gt;
+&lt;p&gt;Did you really think that Amazon was not listening to you before that? Did you really buy an Alexa trusting Amazon to &amp;quot;protect your privacy&amp;quot;?&lt;/p&gt;
+&lt;p&gt;Recently, I came across a comment on Hacker News where the poster defended Apple as protecting privacy of its users because &amp;quot;They market their product as protecting our privacy&amp;quot;.&lt;/p&gt;
+&lt;p&gt;I mean, once again, come on!&lt;/p&gt;
+&lt;p&gt;Did you really think that &amp;quot;marketing&amp;quot; is telling the truth? Are you a freshly debarked Thermian? (In case you missed it, this is a Galaxy Quest reference.)&lt;/p&gt;
+&lt;p&gt;The whole point of marketing is to lie, lie and lie again. &lt;/p&gt;
+&lt;h2 id=&quot;soustitre-2&quot;&gt;What is the purpose of that gadget?&lt;/h2&gt;
+&lt;p&gt;The whole point of the whole Amazon Alexa tech stack is to send information to Amazon. That’s the main goal of the thing. The fact that it is sometimes useful to you is a direct consequence of the thing sending information to Amazon. Just like Facebook linking you with friends is a consequence of you giving your information to Meta. Usefulness is only a byproduct of privacy invasion.&lt;/p&gt;
+&lt;p&gt;Having a fine-grained setting enabling &amp;quot;do not send all information to Amazon please&amp;quot; is, at best, wishful thinking. We had the same in the browser (&amp;quot;do-not-track&amp;quot;). It didn’t work. &lt;/p&gt;
+&lt;p&gt;I’ve always been convinced that the tech geeks who bought an Amazon Alexa perfectly knew what they were doing. One of my friends has a Google Echo and justify it with &amp;quot;Google already knows everything about our family through our phones, so I’m trading only a bit more of our privacy for convenience&amp;quot;. I don’t agree with him but, at the very least, it’s a logical opinion.&lt;/p&gt;
+&lt;p&gt;We all know that what can be done with a tool will be done eventually. And you should prepare for it. On a side note, I also postulate that the reason Amazon removed that setting is because they were already gathering too much data to justify its existence in case there’s a complaint or an investigation in the future.&amp;quot;How did you manage to get those data while your product says it will not send data?&amp;quot;. &lt;/p&gt;
+&lt;p&gt;But, once again, any tech person knows that pushing a button in an interface is not a proof of anything in the underlying software. &lt;/p&gt;
+&lt;h2 id=&quot;soustitre-3&quot;&gt;Please stop being naive about Apple&lt;/h2&gt;
+&lt;p&gt;That’s also the point with Apple: Apple is such a big company that the right hand has no idea about what the left hand is doing. Some privacy people are working at Apple and doing good job. But their work is continuously diluted through the interests of quick and cheap production, marketing, release, new features, gathering data for advertising purpose. Apple is not a privacy company and has never been: it is an opportunistic company which advertise privacy when it feels it could help sell more iPhones. But deeply inside, they absolutely don’t care and they will absolutely trade the (very little) privacy they have if it means selling more.&lt;/p&gt;
+&lt;p&gt;Sometimes, geek naivety is embarrassingly stupid. Like &amp;quot;brand loyalty&amp;quot;. Marketing lies to you. As a rule of thumb, the bigger the company, the bigger the lie. In tech, there’s no way for a big company to not lie because marketers have no real understanding of they are selling. Do you really think that people who chose to advertise &amp;quot;privacy&amp;quot; at Apple have any strong knowledge about &amp;quot;privacy&amp;quot;? That they could simply give you a definition of &amp;quot;privacy&amp;quot;?&lt;/p&gt;
+&lt;p&gt;I know that intelligent people go to great intellectual contortions to justify buying the latest overpriced spying shiny coloured screen with an apple logo. It looks like most humans actively look to see their freedom restricted. Seirdy calls it &amp;quot;the domestication of users&amp;quot;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://seirdy.one/posts/2021/01/27/whatsapp-and-the-domestication-of-users/&quot;&gt;WhatsApp and the domestication of users (seirdy.one)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And that’s why I see Apple as a cult: most tech people cannot be reasoned about it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/the-cost-of-being-convinced/index.html&quot;&gt;The Cost of Being Convinced (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soustitre-4&quot;&gt;You can’t find a technical solution to a lie&lt;/h2&gt;
+&lt;p&gt;Bill Cole, contributor to Spamassassin, recently posted on Mastodon that the whole DNS stack to protect spammers was not working.&lt;/p&gt;
+&lt;blockquote&gt; spammers are more consistent at making SPF, DKIM, and DMARC correct than are legitimate senders.&lt;br&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://toad.social/@grumpybozo/114213600922816869&quot;&gt;🆘Bill Cole 🇺🇦: &amp;quot;@jwz@mastodon.social The stats we collect for the…&amp;quot; (toad.social)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is, once again, a naive approach to spam. The whole stack was designed with the mindset &amp;quot;bad spammers will try to hide themselves&amp;quot;. But was is happening in your inbox, really?&lt;/p&gt;
+&lt;p&gt;Most spam is not &amp;quot;black hat spam&amp;quot;. It is what I call &amp;quot;white-collar spam&amp;quot;: perfectly legitimate company, sending you emails from legitimate address. You slept in a hotel during a business trip? Now you will receive weekly emails about our hotel for the rest of your life. And it is the same for any shop, any outlet, anything you have done. Your inbox is filled with &amp;quot;white-collar&amp;quot; junk. And they know this perfectly well. &lt;/p&gt;
+&lt;p&gt;In Europe, we have a rule, the RGPD, which forbid businesses to keep your data without your express consent. I did the experiment for several months to send a legal threat to every single white-collar spam I received. Guess what: they always replied that it was a mistake, that I was now removed, that it should not have happened, that I checked the box (which was false but how could I prove it?) or even, on one occasion, that they restored a backup containing my email before I unsubscribed (I unsubscribed from that one 10 years before, which makes it very unlikely).&lt;/p&gt;
+&lt;p&gt;In short, they lied. All of them. All of them are spammers and they lie pretending that &amp;quot;they thought you were interested&amp;quot;.&lt;/p&gt;
+&lt;p&gt;In one notable case, they told me that they had erased all my data while, still having the cookie on my laptop, I could see and use my account. Thirty days later, I was still connected and I figured that they simply managed to change my user id from &amp;quot;ploum&amp;quot; to &amp;quot;deleted_ploum&amp;quot; in the database. While answering me straight in the face that they had no information about me in their database.&lt;/p&gt;
+&lt;p&gt;Corporations are lying. You must treat every corporate word as a straight lie until proved otherwise. &lt;/p&gt;
+&lt;h2 id=&quot;soustitre-5&quot;&gt;But Ploum, if all marketing is a lie, why trusting Signal?&lt;/h2&gt;
+&lt;p&gt;If you can’t trust marketing, why do I use Signal and Protonmail?&lt;/p&gt;
+&lt;p&gt;First of all, Signal is open source. And, yes, I’ve read some of the source code for some feature I was interested in. I’ve also read through some very deep audit of Signal source code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://soatok.blog/2025/02/18/reviewing-the-cryptography-used-by-signal/&quot;&gt;Reviewing the Cryptography Used by Signal (soatok.blog)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m also trusting the people behind Signal. I’m trusting people who recommend Signal. I’m trusting the way Signal is built. &lt;/p&gt;
+&lt;p&gt;But most importantly, Signal sole existence is to protect privacy of its users. It’s not even a corporation and, yes, this is important.&lt;/p&gt;
+&lt;p&gt;Yes, they could lie in their marketing. Like Telegram did (and still does AFAIK). But this would undermine their sole reason to exist.&lt;/p&gt;
+&lt;p&gt;I don’t say that Signal is perfect: I say I trust them to believe themselves what they announce. For now.&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-6&quot;&gt;What about Protonmail?&lt;/h2&gt;
+&lt;p&gt;For the same reasons, Protonmail can, to some extent, be trusted. Technically, they can access most of the emails of their customers (because those emails arrive unencrypted to PM’s servers). But I trust Protonmail not to sell any data because if there’s any doubt that they do it, the whole business will crumble. They have a strong commercial incentive to do everything they can to protect my data. I pay them for that. It’s not a &amp;quot;checkbox&amp;quot; they could remove, it’s their whole raison d’être.&lt;/p&gt;
+&lt;p&gt;This is also why I pay for Kagi as my search engine: their business incentive is to provide me the best search results with less slop, less advertising. As soon as they start doing some kind of advertising, I will stop paying them and they know it. Or if Kagi starts becoming to AI centric for my taste, like they did for Lori:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://d-shoot.net/kagi.html&quot;&gt;Why I Lost Faith in Kagi (d-shoot.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don’t blindly trust companies. Paying them is not a commitment to obey them, au contraire. Every relation with a commercial entity is, by essence, temporary. I pay for a service with strings attached. If the service degrade, if my conditions are not respected, I stop paying. If I’m not convinced they can be trusted, I stop paying them. I know I can pay and still be the product. If I have any doubt, I don’t pay. I try to find an alternative and migrate to it. Email being critical to me, I always have two accounts on two different trustable providers with an easy migrating path (which boils down to changing my DNS config).&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-7&quot;&gt;Fighting the Androidification&lt;/h2&gt;
+&lt;p&gt;Cory Doctorow speaks a lot about enshitification. Where users are more and more exploited. But one key component of a good enshitification is what I call &amp;quot;Androidification&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Androidification is not about degrading the user experience. It’s about closing doors, removing special use cases, being less and less transparent. It’s about taking open source software and frog boiling it to a full closed proprietary state while killing all the competition in the process. &lt;/p&gt;
+&lt;p&gt;Android was, at first, an Open Source project. With each release, it became more closed, more proprietary. As I explain in my &amp;quot;20 years of Linux on the Desktop&amp;quot; essay, I believe it has always been part of the plan. Besides the Linux kernel, Google was always wary not to include any GPL or LGPL licensed library in Android.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2025-03-08-linux_desktop3.html&quot;&gt;20 years of Linux on the Desktop (part 3) (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It took them 15 years but they finally achieved killing the Android Open Source Project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.androidauthority.com/google-android-development-aosp-3538503/&quot;&gt;Google will develop the Android OS fully in private, here&amp;#x27;s why (www.androidauthority.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is why I’m deeply concerned by the motivation of Canonical to switch Ubuntu’s coreutils to an MIT licensed version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.theregister.com/feed/www.theregister.com/2025/03/19/ubuntu_2510_rust/&quot;&gt;Ubuntu 25.10 plans to swap GNU coreutils for Rust (go.theregister.com)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is why I’m deeply concerned that Protonmail quietly removed the issue tracker from its Protonmail Bridge Github page (making the development completely opaque for what is an essential tool for technical Protonmail users).&lt;/p&gt;
+&lt;h2 id=&quot;soustitre-8&quot;&gt;I mean, commons!&lt;/h2&gt;
+&lt;p&gt;This whole naivety is also why I’m deeply concerned by very intelligent and smart tech people not understanding what &amp;quot;copyleft&amp;quot; is, why it is different from &amp;quot;open source&amp;quot; and why they should care.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2023-06-19-more-rms.html&quot;&gt;We need more of Richard Stallman, not less (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Corporations are not your friend. They never were. They lie. The only possible relationship with them is an opportunistic one. And if you want to build commons that they cannot steal, you need strong copyleft.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ploum.net/2024-07-01-opensource_sustainability.html&quot;&gt;On Open Source and the Sustainability of the Commons (ploum.net)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But firstly, my fellow geeks, you need to lose your candid naivety.&lt;/p&gt;
+&lt;p&gt;I mean, come on, let’s build the commons!&lt;/p&gt;
+
+&lt;div class=&quot;signature&quot;&gt;&lt;p&gt;I’m &lt;a href=&quot;https://fr.wikipedia.org/wiki/Ploum&quot;&gt;Ploum&lt;/a&gt;, a writer and an engineer. I like to explore how technology impacts society. You can subscribe &lt;a href=&quot;https://listes.ploum.net/mailman3/lists/en.listes.ploum.net/&quot;&gt;by email&lt;/a&gt; or &lt;a href=&quot;/atom_en.xml&quot;&gt;by rss&lt;/a&gt;. I value privacy and never share your adress.&lt;/p&gt;
+&lt;p&gt;I write &lt;a href=&quot;https://pvh-editions.com/ploum&quot;&gt;science-fiction novels in French&lt;/a&gt;. For &lt;a href=&quot;https://bikepunk.fr&quot;&gt;Bikepunk&lt;/a&gt;, my new post-apocalyptic-cyclist book, my publisher is looking for contacts in other countries to distribute it in languages other than French. If you can help, &lt;a href=&quot;about.html&quot;&gt;contact me&lt;/a&gt;!&lt;/p&gt; 
+
+&lt;/div&gt;
+	</content>
+</entry>
+
+</feed>
