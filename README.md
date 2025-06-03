@@ -34,6 +34,24 @@ Usage:
     }
   ```
 
+- Write your template (save it as `TEMPLATE_PATH`):
+
+  ```html
+  {% for cat, cat_entries in entries|items %}
+      <h2>{{ cat }}</h2>
+      <ul>
+      {% for e in cat_entries %}
+          <li>
+              {{ e.published|time_fmt }} - {{ e.feed.title }}
+              <a href="{{ e.link }}" target="_blank">{{ e.title }} </a>
+          </li>
+      {% endfor %}
+      </ul>
+  {% endfor %}
+  ```
+  Templates are handled by [Jinja2](https://jinja.palletsprojects.com/en/stable/).
+  A custom filter is provided for formatting dates (time_fmt).
+
 - Run feedboard:
 
   ```bash
