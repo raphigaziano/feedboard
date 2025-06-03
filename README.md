@@ -1,5 +1,5 @@
-FEEBOARD
-========
+FEEDBOARD
+=========
 
 A simple tool to generate an aggregated rss feed. This is quick and dirty
 and mostly intended for my own personal usage.
