@@ -27,10 +27,11 @@ def get_config(config_path):
 
 
 def main():
+    """ Main entry point. """
     if not (config := get_config(DEFAULT_CONFIG_PATH)):
         return
 
     entries = get_all_feeds(config.FEED_URLS)
-    output = generate_html(entries, 'template.html')
+    output = generate_html(entries, config.TEMPLATE_PATH)
     if output:
         print(output)
