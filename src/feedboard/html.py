@@ -4,7 +4,8 @@ import logging
 import jinja2
 
 
-logger = logging.getLogger()
+logger = logging.getLogger(__file__)
+
 
 def load_template(filepath):
     """

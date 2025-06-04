@@ -1,6 +1,10 @@
+import logging
 import itertools
+from concurrent.futures import ThreadPoolExecutor
 
 import feedparser
+
+logger = logging.getLogger(__file__)
 
 
 class Entry:
@@ -57,7 +61,9 @@ class Feed:
 
     @classmethod
     def from_url(cls, url):
+        logger.debug(f"Downloading feed ({url})...")
         parsed_feed = feedparser.parse(url)
+        logger.debug(f"Done ({url})")
         return cls(parsed_feed)
 
 
@@ -74,13 +80,26 @@ def merge_feeds(*feeds):
     )
 
 
-def get_all_feeds(feed_config):
+def download_feed_list(feed_urls, config):
+    feeds = []
+    n_workers = max(1, config.max_workers // 3 * 2)
+    with ThreadPoolExecutor(max_workers=n_workers) as executor:
+        executor.map(lambda url: feeds.append(Feed.from_url(url)), feed_urls)
+    return feeds
+
+
+def get_all_feeds(config):
     """
     Retrieve all feeds from the passed config dict and aggregate all their
     entries, keeping them mapped to their respective categories.
 
     """
     r = {}
-    for category, feed_urls in feed_config.items():
-        r[category] = merge_feeds(*[Feed.from_url(url) for url in feed_urls])
+    n_workers = max(1, config.max_workers // 3)
+    with ThreadPoolExecutor(max_workers=n_workers) as executor:
+        def process_category(t):
+            cat, feed_urls = t
+            feeds = download_feed_list(feed_urls, config)
+            r[cat] = merge_feeds(*feeds)
+        executor.map(process_category, config.FEED_URLS.items())
     return r

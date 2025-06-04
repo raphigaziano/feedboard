@@ -6,9 +6,10 @@ import importlib
 from feedboard.feed import get_all_feeds
 from feedboard.html import generate_html
 
-logger = logging.getLogger()
+logger = logging.getLogger(__file__)
 
 DEFAULT_CONFIG_PATH = './feedboardconf.py'
+DEFAULT_MAX_WORKERS = 12
 
 
 def get_config(config_path):
@@ -23,7 +24,8 @@ def get_config(config_path):
     except FileNotFoundError:
         logger.error("Could not load configuration file: %s", config_path)
         return None
-
+    # TODO: merge with defaults
+    mod.max_workers = getattr(mod, 'max_workers', DEFAULT_MAX_WORKERS) # what if it is zero ?
     return mod
 
 
@@ -36,10 +38,13 @@ def parse_args():
 def main():
     """ Main entry point. """
     args = parse_args()
+
+    logging.basicConfig(level=logging.DEBUG)
     if not (config := get_config(args.settings or DEFAULT_CONFIG_PATH)):
         return
 
-    entries = get_all_feeds(config.FEED_URLS)
+    entries = get_all_feeds(config)
+
     output = generate_html(entries, config.TEMPLATE_PATH)
     if output:
         print(output)
