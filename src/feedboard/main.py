@@ -10,7 +10,7 @@ logger = logging.getLogger(__file__)
 
 DEFAULT_CONFIG_PATH = './feedboardconf.py'
 DEFAULT_MAX_WORKERS = 12
-DEFAULT_MAX_ENTRIES = 20    # per feed
+DEFAULT_MAX_ENTRIES = 20    # per category
 
 
 def get_config(config_path):

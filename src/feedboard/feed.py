@@ -73,13 +73,11 @@ def merge_feeds(feed_list, config):
     descending date of publication.
 
     """
-    yield from sorted(
-        itertools.chain.from_iterable(
-            itertools.islice(f.entries, config.max_entries)
-            for f in feed_list),
+    yield from itertools.islice(sorted(
+        itertools.chain.from_iterable(f.entries for f in feed_list),
         key=lambda e: e.published,
         reverse=True
-    )
+    ), config.max_entries)
 
 
 def download_feed_list(feed_urls, config):
