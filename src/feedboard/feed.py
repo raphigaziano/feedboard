@@ -77,12 +77,12 @@ def merge_feeds(feed_list, config):
         itertools.chain.from_iterable(f.entries for f in feed_list),
         key=lambda e: e.published,
         reverse=True
-    ), config.max_entries)
+    ), config.MAX_ENTRIES)
 
 
 def download_feed_list(feed_urls, config):
     feeds = []
-    n_workers = max(1, config.max_workers // 3 * 2)
+    n_workers = max(1, config.MAX_WORKERS // 3 * 2)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
         executor.map(lambda url: feeds.append(Feed.from_url(url)), feed_urls)
     return feeds
@@ -95,7 +95,7 @@ def get_all_feeds(config):
 
     """
     r = {}
-    n_workers = max(1, config.max_workers // 3)
+    n_workers = max(1, config.MAX_WORKERS // 3)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
         def process_category(t):
             cat, feed_urls = t
