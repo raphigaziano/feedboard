@@ -67,14 +67,16 @@ class Feed:
         return cls(parsed_feed)
 
 
-def merge_feeds(*feeds):
+def merge_feeds(feed_list, config):
     """
     Return a regular list of entries from all the passed feeds, sorted by
     descending date of publication.
 
     """
     yield from sorted(
-        itertools.chain.from_iterable(f.entries for f in feeds),
+        itertools.chain.from_iterable(
+            itertools.islice(f.entries, config.max_entries)
+            for f in feed_list),
         key=lambda e: e.published,
         reverse=True
     )
@@ -100,6 +102,6 @@ def get_all_feeds(config):
         def process_category(t):
             cat, feed_urls = t
             feeds = download_feed_list(feed_urls, config)
-            r[cat] = merge_feeds(*feeds)
+            r[cat] = merge_feeds(feeds, config)
         executor.map(process_category, config.FEED_URLS.items())
     return r

@@ -10,6 +10,7 @@ logger = logging.getLogger(__file__)
 
 DEFAULT_CONFIG_PATH = './feedboardconf.py'
 DEFAULT_MAX_WORKERS = 12
+DEFAULT_MAX_ENTRIES = 20    # per feed
 
 
 def get_config(config_path):
@@ -26,6 +27,7 @@ def get_config(config_path):
         return None
     # TODO: merge with defaults
     mod.max_workers = getattr(mod, 'max_workers', DEFAULT_MAX_WORKERS) # what if it is zero ?
+    mod.max_entries = getattr(mod, 'max_entries', DEFAULT_MAX_ENTRIES)
     return mod
 
 
