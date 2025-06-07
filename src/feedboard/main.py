@@ -87,7 +87,7 @@ def get_config(args):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
-    parser.add_argument('-o', '--output')
+    parser.add_argument('-o', '--output', type=argparse.FileType('w'))
     parser.add_argument('--max-workers', type=int)
     parser.add_argument('--max-entries', type=int)
     parser.add_argument('--dump-config', action='store_true')
@@ -97,11 +97,7 @@ def parse_args():
 def write_output(output, config):
     if not output:
         return
-    try:
-        config.OUTPUT.write(output)
-    except AttributeError:
-        with open(config.OUTPUT, 'w') as of:
-            of.write(output)
+    config.OUTPUT.write(output)
 
 
 def main():
