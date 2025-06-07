@@ -28,6 +28,9 @@ class Config:
     TEMPLATE_PATH = ''
     FEED_URLS = {}
 
+    # Those can, but probably shouldn't be set from config file
+    DUMP_CONFIG = False
+
     def __init__(self):
         pass
 
@@ -41,7 +44,7 @@ class Config:
     def get_prop(self, propname, obj):
         return (
             getattr(obj, propname, None) or
-            getattr(obj, propname.replace('_', '-').lower(), None))
+            getattr(obj, propname.lower(), None))
 
     def update(self, updater):
         """ Update values provided by the updater object. """
@@ -85,6 +88,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
     parser.add_argument('-o', '--output')
+    parser.add_argument('--dump-config', action='store_true')
     return parser.parse_args()
 
 
@@ -104,6 +108,10 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG)
     if not (config := get_config(args)):
+        return
+
+    if config.DUMP_CONFIG:
+        config.print()
         return
 
     entries = get_all_feeds(config)
