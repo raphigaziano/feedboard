@@ -88,6 +88,8 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
     parser.add_argument('-o', '--output')
+    parser.add_argument('--max-workers', type=int)
+    parser.add_argument('--max-entries', type=int)
     parser.add_argument('--dump-config', action='store_true')
     return parser.parse_args()
 
