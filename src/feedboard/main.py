@@ -1,3 +1,4 @@
+import sys
 import os
 import logging
 import argparse
@@ -21,6 +22,8 @@ class Config:
     MAX_WORKERS = 12
     MAX_ENTRIES = 20    # per category
 
+    OUTPUT = sys.stdout
+
     # Those cannot have default values
     TEMPLATE_PATH = ''
     FEED_URLS = {}
@@ -35,10 +38,15 @@ class Config:
                 continue
             yield k
 
+    def get_prop(self, propname, obj):
+        return (
+            getattr(obj, propname, None) or
+            getattr(obj, propname.replace('_', '-').lower(), None))
+
     def update(self, updater):
         """ Update values provided by the updater object. """
         for propname in self.get_property_names():
-            if (updated := getattr(updater, propname, None)):
+            if (updated := self.get_prop(propname, updater)):
                 setattr(self, propname, updated)
 
     def print(self):
@@ -69,14 +77,25 @@ def get_config(args):
         return None
     config = Config()
     config.update(mod)
-    # TODO: override from args
+    config.update(args)
     return config
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
+    parser.add_argument('-o', '--output')
     return parser.parse_args()
+
+
+def write_output(output, config):
+    if not output:
+        return
+    try:
+        config.OUTPUT.write(output)
+    except AttributeError:
+        with open(config.OUTPUT, 'w') as of:
+            of.write(output)
 
 
 def main():
@@ -90,5 +109,4 @@ def main():
     entries = get_all_feeds(config)
 
     output = generate_html(entries, config.TEMPLATE_PATH)
-    if output:
-        print(output)
+    write_output(output, config)
