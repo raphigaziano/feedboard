@@ -23,7 +23,7 @@ class Config:
 
     # Those cannot have default values
     TEMPLATE_PATH = ''
-    FEED_URLS = []
+    FEED_URLS = {}
 
     def __init__(self):
         pass
