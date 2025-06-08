@@ -5,7 +5,7 @@ import argparse
 import importlib
 
 from feedboard.feed import get_all_feeds
-from feedboard.html import generate_html
+from feedboard.html import get_jinja_env, generate_html
 
 logger = logging.getLogger(__file__)
 
@@ -85,6 +85,7 @@ def get_config(args):
 
 
 def parse_args():
+    """ Command line arguments definition. """
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
     parser.add_argument('-o', '--output', type=argparse.FileType('w'))
@@ -95,6 +96,7 @@ def parse_args():
 
 
 def write_output(output, config):
+    """ Write passed output to outfile. """
     if not output:
         return
     config.OUTPUT.write(output)
@@ -114,5 +116,6 @@ def main():
 
     entries = get_all_feeds(config)
 
-    output = generate_html(entries, config.TEMPLATE_PATH)
+    jinja_env = get_jinja_env()
+    output = generate_html(entries, jinja_env, config.TEMPLATE_PATH)
     write_output(output, config)

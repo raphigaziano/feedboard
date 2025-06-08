@@ -17,7 +17,7 @@ Usage:
   ```python
     #feedboardconf.py
 
-    # template used to generate the html listing the aggregatted feeds
+    # Template used to generate the html listing the aggregatted feeds
     TEMPLATE_PATH = './my_template.html'
 
     # Feeds must be split into categories, because that's how I want it for now.
@@ -32,6 +32,19 @@ Usage:
             'https://woof.net/rss.xml',
         ],
     }
+
+    # Optional settings (default values)
+
+    # How many threads to use.
+    # One third of those will share categories, the other 2 thirds will handle
+    # downloading individual feeds.
+    MAX_WORKERS = 12
+
+    # How many entries to keep, per category.
+    MAX_ENTRIES = 20
+
+    # File to write the generated html.
+    OUTPUT = sys.stdout
   ```
 
 - Write your template (save it as `TEMPLATE_PATH`):
@@ -60,7 +73,13 @@ Usage:
     $ # specify a custom configuration file:
     $ feedboard --config=/path/to/my/config.py > output.html
   ```
-  Output is dumped to stdout.
+
+  Individual settings can be overriden by turning them lower case and replacing
+  underscores with dashes:
+
+  ```bash
+    $ feedboard --max-entries=100 --template-path=/path/to/template > output.html
+  ```
 
 I use a simple cronjob to update the generated page periodically.
 

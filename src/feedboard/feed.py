@@ -81,6 +81,10 @@ def merge_feeds(feed_list, config):
 
 
 def download_feed_list(feed_urls, config):
+    """
+    Download a single feed list. Each individual feed will get its own thread.
+
+    """
     feeds = []
     n_workers = max(1, config.MAX_WORKERS // 3 * 2)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:

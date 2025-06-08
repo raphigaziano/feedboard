@@ -22,13 +22,6 @@ def load_template(filepath):
         return f.read()
 
 
-env = jinja2.Environment(
-    loader=jinja2.FunctionLoader(load_template),
-    autoescape=True,
-    trim_blocks=True,
-)
-
-
 def _jinja2_filter_timefmt(t, fmt=None):
     """ Quick & dirty time formatting filter. """
     if fmt:
@@ -37,13 +30,18 @@ def _jinja2_filter_timefmt(t, fmt=None):
         return time.strftime('%m/%d/%Y', t)
 
 
-env.filters['time_fmt'] = _jinja2_filter_timefmt
+def get_jinja_env():
+    """ Jinja2 initialization. """
+    env = jinja2.Environment(
+        loader=jinja2.FunctionLoader(load_template),
+        autoescape=True,
+        trim_blocks=True,
+    )
+    env.filters['time_fmt'] = _jinja2_filter_timefmt
+    return env
 
 
-def generate_html(entries, template_path):
-    """
-    Generate an html view of the passed feed entries.
-
-    """
+def generate_html(entries, env, template_path):
+    """ Generate an html view of the passed feed entries. """
     t = env.loader.load(env, template_path)
     return t.render(entries=entries)
