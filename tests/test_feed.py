@@ -1,3 +1,4 @@
+from feedboard.main import Config
 from feedboard.feed import Entry, Feed, merge_feeds
 
 
@@ -68,5 +69,5 @@ def test_merge_feeds():
     feed1 = Feed(FEED_DATA[0])
     feed2 = Feed(FEED_DATA[1])
 
-    entries = merge_feeds(feed1, feed2)
+    entries = merge_feeds([feed1, feed2], Config())
     assert [e.published for e in entries] == [3, 2, 1]

@@ -31,9 +31,6 @@ class Config:
     # Those can, but probably shouldn't be set from config file
     DUMP_CONFIG = False
 
-    def __init__(self):
-        pass
-
     def get_property_names(self):
         """ Return list of setting names """
         for k, v in self.__class__.__dict__.items():
@@ -79,8 +76,8 @@ def get_config(args):
     if not mod:
         return None
     config = Config()
-    config.update(mod)
-    config.update(args)
+    for updater in (mod, args):
+        config.update(updater)
     return config
 
 
