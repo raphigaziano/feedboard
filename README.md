@@ -71,7 +71,7 @@ Usage:
     $ # will look for configuration in $CWD/feedboardconf.py
     $ feedboard > output.html
     $ # specify a custom configuration file:
-    $ feedboard --config=/path/to/my/config.py > output.html
+    $ feedboard --settings=/path/to/my/config.py > output.html
   ```
 
   Individual settings can be overriden by turning them lower case and replacing
