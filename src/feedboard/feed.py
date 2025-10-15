@@ -121,12 +121,12 @@ def get_all_feeds(config):
 
     """
     def process_category(t):
-        cat, feed_urls = t
-        feeds = download_feed_list(feed_urls, config)
+        cat, feed_data = t
+        feeds = download_feed_list(feed_data, config)
         r[cat] = merge_feeds(feeds, config)
 
     r = {}
     n_workers = max(1, config.MAX_WORKERS // 3)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
-        executor.map(process_category, config.FEED_URLS.items())
+        executor.map(process_category, config.FEEDS.items())
     return r

@@ -23,7 +23,7 @@ Usage:
     # Feeds must be split into categories, because that's how I want it for now.
     # Nothing's stopping you from definineg a single dummy category if you don't
     # need it.
-    FEED_URLS = {
+    FEEDS = {
         'Cats': [
             'https://kitty.com/feed/atom.xml',
             '/path/to/local/feed.xml',          # urls can point to local files
@@ -98,6 +98,7 @@ Changes:
 - 0.2.0 - 2025-10-15
   - Added possibility to define feed metadata in config file
   - Added missing argument to override template path
+  - BREAKING CHANGE: Renamed FEED_URLS to FEEDS in config file
 
 - 0.1.0 - 2025-06-03
   - Initial release

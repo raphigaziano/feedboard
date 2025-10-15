@@ -26,7 +26,7 @@ class Config:
 
     # Those cannot have default values
     TEMPLATE_PATH = ''
-    FEED_URLS = {}
+    FEEDS = {}
 
     # Those can, but probably shouldn't be set from config file
     DUMP_CONFIG = False
