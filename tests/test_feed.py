@@ -1,3 +1,5 @@
+from unittest.mock import patch
+
 from feedboard.main import Config
 from feedboard.feed import Entry, Feed, merge_feeds
 
@@ -54,6 +56,23 @@ def test_basic_feed():
     assert len(entries2) == 1
 
     assert entries2[0].feed is feed2
+
+
+@patch('feedboard.feed.feedparser.parse', return_value=FEED_DATA[0])
+def test_feed_from_url(parse_feed):
+    url = "http://dummy.com/feed.xml"
+    feed = Feed.from_url(url)
+    parse_feed.assert_called_once_with(url)
+    assert feed.title == 'Test Feed 1'
+
+
+@patch('feedboard.feed.feedparser.parse', return_value=FEED_DATA[1])
+def test_feed_from_dict(parse_feed):
+    url = "http://dummy.com/feed.xml"
+    feed = Feed.from_dict({'url': url, 'meta': 'data'})
+    parse_feed.assert_called_once_with(url)
+    assert feed.title == 'Test Feed 2'
+    assert feed.meta == {'meta': 'data'}
 
 
 def test_entry_published_fallback():

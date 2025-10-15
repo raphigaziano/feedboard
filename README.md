@@ -30,6 +30,14 @@ Usage:
         ],
         'Dogs': [
             'https://woof.net/rss.xml',
+            # urls can also be a dictionary and include static meta data about
+            # the feed.
+            # Such dictionaries must include an 'url' key.
+            {
+                'url': https://domain.org/feed.xml',
+                'lang': 'fr',
+                'description': 'This site is awesome!'
+            },
         ],
     }
 
@@ -55,6 +63,7 @@ Usage:
       <ul>
       {% for e in cat_entries %}
           <li>
+              {{ e.feed.meta.lang|default('en') }} - <!-- metadata from the config file -->
               {{ e.published|time_fmt }} - {{ e.feed.title }}
               <a href="{{ e.link }}" target="_blank">{{ e.title }} </a>
           </li>
@@ -83,9 +92,12 @@ Usage:
 
 I use a simple cronjob to update the generated page periodically.
 
-Improvements:
-------------
+Changes:
+--------
 
-- Download feeds asynchronously.
-- Allow overriding settings via command line arguments.
-- profit.
+- 0.2.0 - 2025-10-15
+  - Added possibility to define feed metadata in config file
+  - Added missing argument to override template path
+
+- 0.1.0 - 2025-06-03
+  - Initial release

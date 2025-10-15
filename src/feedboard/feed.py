@@ -47,8 +47,9 @@ class Feed:
 
     """
 
-    def __init__(self, data):
+    def __init__(self, data, meta=None):
         self.data = data
+        self.meta = meta
 
     @property
     def title(self):
@@ -60,11 +61,26 @@ class Feed:
             yield Entry(self, e)
 
     @classmethod
-    def from_url(cls, url):
+    def from_url(cls, url, meta=None):
         logger.debug(f"Downloading feed ({url})...")
         parsed_feed = feedparser.parse(url)
         logger.debug(f"Done ({url})")
-        return cls(parsed_feed)
+        return cls(parsed_feed, meta)
+
+    @classmethod
+    def from_dict(cls, dict_):
+        try:
+            feed_url = dict_.pop('url')
+            return cls.from_url(feed_url, dict_)
+        except KeyError:
+            logger.error(
+                f"Skipping feed: No url could be found in meta dict {dict_}")
+
+    @classmethod
+    def from_config(cls, feed_entry):
+        if isinstance(feed_entry, str):
+            return cls.from_url(feed_entry)
+        return cls.from_dict(feed_entry)
 
 
 def merge_feeds(feed_list, config):
@@ -80,15 +96,21 @@ def merge_feeds(feed_list, config):
     ), config.MAX_ENTRIES)
 
 
-def download_feed_list(feed_urls, config):
+def download_feed_list(feed_list, config):
     """
     Download a single feed list. Each individual feed will get its own thread.
 
     """
+    def dl_feed(feed_meta):
+        feed = Feed.from_config(feed_meta)
+        if feed:
+            feeds.append(feed)
+
     feeds = []
+
     n_workers = max(1, config.MAX_WORKERS // 3 * 2)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
-        executor.map(lambda url: feeds.append(Feed.from_url(url)), feed_urls)
+        executor.map(dl_feed, feed_list)
     return feeds
 
 
@@ -98,12 +120,13 @@ def get_all_feeds(config):
     entries, keeping them mapped to their respective categories.
 
     """
+    def process_category(t):
+        cat, feed_urls = t
+        feeds = download_feed_list(feed_urls, config)
+        r[cat] = merge_feeds(feeds, config)
+
     r = {}
     n_workers = max(1, config.MAX_WORKERS // 3)
     with ThreadPoolExecutor(max_workers=n_workers) as executor:
-        def process_category(t):
-            cat, feed_urls = t
-            feeds = download_feed_list(feed_urls, config)
-            r[cat] = merge_feeds(feeds, config)
         executor.map(process_category, config.FEED_URLS.items())
     return r
