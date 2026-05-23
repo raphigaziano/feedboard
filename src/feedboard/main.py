@@ -86,9 +86,9 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--settings')
     parser.add_argument('-o', '--output', type=argparse.FileType('w'))
-    parser.add_argument('--max-workers', type=int)
-    parser.add_argument('--max-entries', type=int)
-    parser.add_argument('--template-path', type=str)
+    parser.add_argument('-w', '--max-workers', type=int)
+    parser.add_argument('-e', '--max-entries', type=int)
+    parser.add_argument('-t', '--template-path', type=str)
     parser.add_argument('--dump-config', action='store_true')
     return parser.parse_args()
 
