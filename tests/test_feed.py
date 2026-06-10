@@ -1,11 +1,14 @@
+import logging
 from unittest.mock import patch
 
+from feedparser.util import FeedParserDict
+
 from feedboard.main import Config
-from feedboard.feed import Entry, Feed, merge_feeds
+from feedboard.feed import Feed, merge_feeds
 
 
 FEED_DATA = [
-    {
+    FeedParserDict({
         'feed': {
             'title': 'Test Feed 1',
         },
@@ -21,8 +24,8 @@ FEED_DATA = [
                 'link': '/second-article',
             },
         ]
-    },
-    {
+    }),
+    FeedParserDict({
         'feed': {
             'title': 'Test Feed 2',
         },
@@ -33,7 +36,7 @@ FEED_DATA = [
                 'link': '/yet-another-article',
             },
         ]
-    },
+    }),
 ]
 
 
@@ -64,6 +67,16 @@ def test_feed_from_url(parse_feed):
     feed = Feed.from_url(url)
     parse_feed.assert_called_once_with(url)
     assert feed.title == 'Test Feed 1'
+
+
+def test_feed_from_url_parse_error(caplog):
+    caplog.set_level(logging.WARNING)
+    url = "tests/data/feeds/noxml.xml"
+    feed = Feed.from_url(url)
+    assert feed.data.bozo
+    assert len(feed.data.entries) == 0
+    assert len(list(feed.entries)) == 0
+    assert f"Could not parse feed for url {url}:" in caplog.text
 
 
 @patch('feedboard.feed.feedparser.parse', return_value=FEED_DATA[1])

@@ -64,7 +64,13 @@ class Feed:
     def from_url(cls, url, meta=None):
         logger.debug(f"Downloading feed ({url})...")
         parsed_feed = feedparser.parse(url)
-        logger.debug(f"Done ({url})")
+        # feedparser stores errors on the feed without raising.
+        # We stick to its behaviour and simply log errors if we find any, so
+        # that one faulty feed won't prevend the others to be processed.
+        if parsed_feed.get('bozo'):
+            logger.warning(
+                f"Could not parse feed for url {url}: ",
+                exc_info=parsed_feed.bozo_exception)
         return cls(parsed_feed, meta)
 
     @classmethod
